@@ -1,4 +1,4 @@
-There are several items that were placed in this directory that could not be included or released here due to licensing conflicts. However, users may download these resources separately and store them here. Here is what needs to be grabbed:
+There are several items that were placed in this directory that could not be included or released here due to licensing conflicts. However, users may download these resources separately and store them here. Here is what needs to be grabbed:  
 [CharDet](https://pypi.org/project/chardet/)  
 [httplib2](https://pypi.org/project/httplib2/)  
 [idna](https://pypi.org/project/idna/)  
