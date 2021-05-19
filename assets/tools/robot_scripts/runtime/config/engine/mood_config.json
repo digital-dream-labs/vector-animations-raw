@@ -1,0 +1,156 @@
+{
+   "decayGraphs" : [
+      {
+         "emotionType" : "default",
+         "nodes" : [
+            {
+               "x" : 0,
+               "y" : 1
+            },
+            {
+               "x" : 10,
+               "y" : 1
+            },
+            {
+               "x" : 30,
+               "y" : 0.9
+            },
+            {
+               "x" : 75,
+               "y" : 0.6
+            },
+            {
+               "x" : 150,
+               "y" : 0
+            }
+         ]
+      },
+     {
+       "emotionType": "WantToPlay",
+       "nodes": [
+         {
+           "x": 0,
+           "y": 1
+         }
+       ]
+     },
+     {
+       "emotionType": "Social",
+       "nodes": [
+         {
+           "x": 0,
+           "y": 1
+         },
+         {
+           "x": 10,
+           "y": 1
+         },
+         {
+           "x": 20,
+           "y": 0.6
+         },
+         {
+           "x": 60,
+           "y": 0.2
+         },
+         {
+           "x": 100,
+           "y": 0
+         }
+       ]
+     },
+     {
+       "emotionType": "Confident",
+       "nodes": [
+         {
+           "x": 0,
+           "y": 1
+         },
+         {
+           "x": 30,
+           "y": 1
+         },
+         {
+           "x": 60,
+           "y": 0.5
+         },
+         {
+           "x": 70,
+           "y": 0
+         }
+       ]
+     }
+  ],
+  "eventMapper" : {
+    "emotionEvents" : [
+    ]
+  },
+  "defaultRepetitionPenalty" : {
+    "nodes" : [
+      {
+        "x" : 0.0,
+        "y" : 0.0
+      },
+      {
+        "x" : 30.0,
+        "y" : 1.0
+      }
+    ]
+  },
+  "actionResultEmotionEvents": {
+    "DRIVE_TO_POSE": {
+      "RETRY": "DrivingActionFailedWithRetry",
+      "ABORT": "DrivingActionFailedWithAbort"
+    },
+    "DRIVE_TO_OBJECT": {
+      "RETRY": "DrivingActionFailedWithRetry",
+      "ABORT": "DrivingActionFailedWithAbort"
+    },
+    "DRIVE_STRAIGHT": {
+      "RETRY": "DrivingActionFailedWithRetry",
+      "ABORT": "DrivingActionFailedWithAbort"
+    },
+    "DRIVE_TO_PLACE_CARRIED_OBJECT": {
+      "RETRY": "DrivingActionFailedWithRetry",
+      "ABORT": "DrivingActionFailedWithAbort"
+    },
+    "PICK_AND_PLACE_INCOMPLETE": {
+      "SUCCESS": "PickupSucceeded", // NOTE: this really shouldn't happen
+      "RETRY": "PickingOrPlacingActionFailedWithRetry",
+      "ABORT": "PickingOrPlacingActionFailedWithAbort"
+    },
+    "PICKUP_OBJECT_LOW": {
+      "SUCCESS": "PickupSucceeded",
+      "RETRY": "PickingOrPlacingActionFailedWithRetry",
+      "ABORT": "PickingOrPlacingActionFailedWithAbort"
+    },
+    "PICKUP_OBJECT_HIGH": {
+      "SUCCESS": "PickupSucceeded",
+      "RETRY": "PickingOrPlacingActionFailedWithRetry",
+      "ABORT": "PickingOrPlacingActionFailedWithAbort"
+    },
+    "PLACE_OBJECT_HIGH": {
+      "SUCCESS": "StackSucceeded",
+      "RETRY": "PickingOrPlacingActionFailedWithRetry",
+      "ABORT": "PickingOrPlacingActionFailedWithAbort"
+    },
+    "ROLL_OBJECT_LOW": {
+      // No success anim here because the helper handles it manually
+      "RETRY": "PickingOrPlacingActionFailedWithRetry",
+      "ABORT": "PickingOrPlacingActionFailedWithAbort"
+    },
+    "POP_A_WHEELIE": {
+      "SUCCESS": "RollSucceeded",
+      "RETRY": "PickingOrPlacingActionFailedWithRetry",
+      "ABORT": "PickingOrPlacingActionFailedWithAbort"
+    },
+    "FLIP_BLOCK": {
+      "SUCCESS": "FlipBlockSucceeded"
+    },
+    "DRIVE_TO_FLIP_BLOCK_POSE": {
+      "RETRY": "DrivingActionFailedWithRetry",
+      "ABORT": "DrivingActionFailedWithAbort"
+    }
+  }
+}
+

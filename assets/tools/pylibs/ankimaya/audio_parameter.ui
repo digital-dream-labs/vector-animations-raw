@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>111</height>
+   </rect>
+  </property>
+  <widget class="QLabel" name="parameterLabel">
+   <property name="geometry">
+    <rect>
+     <x>48</x>
+     <y>7</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Parameter ID:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="groupComboBox">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>4</y>
+     <width>150</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="audioName">
+   <property name="geometry">
+    <rect>
+     <x>288</x>
+     <y>4</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="audioSearch">
+   <property name="geometry">
+    <rect>
+     <x>695</x>
+     <y>5</y>
+     <width>300</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="curveLabel">
+   <property name="geometry">
+    <rect>
+     <x>85</x>
+     <y>32</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Curve:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="removeAudioWidgetLabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>83</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove this param:</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="removeAudioWidgetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="confirmLabel">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>83</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Are you sure?</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="confirmComboBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>80</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="valueLabel">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>58</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Value:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="value">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>57</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>1000</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="curveType">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>150</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="timeMsLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>58</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Time_ms:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="timeMs">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>57</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

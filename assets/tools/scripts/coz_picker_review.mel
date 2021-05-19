@@ -1,0 +1,472 @@
+/*
+
+xCozmo'z UI
+-----------
+
+Created by: Mooly Segal
+
+UPDATES:
+
+2.21.16 - Added a "Mirror Face" button.
+7.22.16 - Added backpack lights button (daria.jerjomina@anki.com)
+4.26.17 - Added new wheel buttons for the new wheel system (isabela@anki.com)
+
+
+
+Syntax:
+
+coz_picker;
+
+*/
+
+global proc coz_picker (){
+
+if (`window -exists "xCozmo"`) deleteUI "xCozmo_UI";
+
+window -w 300 -h 498 -title "xCozmo";
+formLayout frm;
+// Background image
+string $im = `image -i "CozmoUI/rigUI.jpg"`;
+
+// Underlaying buttons
+string $bDsel = `shelfButton -image1 "CozmoUI/coz_deSel.png" -l "deselect" -command "select -cl"`;
+string $bd1a = `shelfButton -image1 "CozmoUI/coz_headTop.png" -l "select head" -command "selMech_head_ctrl"`;
+string $bd1b = `shelfButton -image1 "CozmoUI/coz_eyes_mask.png"`;
+// All
+string $bAll = `shelfButton -image1 "CozmoUI/coz_all.png" -l "select all Cozmo controls" -command "selCoz_all"`;
+
+// Trigger Events
+string $bEvents = `shelfButton -image1 "CozmoUI/coz_events.png" -l "right-click to set event trigger keyframes" -command "select -r \"x:event_ctrl\"" -mi "none" ( "select -r \"x:event_ctrl\"; setAttr \"x:event_ctrl.event_trigger\" 0; setKeyframe -attribute \"event_trigger\" \"x:event_ctrl\";" ) -mi "tapped_block" ( "select -r \"x:event_ctrl\"; setAttr \"x:event_ctrl.event_trigger\" 1; setKeyframe -attribute \"event_trigger\" \"x:event_ctrl\";" )`;
+
+// Eyes
+string $b1 = `button -w 22 -h 23 -command "selMech_eye_R_ctrl" -bgc .8 .8 .8 -l "  "`;
+string $b2 = `button -w 23 -h 23 -command "selMech_eye_L_ctrl" -bgc .8 .8 .8 -l "  "`;
+
+// Eye Alls
+string $b3 = `shelfButton -image1 "CozmoUI/coz_eyesAll.png" -l "Eyes All" -command "selectEyesAll"`;
+string $b4 = `shelfButton -image1 "CozmoUI/coz_eyeCorners.png" -command "selectEyeCorners" -l "Corners"`;
+string $b4a = `shelfButton -image1 "cozmoUI/coz_eyesMaster.png" -command "selectEyesMaster" -l "Master"`;
+string $b4b = `shelfButton -image1 "CozmoUI/coz_R_eyeAll.png"  -command "select_R_Eye_all" -l "select all R eye controls"`;
+string $b4c = `shelfButton -image1 "CozmoUI/coz_L_eyeAll.png" -command "select_L_Eye_all" -l "select all L eye controls"`;
+string $b4d = `shelfButton -image1 "CozmoUI/coz_mirrorEyes.png" -command "coz_x_mirrorEyes;" -l "Mirror eye shape"`;
+
+// Eye corners
+    // Upper
+string $b5 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_R_OuterTop" -l " "`;
+string $b6 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_R_innerTop" -l " "`;
+string $b7 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_L_innerTop" -l " "`;
+string $b8 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_L_outerTop" -l " "`;
+    // Lower
+string $b9 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_R_OuterBtm" -l " "`;
+string $b10 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_R_innerBtm" -l " "`;
+string $b11 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_L_innerBtm" -l " "`;
+string $b12 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selEyeCorner_L_outerBtm" -l " "`;
+
+// Eyelids
+string $b13 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selMech_upperLid_R_ctrl" -l " "`;
+string $b14 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selMech_lwrLid_R_ctrl" -l " "`;
+string $b15 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selMech_upperLid_L_ctrl" -l " "`;
+string $b16 = `button -w 10 -h 10 -bgc .8 .8 .8 -command "selMech_lwrLid_L_ctrl" -l " "`;
+
+//Body
+string $bd1 = `shelfButton -image "CozmoUI/coz_head.png" -command "selMech_head_ctrl" -l "select head"`;
+string $bd2 = `shelfButton -image "CozmoUI/coz_lift.png" -command "selMech_arm_ctrl" -l "select lift"`;
+string $bd3 = `shelfButton -image "CozmoUI/coz_body.png" -command "selMech_all_ctrl" -l "select body"`;
+string $bd4 = `shelfButton -image "CozmoUI/coz_moac.png" -command "selMech_moac" -l "select moac"`;
+string $bd5 = `shelfButton -image "CozmoUI/coz_backpack.png" -command "selBackpack" -l "select backpack"`;
+string $bd6 = `shelfButton -image "CozmoUI/coz_allBody.png" -command "selAllBody" -l "select allbody"`;
+
+//Wheels
+string $bd7 = `shelfButton -image "CozmoUI/coz_R_wheel.png" -command "selMech_R_wheel" -l "select right wheel"`;
+string $bd8 = `shelfButton -image "CozmoUI/coz_L_wheel.png" -command "selMech_L_wheel" -l "select left wheel"`;
+string $bd9 = `shelfButton -image "CozmoUI/coz_wheelsAll.png" -command "selMech_wheelsAll" -l "select all wheels"`;
+
+// script buttons
+string $sb1 = `shelfButton -image "CozmoUI/coz_MKey.png" -command "coz_mKey;" -l "Set Mkey"`;
+
+
+setParent ..;
+formLayout -e
+// All
+-af $bAll top 10 -af $bAll left 10
+
+// Trigger Events
+-af $bEvents top 10 -af $bEvents left 254
+
+// Eyes mask
+-af $bd1b top 80 -af $bd1b left 101
+// Eyes
+-af $im top 0 -af $im left 0 -af $im right 0 -af $im bottom 0
+-af $b1 top 98 -af $b1 left 128
+-af $b2 top 98 -af $b2 left 152
+-af $b3 top 70 -af $b3 left 50
+-af $b4 top 105 -af $b4 left 50
+-af $b4a top 140 -af $b4a left 50
+-af $b4b top 98 -af $b4b left 104
+-af $b4c top 98 -af $b4c left 175
+-af $b4d top 10 -af $b4d left 132
+
+// eye corners
+    // Upper
+-af $b5 top 85 -af $b5 left 115
+-af $b6 top 85 -af $b6 left 140
+-af $b7 top 85 -af $b7 left 152
+-af $b8 top 85 -af $b8 left 176
+
+    // Lower
+-af $b9 top 124 -af $b9 left 115
+-af $b10 top 124 -af $b10 left 140
+-af $b11 top 124 -af $b11 left 152
+-af $b12 top 124 -af $b12 left 176
+
+
+// Eyelid
+-af $b13 top 85 -af $b13 left 128
+-af $b14 top 124 -af $b14 left 128
+-af $b15 top 85 -af $b15 left 164
+-af $b16 top 124 -af $b16 left 164
+
+// Body
+-af $bd1 top 243 -af $bd1 left 107
+-af $bd1a top 52 -af $bd1a left 85
+-af $bd2 top 285 -af $bd2 left 75
+-af $bd3 top 341 -af $bd3 left 43
+-af $bd4 top 410 -af $bd4 left 10
+-af $bd5 top 253 -af $bd5 left 36
+-af $bd6 top 10 -af $bd6 left 50
+
+//Wheels
+-af $bd7 top 418 -af $bd7 left 177
+-af $bd8 top 418 -af $bd8 left 65
+-af $bd9 top 425 -af $bd9 left 125
+
+// script buttons
+-af $sb1 top 455 -af $sb1 left 10
+
+frm;
+showWindow;
+
+
+
+};
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------ //
+
+
+// Button commands
+
+    // All
+
+
+global proc selCoz_all(){
+        
+        string $wheels [] = {"x:wheel_R_ctrl", "x:wheel_L_ctrl"};
+        string $xC_selCoz_all [] = {"x:virtual_all_ctrl", "x:moac_ctrl", "x:virtual_head_ctrl",
+        "x:mech_head_ctrl", "x:mech_eyes_all_ctrl", "x:mech_eye_L_ctrl", "x:mech_upperLid_L_ctrl",
+        "x:mech_lwrLid_L_ctrl", "x:eyeCorner_L_innerTop_ctrl", "x:eyeCorner_L_OuterTop_ctrl",
+        "x:eyeCorner_L_OuterBtm_ctrl", "x:eyeCorner_L_innerBtm_ctrl", "x:mech_eye_R_ctrl",
+        "x:mech_upperLid_R_ctrl", "x:mech_lwrLid_R_ctrl", "x:eyeCorner_R_innerTop_ctrl",
+        "x:eyeCorner_R_OuterTop_ctrl", "x:eyeCorner_R_OuterBtm_ctrl",
+        "x:eyeCorner_R_innerBtm_ctrl",
+        "x:scanlines_ctrl", "x:virtual_arm_ctrl", "x:mech_arm_ctrl", "x:backpack_ctrl",
+        "x:virtual_all_sub_ctrl",
+        "x:virtual_prop_ctrl", "x:treads_L_lwr_ctrl", "x:treads_L_upr_ctrl",
+        "x:virtual_backWheel_L_ctrl",
+        "x:treads_R_upr_ctrl", "x:treads_R_lwr_ctrl", "x:virtual_backWheel_R_ctrl",
+        "x:mech_all_ctrl",
+        "x:data_node", "x:event_ctrl"};
+
+        // check if wheels exist
+        if (`objExists x:wheel_R_ctrl` && `objExists x:wheel_L_ctrl`)
+        {
+           appendStringArray($xC_selCoz_all, $wheels, 2);
+        }
+        else
+        {
+            print "This version of the rig doesn't have wheel controllers";
+        }
+
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selCoz_all; else select $xC_selCoz_all;
+}
+
+    // eye balls
+global proc selectEyesAll (){
+        string $xC_eyesAll [] = {"x:eyeCorner_R_OuterBtm_ctrl ", "x:mech_lwrLid_R_ctrl ", "x:mech_lwrLid_L_ctrl ", "x:mech_eye_L_ctrl ", "x:mech_eye_R_ctrl ", "x:mech_upperLid_R_ctrl ", "x:mech_upperLid_L_ctrl ", "x:eyeCorner_L_OuterTop_ctrl ", "x:eyeCorner_R_innerTop_ctrl ", "x:eyeCorner_R_OuterTop_ctrl ", "x:mech_eyes_all_ctrl ", "x:eyeCorner_R_innerBtm_ctrl ", "x:eyeCorner_L_OuterBtm_ctrl ", "x:eyeCorner_L_innerBtm_ctrl ", "x:eyeCorner_L_innerTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_eyesAll; else select $xC_eyesAll;
+}
+
+global proc selectEyesAll (){
+        string $xC_eyesAll [] = {"x:eyeCorner_R_OuterBtm_ctrl ", "x:mech_lwrLid_R_ctrl ", "x:mech_lwrLid_L_ctrl ", "x:mech_eye_L_ctrl ", "x:mech_eye_R_ctrl ", "x:mech_upperLid_R_ctrl ", "x:mech_upperLid_L_ctrl ", "x:eyeCorner_L_OuterTop_ctrl ", "x:eyeCorner_R_innerTop_ctrl ", "x:eyeCorner_R_OuterTop_ctrl ", "x:mech_eyes_all_ctrl ", "x:eyeCorner_R_innerBtm_ctrl ", "x:eyeCorner_L_OuterBtm_ctrl ", "x:eyeCorner_L_innerBtm_ctrl ", "x:eyeCorner_L_innerTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_eyesAll; else select $xC_eyesAll;
+}
+
+global proc selectEyeCorners (){
+        string $xC_allCorners [] = {"x:eyeCorner_R_OuterTop_ctrl", "x:eyeCorner_R_innerTop_ctrl", "x:eyeCorner_L_OuterTop_ctrl", "x:eyeCorner_L_innerTop_ctrl", "x:eyeCorner_R_OuterBtm_ctrl", "x:eyeCorner_R_innerBtm_ctrl", "x:eyeCorner_L_OuterBtm_ctrl", "x:eyeCorner_L_innerBtm_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_allCorners; else select $xC_allCorners;
+}
+
+    // eyes
+global proc selMech_eye_R_ctrl (){
+        string $xC_selMech_eye_R_ctrl [] = {"x:mech_eye_R_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_eye_R_ctrl; else select $xC_selMech_eye_R_ctrl;
+}
+
+global proc selMech_eye_L_ctrl (){
+        string $xC_selMech_eye_L_ctrl [] = {"x:mech_eye_L_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_eye_L_ctrl; else select $xC_selMech_eye_L_ctrl;
+}
+
+
+// Eye corners
+
+global proc selEyeCorner_R_OuterTop (){
+        string $xC_selEyeCorner_R_OuterTop [] = {"x:eyeCorner_R_OuterTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_R_OuterTop; else select $xC_selEyeCorner_R_OuterTop;
+}
+
+global proc selEyeCorner_R_innerTop (){
+        string $xC_selEyeCorner_R_innerTop [] = {"x:eyeCorner_R_innerTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_R_innerTop; else select $xC_selEyeCorner_R_innerTop;
+}
+
+// Eyes alls
+
+global proc selectEyesAll (){
+        string $xC_eyesAll [] = {"x:eyeCorner_R_OuterBtm_ctrl ", "x:mech_lwrLid_R_ctrl ", "x:mech_lwrLid_L_ctrl ", "x:mech_eye_L_ctrl ", "x:mech_eye_R_ctrl ", "x:mech_upperLid_R_ctrl ", "x:mech_upperLid_L_ctrl ", "x:eyeCorner_L_OuterTop_ctrl ", "x:eyeCorner_R_innerTop_ctrl ", "x:eyeCorner_R_OuterTop_ctrl ", "x:mech_eyes_all_ctrl ", "x:eyeCorner_R_innerBtm_ctrl ", "x:eyeCorner_L_OuterBtm_ctrl ", "x:eyeCorner_L_innerBtm_ctrl ", "x:eyeCorner_L_innerTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_eyesAll; else select $xC_eyesAll;
+}
+
+global proc selectEyeCorners (){
+        string $xC_allCorners [] = {"x:eyeCorner_R_OuterTop_ctrl", "x:eyeCorner_R_innerTop_ctrl", "x:eyeCorner_L_OuterTop_ctrl", "x:eyeCorner_L_innerTop_ctrl", "x:eyeCorner_R_OuterBtm_ctrl", "x:eyeCorner_R_innerBtm_ctrl", "x:eyeCorner_L_OuterBtm_ctrl", "x:eyeCorner_L_innerBtm_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_allCorners; else select $xC_allCorners;
+}
+
+global proc selectEyesMaster (){
+        string $xC_mech_eyes_all_ctrl [] = {"x:mech_eyes_all_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_mech_eyes_all_ctrl; else select $xC_mech_eyes_all_ctrl;
+}
+
+global proc select_R_Eye_all (){
+        string $xC_R_Eye_all [] = {"x:eyeCorner_R_OuterBtm_ctrl","x:mech_lwrLid_R_ctrl","x:eyeCorner_R_innerBtm_ctrl","x:mech_eye_R_ctrl","x:eyeCorner_R_innerTop_ctrl","x:mech_upperLid_R_ctrl","x:eyeCorner_R_OuterTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_R_Eye_all; else select $xC_R_Eye_all;
+}
+
+global proc select_L_Eye_all (){
+        string $xC_L_Eye_all [] = {"x:eyeCorner_L_OuterBtm_ctrl","x:mech_lwrLid_L_ctrl","x:eyeCorner_L_innerBtm_ctrl","x:mech_eye_L_ctrl","x:eyeCorner_L_innerTop_ctrl","x:mech_upperLid_L_ctrl","x:eyeCorner_L_OuterTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_L_Eye_all; else select $xC_L_Eye_all;
+}
+
+
+// eyes
+global proc selMech_eye_R_ctrl (){
+        string $xC_selMech_eye_R_ctrl [] = {"x:mech_eye_R_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_eye_R_ctrl; else select $xC_selMech_eye_R_ctrl;
+}
+
+global proc selMech_eye_L_ctrl (){
+        string $xC_selMech_eye_L_ctrl [] = {"x:mech_eye_L_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_eye_L_ctrl; else select $xC_selMech_eye_L_ctrl;
+}
+
+
+// Eye corners
+    //Upper
+global proc selEyeCorner_R_OuterTop (){
+        string $xC_selEyeCorner_R_OuterTop [] = {"x:eyeCorner_R_OuterTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_R_OuterTop; else select $xC_selEyeCorner_R_OuterTop;
+}
+
+global proc selEyeCorner_R_innerTop (){
+        string $xC_selEyeCorner_R_innerTop [] = {"x:eyeCorner_R_innerTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_R_innerTop; else select $xC_selEyeCorner_R_innerTop;
+}
+global proc selEyeCorner_L_outerTop (){
+        // Inner and outer are revered -- fix after inv demo
+        string $xC_selEyeCorner_L_OuterTop [] = {"x:eyeCorner_L_innerTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_L_OuterTop; else select $xC_selEyeCorner_L_OuterTop;
+}
+global proc selEyeCorner_L_innerTop (){
+        // Inner and outer are revered -- fix after inv demo
+        string $xC_selEyeCorner_L_innerTop [] = {"x:eyeCorner_L_OuterTop_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_L_innerTop; else select $xC_selEyeCorner_L_innerTop;
+}
+
+    //lwr
+global proc selEyeCorner_R_OuterBtm (){
+        string $xC_selEyeCorner_R_OuterBtm [] = {"x:eyeCorner_R_OuterBtm_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_R_OuterBtm; else select $xC_selEyeCorner_R_OuterBtm;
+}
+
+global proc selEyeCorner_R_innerBtm (){
+        string $xC_selEyeCorner_R_innerBtm [] = {"x:eyeCorner_R_innerBtm_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_R_innerBtm; else select $xC_selEyeCorner_R_innerBtm;
+}
+global proc selEyeCorner_L_outerBtm (){
+        // Inner and outer are revered -- fix after inv demo
+        string $xC_selEyeCorner_L_OuterBtm [] = {"x:eyeCorner_L_innerBtm_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_L_OuterBtm; else select $xC_selEyeCorner_L_OuterBtm;
+}
+global proc selEyeCorner_L_innerBtm (){
+        // Inner and outer are revered -- fix after inv demo
+        string $xC_selEyeCorner_L_innerBtm [] = {"x:eyeCorner_L_OuterBtm_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selEyeCorner_L_innerBtm; else select $xC_selEyeCorner_L_innerBtm;
+}
+
+// Eye lids
+global proc selMech_upperLid_R_ctrl (){
+        string $xC_selMech_upperLid_R_ctrl [] = {"x:mech_upperLid_R_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_upperLid_R_ctrl; else select $xC_selMech_upperLid_R_ctrl;
+}
+global proc selMech_lwrLid_R_ctrl (){
+        string $xC_selMech_lwrLid_R_ctrl [] = {"x:mech_lwrLid_R_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_lwrLid_R_ctrl; else select $xC_selMech_lwrLid_R_ctrl;
+}
+
+global proc selMech_upperLid_L_ctrl (){
+        string $xC_selMech_upperLid_L_ctrl [] = {"x:mech_upperLid_L_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_upperLid_L_ctrl; else select $xC_selMech_upperLid_L_ctrl;
+}
+global proc selMech_lwrLid_L_ctrl (){
+        string $xC_selMech_lwrLid_L_ctrl [] = {"x:mech_lwrLid_L_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_lwrLid_L_ctrl; else select $xC_selMech_lwrLid_L_ctrl;
+}
+
+
+    // Body
+global proc selMech_head_ctrl (){
+        string $xC_selMech_head_ctrl [] = {"x:mech_head_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_head_ctrl; else select $xC_selMech_head_ctrl;
+}
+
+global proc selMech_arm_ctrl (){
+        string $xC_selMech_arm_ctrl [] = {"x:mech_arm_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_arm_ctrl; else select $xC_selMech_arm_ctrl;
+}
+
+
+global proc selMech_all_ctrl (){
+        string $xC_selMech_all_ctrl [] = {"x:mech_all_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_all_ctrl; else select $xC_selMech_all_ctrl;
+}
+
+
+global proc selMech_moac (){
+        string $xC_selMech_moac [] = {"x:moac_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selMech_moac; else select $xC_selMech_moac;
+}
+
+global proc selBackpack (){
+        string $xC_selBackpack [] = {"x:backpack_ctrl"};
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selBackpack; else select $xC_selBackpack;
+}
+
+global proc selAllBody (){
+        string $wheels [] = {"x:wheel_R_ctrl", "x:wheel_L_ctrl"};
+        string $xC_selAllBody [] = {"x:virtual_all_ctrl", "x:moac_ctrl", "x:virtual_head_ctrl",
+        "x:mech_head_ctrl", "x:scanlines_ctrl", "x:virtual_arm_ctrl", "x:mech_arm_ctrl",
+        "x:backpack_ctrl",
+        "x:virtual_all_sub_ctrl",
+        "x:virtual_prop_ctrl", "x:treads_L_lwr_ctrl", "x:treads_L_upr_ctrl",
+        "x:virtual_backWheel_L_ctrl",
+        "x:treads_R_upr_ctrl", "x:treads_R_lwr_ctrl", "x:virtual_backWheel_R_ctrl",
+        "x:mech_all_ctrl",
+        "x:data_node", "x:event_ctrl"};
+
+        // check if wheels exist
+        if (`objExists x:wheel_R_ctrl` && `objExists x:wheel_L_ctrl`)
+        {
+           appendStringArray($xC_selAllBody, $wheels, 2);
+        }
+        else
+        {
+            print "This version of the rig doesn't have wheel controllers";
+        }
+
+        int $mods = `getModifiers`;
+        if (($mods/1)%2==1)select -add $xC_selAllBody; else select $xC_selAllBody;
+}
+
+//wheels
+global proc selMech_R_wheel () {
+
+        string $xC_selMech_R_wheel [] = {"x:wheel_R_ctrl"};
+        string $xC_selMech_Virtual_R_wheel [] = {"x:virtual_wheel_R_ctrl"};
+        int $mods = `getModifiers`;
+
+        //check to see which wheel is present 
+        if (`objExists x:virtual_wheel_R_ctrl`)
+        {
+            print "wheel ctrls in this rig are non-functional";
+            if (($mods/1)%2==1)select -add $xC_selMech_Virtual_R_wheel; else select $xC_selMech_Virtual_R_wheel;
+        }
+        else 
+        {
+           if (($mods/1)%2==1)select -add $xC_selMech_R_wheel; else select $xC_selMech_R_wheel;
+        }
+} 
+
+global proc selMech_L_wheel () {
+        string $xC_selMech_virtual_L_wheel[] = {"x:virtual_wheel_L_ctrl"};
+        string $xC_selMech_L_wheel[] = {"x:wheel_L_ctrl"};
+        int $mods = `getModifiers`;
+
+        //check to see which wheel is present
+        if (`objExists x:virtual_wheel_L_ctrl`)
+        {
+            print "wheel ctrls in this rig are non-functional";
+            if (($mods/1)%2==1)select -add $xC_selMech_virtual_L_wheel; else select $xC_selMech_virtual_L_wheel;
+        }
+        else 
+        {
+           if (($mods/1)%2==1)select -add $xC_selMech_L_wheel; else select $xC_selMech_L_wheel; 
+        }
+} 
+
+global proc selMech_wheelsAll () {
+    string $xC_selMech_wheelsAll[] = {"x:wheel_R_ctrl", "x:wheel_L_ctrl"};
+    string $xC_selMech_virtual_wheelsAll[] = {"x:virtual_wheel_R_ctrl", "x:virtual_wheel_L_ctrl"};
+    int $mods = `getModifiers`;
+    
+    //check to see which wheels are present
+    if (`objExists x:virtual_wheel_L_ctrl` && `objExists x:virtual_wheel_R_ctrl`)
+    {
+        print "These wheel ctrls in this rig are non-functional";
+        if (($mods/1)%2==1)select -add $xC_selMech_virtual_wheelsAll; else select $xC_selMech_virtual_wheelsAll; 
+    }
+    else
+    {
+        if (($mods/1)%2==1)select -add $xC_selMech_wheelsAll; else select $xC_selMech_wheelsAll; 
+    }
+}

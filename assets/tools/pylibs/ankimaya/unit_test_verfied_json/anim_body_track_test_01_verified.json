@@ -1,0 +1,53 @@
+{
+  "anim_body_track_test_01": [
+    {
+      "durationTime_ms": 165,
+      "speed": 25,
+      "triggerTime_ms": 0,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": "STRAIGHT"
+    },
+    {
+      "durationTime_ms": 132,
+      "speed": 220,
+      "triggerTime_ms": 165,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": "STRAIGHT"
+    },
+    {
+      "durationTime_ms": 198,
+      "speed": -101,
+      "triggerTime_ms": 297,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": -171
+    },
+    {
+      "durationTime_ms": 99,
+      "speed": -59,
+      "triggerTime_ms": 495,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": 48
+    },
+    {
+      "durationTime_ms": 198,
+      "speed": -106,
+      "triggerTime_ms": 594,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": 32
+    },
+    {
+      "durationTime_ms": 132,
+      "speed": -108,
+      "triggerTime_ms": 792,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": 32
+    },
+    {
+      "durationTime_ms": 726,
+      "speed": -20,
+      "triggerTime_ms": 924,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": -48
+    }
+  ]
+}

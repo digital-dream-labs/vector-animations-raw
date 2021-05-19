@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>112</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="eventLabel">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>7</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wwise Id Enum:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="groupComboBox">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>4</y>
+     <width>142</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="audioName">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>4</y>
+     <width>395</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="audioPlay">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>5</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="audioSearch">
+   <property name="geometry">
+    <rect>
+     <x>705</x>
+     <y>5</y>
+     <width>170</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="audioSearchTwo">
+   <property name="geometry">
+    <rect>
+     <x>877</x>
+     <y>5</y>
+     <width>170</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="probLabel">
+   <property name="geometry">
+    <rect>
+     <x>66</x>
+     <y>35</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Probability:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="probability">
+   <property name="geometry">
+    <rect>
+     <x>132</x>
+     <y>33</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="probDetails">
+   <property name="geometry">
+    <rect>
+     <x>179</x>
+     <y>36</y>
+     <width>150</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(valid range is 1 to 100)</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="removeAudioWidgetLabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>83</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove this event:</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="removeAudioWidgetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>166</x>
+     <y>80</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="confirmLabel">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>83</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Are you sure?</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="confirmComboBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>80</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="volumeLabel">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>60</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="volume">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>57</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="volumeDetails">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>60</y>
+     <width>150</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(valid range is 10 to 100)</string>
+   </property>
+  </widget>
+
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>1000</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

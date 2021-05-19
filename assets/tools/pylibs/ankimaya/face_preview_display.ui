@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>100</height>
+   </rect>
+  </property>
+
+  <widget class="QLineEdit" name="displayFrame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>23</y>
+     <width>70</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="displayLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>5</y>
+     <width>140</width>
+     <height>70</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="reset">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>2</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="play">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>2</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="stepBack">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>32</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="stepForward">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>32</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="jumpBack">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>62</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jump</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="jumpForward">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>62</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jump</string>
+   </property>
+  </widget>
+
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>92</y>
+     <width>420</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,95 @@
+// --- Reference video tool --- //
+
+// Created by Mooly Segal, 2016
+
+// This tool is made to load reference videos into Maya
+// Maya version: 2016
+
+// Updates:
+
+// 4.27.16 - Tool alows to reload video now.
+
+// Known bugs:
+// - Script can't load multiple videos at once.
+
+
+
+global proc coz_vidRef (){
+
+// Check to see if the tool was used before in this scene
+
+if (`window -exists refCam_window`){
+    deleteUI refCam_window;
+    }
+
+// Ref camera already exists -- Open in a new window.
+
+if (`objExists refCam_01`){
+
+    window -t "Reference Video" refCam_window;
+    paneLayout refCam_paneLayout;
+    if (`modelEditor -q -ex "refCam_modelPanel"`){
+        modelEditor -e -p "refCam_paneLayout" "refCam_modelPanel";
+    } else {
+        modelEditor "refCam_modelPanel";
+    };
+    modelEditor -e -allObjects 0 "refCam_modelPanel";
+    modelEditor -e -imagePlane 1 -cam "refCam_01" "refCam_modelPanel";
+    grid -toggle 0;
+    showWindow refCam_window;
+    print "Existing reference video loaded";
+
+// No ref camera in the scene -- load a new video.
+
+} else {
+
+    // Delete leftover modelPanel
+    if (`modelEditor -q -ex "refCam_modelPanel"`){
+        deleteUI "refCam_modelPanel";
+    };
+
+    // Create Camera
+    camera -n refCam_01;
+    addAttr -ln "frame"  -at double  -dv 0 "refCam_01";
+    setAttr -e -keyable true "refCam_01.frame";
+    
+    // Create Window
+    window -w 500 -h 500 -t "Reference Video" refCam_window;
+
+
+    paneLayout refCam_paneLayout;
+    modelEditor "refCam_modelPanel";
+    modelEditor -e -allObjects 0 refCam_modelPanel;
+    modelEditor -e -imagePlane 1 -cam "refCam_01" refCam_modelPanel;
+    grid -toggle 0;
+
+
+
+    showWindow refCam_window;
+
+    dockControl -area "right" -content "refCam_window" -allowedArea "left" -allowedArea "right" ;
+
+    // import video
+    importMovieImagePlane { "refCam_01Shape1" };
+    
+    connectAttr -f "refCam_01.frame" "imagePlaneShape1.frameExtension";
+    setAttr "imagePlaneShape1.type" 2;
+    
+    $MS_frameOut = `getAttr imagePlaneShape1.frameOut`;
+    imagePlane -e -sia 0 imagePlaneShape1;
+    
+    // set keyframes on video
+    
+    setKeyframe -itt clamped -ott clamped -t 1 -v 0 refCam_01.frame;
+    setKeyframe -itt clamped -ott clamped -t $MS_frameOut -v $MS_frameOut refCam_01.frame;
+    
+    // Set window size
+    $MS_IZ = `imagePlane -q -iz`;
+    window -e -w $MS_IZ[0] -h $MS_IZ[1] "refCam_window";
+    
+    // Hide camera
+    setAttr refCam_01.v 0;
+    select -cl;
+
+    }
+}

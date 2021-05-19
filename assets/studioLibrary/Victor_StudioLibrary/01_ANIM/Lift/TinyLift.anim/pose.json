@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "mayaSceneFile": "/Users/isabelabradley/workspace/victor-animation/scenes/sandbox/Isa/Lift_tests_01.ma", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 71, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "user": "isabelabradley", 
+    "startFrame": 65, 
+    "timeUnit": "ntsc", 
+    "mayaVersion": "2018", 
+    "ctime": "1553806706"
+  }
+,
+  "objects": {
+    "x:mech_arm_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "curve": "CURVE1", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "DataPlatformFilesPath": "/anki/data/files/assets",
+    "DataPlatformResourcesBasePath": "/anki/data/files/assets",
+    "DataPlatformResourcesPath": "/anki/data/files/assets/files/cozmo_resources",
+    "DataPlatformCachePath": "/data/data/com.anki.victor/cache",
+    "DataPlatformPersistentPath": "/data/data/com.anki.victor/persistent",
+    "DataPlatformExternalPath": "/anki/data/files/assets"
+}

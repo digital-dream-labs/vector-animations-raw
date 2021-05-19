@@ -1,0 +1,29 @@
+{
+  "anim_event_track_test_02": [
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 0,
+      "Name": "FaceAnimationKeyFrame"
+    },
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 1320,
+      "Name": "FaceAnimationKeyFrame"
+    },
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 1980,
+      "Name": "FaceAnimationKeyFrame"
+    },
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 3960,
+      "Name": "FaceAnimationKeyFrame"
+    },
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 5610,
+      "Name": "FaceAnimationKeyFrame"
+    }
+  ]
+}

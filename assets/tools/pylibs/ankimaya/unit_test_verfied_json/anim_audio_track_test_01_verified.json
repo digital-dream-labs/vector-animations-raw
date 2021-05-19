@@ -1,0 +1,44 @@
+{
+  "anim_audio_track_test_01": [
+    {
+      "eventGroups": [
+        {
+          "probabilities": [
+            1.0
+          ],
+          "audioName": [
+            "Play__Dev_Robot__Angry_Muttering"
+          ],
+          "eventIds": [
+            2839960576
+          ],
+          "volumes": [
+            1.0
+          ]
+        }
+      ],
+      "triggerTime_ms": 0,
+      "Name": "RobotAudioKeyFrame"
+    },
+    {
+      "eventGroups": [
+        {
+          "probabilities": [
+            1.0
+          ],
+          "audioName": [
+            "Play__Dev_Robot__Mozart"
+          ],
+          "eventIds": [
+            627442460
+          ],
+          "volumes": [
+            1.0
+          ]
+        }
+      ],
+      "triggerTime_ms": 759,
+      "Name": "RobotAudioKeyFrame"
+    }
+  ]
+}

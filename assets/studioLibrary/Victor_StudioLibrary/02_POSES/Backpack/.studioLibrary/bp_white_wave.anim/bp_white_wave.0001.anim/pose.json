@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "mayaSceneFile": "/Users/moolysegal/workspace/cozmo-animation/scenes/sandbox/backpack/BackpackTest.ma", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 1400, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "user": "moolysegal", 
+    "startFrame": 1300, 
+    "timeUnit": "ntsc", 
+    "mayaVersion": "2016"
+  }
+,
+  "objects": {
+    "x:backpack_ctrl": {
+      "attrs": {
+        "frontGreen": {
+          "curve": "CURVE1", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backGreen": {
+          "curve": "CURVE2", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "frontBlue": {
+          "curve": "CURVE3", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "rightBrightness": {
+          "curve": "CURVE4", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleRed": {
+          "curve": "CURVE5", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleGreen": {
+          "curve": "CURVE6", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "frontRed": {
+          "curve": "CURVE7", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backBlue": {
+          "curve": "CURVE8", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleBlue": {
+          "curve": "CURVE9", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backRed": {
+          "curve": "CURVE10", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "leftBrightness": {
+          "curve": "CURVE11", 
+          "type": "double", 
+          "value": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "anim_backpack_lights_test_02": [
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 858,
+      "Back": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "Middle": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "Front": [
+        1.0,
+        0.6707317068627695,
+        0.6707317068627695,
+        0.0
+      ],
+      "triggerTime_ms": 0,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 561,
+      "Back": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 858,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 825,
+      "Back": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 1419,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 825,
+      "Back": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 2244,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 231,
+      "Back": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 3069,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

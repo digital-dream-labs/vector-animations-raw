@@ -1,0 +1,27 @@
+
+// Toggle between low-res and mid-res mesh //
+
+proc refreshRendererInModelPanel (string $modelPanel) {
+    string $currentRenderer = `modelEditor -query -rendererName $modelPanel`;
+
+    // change the renderer in model panel
+    if ($currentRenderer == "vp2Renderer") {
+        setRendererInModelPanel "base_OpenGL_Renderer" $modelPanel;
+    } else if ($currentRenderer == "base_OpenGL_Renderer") {
+        setRendererInModelPanel "vp2Renderer" $modelPanel;
+    } else if ($currentRenderer == "hwRender_OpenGL_Renderer") {
+        setRendererInModelPanel "vp2Renderer" $modelPanel;
+    }
+
+    // restore the renderer in model panel
+    setRendererInModelPanel $currentRenderer $modelPanel;
+}
+
+global proc vic_change_mesh (int $meshVal) {
+    setAttr "x:settings_node.Mesh" $meshVal;
+    string $modelPanels[] = `getPanel -type modelPanel`;
+    for ($panel in $modelPanels) {
+        refreshRendererInModelPanel $panel;
+    }
+};
+

@@ -1,0 +1,112 @@
+{
+  "VisionModeSettings" :
+  [
+    // Frequency settings indicate update period in frames for each mode e.g. "1" runs every frame "4" every fourth etc.
+    // Settings must be Powers Of Two to simplify schedule construction.
+    // "relativeCost" is an heuristic weighting to drive separation of heavy-weight tasks between frames.
+    {
+      "mode"         : "DetectingMarkers",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingFaces",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingPets",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingMotion",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingOverheadEdges",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "CheckingQuality",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "EstimatingFacialExpression",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingSmileAmount",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingGaze",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingBlinkAmount",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "DetectingLaserPoints",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "ComputingStatistics",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    },
+    {
+      "mode"         : "BuildingOverheadMap",
+      "low"          : 4,
+      "med"          : 2,
+      "high"         : 1,
+      "standard"     : 2,
+      "relativeCost" : 1
+    }
+  ]
+}

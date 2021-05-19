@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>115</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="animClipsLabel">
+   <property name="geometry">
+    <rect>
+     <x>78</x>
+     <y>5</y>
+     <width>300</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Animation Clip To Copy</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="animClips">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>2</y>
+     <width>380</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="animClipLabel">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>35</y>
+     <width>120</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Copied Clip Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="animClip">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>32</y>
+     <width>380</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="frameNumLabel">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>65</y>
+     <width>220</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Starting Frame # For Copied Clip</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="frameNum">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>62</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>90</y>
+     <width>620</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

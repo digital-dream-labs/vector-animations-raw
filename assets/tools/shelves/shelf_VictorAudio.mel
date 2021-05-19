@@ -1,0 +1,457 @@
+global proc shelf_VictorAudio () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Select AudioNode"
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Select AudioNode" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_audioNode.png" 
+        -image1 "coz_audioNode.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "import ankimaya.audio_core\nankimaya.audio_core.setupAudioNode(None)" 
+        -sourceType "python" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Refresh audio data" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Refresh audio data" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_refresh_aud_event_list.png" 
+        -image1 "coz_refresh_aud_event_list.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "from maya import cmds\nfrom ankimaya import audio_core\naudio_core.updateAudioPyFiles()\nif cmds.pluginInfo(\"AnkiMayaWWisePlugIn.bundle\", query=True, loaded=True):\n    cmds.unloadPlugin(\"AnkiMayaWWisePlugIn.bundle\")\ncmds.loadPlugin(\"AnkiMayaWWisePlugIn.bundle\")" 
+        -sourceType "python" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Magic Update Audio Ghosts" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Magic Update Audio Ghosts" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_aud_update.png" 
+        -image1 "coz_aud_update.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "AnkiMayaWWisePlugIn_UpdateEventData;" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Preview on robot"
+        -enableBackground 0
+        -backgroundColor 0 0 0
+        -highlightColor 0.321569 0.521569 0.65098
+        -align "center"
+        -label "Preview on robot"
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont"
+        -overlayLabelColor 0.8 0.8 0.8
+        -overlayLabelBackColor 0 0 0 0.5
+        -image "coz_playOnRobot_audio.png"
+        -image1 "coz_playOnRobot_audio.png"
+        -style "iconOnly"
+        -marginWidth 1
+        -marginHeight 1
+        -command "IP_ADDRESS_ENV_VAR = \"ROBOT_IP_ADDRESS\"\nimport os\nfrom maya import cmds\nfrom ankimaya import preview_selector\nip_address = os.getenv(IP_ADDRESS_ENV_VAR)\nif ip_address:\n    preview_selector.play_anim_clips(ip_address)\nelse:\n    cmds.warning(\"Update your Maya.env file and set '%s' to the IP address of your robot\" % IP_ADDRESS_ENV_VAR)"
+        -sourceType "python"
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Get audio soundbanks" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Get audio soundbanks" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_get_audio.png" 
+        -image1 "coz_get_audio.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "from maya import cmds\nfrom ankimaya import audio_core\naudio_core.getSoundBanks()\nif cmds.pluginInfo(\"AnkiMayaWWisePlugIn.bundle\", query=True, loaded=True):\n    cmds.unloadPlugin(\"AnkiMayaWWisePlugIn.bundle\")\ncmds.loadPlugin(\"AnkiMayaWWisePlugIn.bundle\")" 
+        -sourceType "python" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Preview selection tool" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Preview selection tool" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_playOnRobot_c.png" 
+        -image1 "coz_playOnRobot_c.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "from ankimaya import preview_selector\npreview_selector.main()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Audio Settings" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Audio Settings" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_reloadTools.png" 
+        -image1 "coz_reloadTools.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "from ankimaya import audio_settings\naudio_settings.main()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Load Vic Rig" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Load Vic Rig" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_midRes_ref.png" 
+        -image1 "coz_midRes_ref.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "$MS_vicRig = `workspace -q -rd` + \"assets/rigs/Victor_rig_01.ma\";\nfile -loadReference \"xRN\" -type \"mayaAscii\" -options \"v=0;\" $MS_vicRig" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Low-res Mesh" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Low-res Mesh" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "low-res_rig.png" 
+        -image1 "low-res_rig.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "vic_change_mesh 1;" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Mid-res Mesh" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Mid-res Mesh" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "mid_res_rig.png" 
+        -image1 "mid_res_rig.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "vic_change_mesh 0;" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Export animation and audio" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Export animation and audio" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "coz_aud_export.png" 
+        -image1 "coz_aud_export.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "AnkiAnimExport;" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Audio tool"
+        -enableBackground 0
+        -backgroundColor 0 0 0
+        -highlightColor 0.321569 0.521569 0.65098
+        -align "center"
+        -label "Audio tool"
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont"
+        -overlayLabelColor 0.8 0.8 0.8
+        -overlayLabelBackColor 0 0 0 0.5
+        -image "coz_aud_events.png"
+        -image1 "coz_aud_events.png"
+        -style "iconOnly"
+        -marginWidth 1
+        -marginHeight 1
+        -command "import ankimaya.audio_markers as am\nam.main()"
+        -sourceType "python"
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Publish Animation Data" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Publish Animation Data" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "publish" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "pythonFamily.png" 
+        -image1 "pythonFamily.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "from ankimaya import publish\npublish.main()" 
+        -sourceType "python" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 34
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "# This is a temp script to query what audio keyframe is under or behind the playhead in the timeline\n\nimport maya.cmds as mc\nfrom maya.OpenMaya import MGlobal\n\nANK_CURRENT_TIME = `mc.currentTime (q=1)`\nANK_OUTPUT = `mc.getAttr ('x:AnkiAudioNode.WwiseIdEnum', t=ANK_CURRENT_TIME, asString=1)`\nMGlobal.displayInfo(ANK_OUTPUT)" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "Query" 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "query.png" 
+        -image1 "query.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# This is a temp script to query what audio keyframe is under or behind the playhead in the timeline\n\nimport maya.cmds as mc\nfrom maya.OpenMaya import MGlobal\n\nANK_CURRENT_TIME = `mc.currentTime (q=1)`\nANK_OUTPUT = `mc.getAttr ('x:AnkiAudioNode.WwiseIdEnum', t=ANK_CURRENT_TIME, asString=1)`\nMGlobal.displayInfo(ANK_OUTPUT)" 
+        -sourceType "python" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+
+} 

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>120</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="eventLabel">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>8</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wwise Id Enum:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="groupComboBox">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>5</y>
+     <width>150</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="audioName">
+   <property name="geometry">
+    <rect>
+     <x>288</x>
+     <y>5</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eventSearch">
+   <property name="geometry">
+    <rect>
+     <x>695</x>
+     <y>6</y>
+     <width>300</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="probLabel">
+   <property name="geometry">
+    <rect>
+     <x>66</x>
+     <y>35</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Probability:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="probability">
+   <property name="geometry">
+    <rect>
+     <x>132</x>
+     <y>33</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="probDetails">
+   <property name="geometry">
+    <rect>
+     <x>179</x>
+     <y>36</y>
+     <width>150</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(valid range is 1 to 100)</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="volumeLabel">
+   <property name="geometry">
+    <rect>
+     <x>82</x>
+     <y>61</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="volume">
+   <property name="geometry">
+    <rect>
+     <x>132</x>
+     <y>59</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="volumeDetails">
+   <property name="geometry">
+    <rect>
+     <x>179</x>
+     <y>62</y>
+     <width>150</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(valid range is 10 to 100)</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="altSoundsLabel">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>85</y>
+     <width>125</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Has alternate sounds?</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="hasAlts">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>82</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

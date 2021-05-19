@@ -1,0 +1,20 @@
+{
+  "Pre Export": {
+    "General": [
+    ],
+    "Animation": [
+    ],
+    "Audio": [
+    ]
+  },
+  "On Export": {
+    "Animation": [
+    ],
+    "Audio": [
+    ]
+  },
+  "Post Export": {
+    "Animation": [
+    ]
+  }
+}

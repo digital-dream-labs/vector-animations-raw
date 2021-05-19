@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>70</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="frameRangeLabel">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>6</y>
+     <width>77</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Frame Range:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="startFrame">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>3</y>
+     <width>55</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="endFrame">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>3</y>
+     <width>55</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="resetFrameRange">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>3</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset Frame Range</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="flipScanlinesLabel">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>35</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Flip Scanlines</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="flipScanlines">
+   <property name="geometry">
+    <rect>
+     <x>99</x>
+     <y>32</y>
+     <width>45</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>64</y>
+     <width>420</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

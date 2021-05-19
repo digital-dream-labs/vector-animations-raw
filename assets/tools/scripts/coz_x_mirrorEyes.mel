@@ -1,0 +1,148 @@
+// Mirror xCozmo's eyes
+
+/*
+Created by Mooly Segal 2.17.16
+
+Updates:
+
+SYNTAX: coz_x_mirrorEyes;
+*/
+
+global proc coz_x_mirrorEyes() {
+
+    //Eye all
+    setAttr "x:mech_eyes_all_ctrl.tx" (`getAttr "x:mech_eyes_all_ctrl.tx"` *-1);
+
+
+    //Pupils
+
+    float $l_pupil_tx = 0;
+    float $l_pupil_ty = 0;
+    float $r_pupil_tx = 0;
+    float $r_pupil_ty = 0;
+
+    print ("mirror pupils");
+
+    if (`objExists x:mech_L_pupil_ctrl` && `objExists x:mech_R_pupil_ctrl`)
+    {
+        $l_pupil_tx = `getAttr "x:mech_L_pupil_ctrl.tx"`;
+        $l_pupil_ty = `getAttr "x:mech_L_pupil_ctrl.ty"`;
+        $r_pupil_tx = `getAttr "x:mech_R_pupil_ctrl.tx"`;
+        $r_pupil_ty = `getAttr "x:mech_R_pupil_ctrl.ty"`;
+
+        setAttr "x:mech_L_pupil_ctrl.tx" ($r_pupil_tx*-1);
+        setAttr "x:mech_L_pupil_ctrl.ty" ($r_pupil_ty);
+        setAttr "x:mech_R_pupil_ctrl.tx" ($l_pupil_tx*-1);
+        setAttr "x:mech_R_pupil_ctrl.ty" ($l_pupil_ty);
+    }
+
+    // Indvidual eyes
+    $MS_L_eye_tx = `getAttr "x:mech_eye_L_ctrl.tx"`;
+    $MS_R_eye_tx = `getAttr "x:mech_eye_R_ctrl.tx"`;
+    $MS_L_eye_ty = `getAttr "x:mech_eye_L_ctrl.ty"`;
+    $MS_R_eye_ty = `getAttr "x:mech_eye_R_ctrl.ty"`;
+
+    $MS_L_eye_sx = `getAttr "x:mech_eye_L_ctrl.sx"`;
+    $MS_R_eye_sx = `getAttr "x:mech_eye_R_ctrl.sx"`;
+    $MS_L_eye_sy = `getAttr "x:mech_eye_L_ctrl.sy"`;
+    $MS_R_eye_sy = `getAttr "x:mech_eye_R_ctrl.sy"`;
+
+    setAttr "x:mech_eye_L_ctrl.tx" ($MS_R_eye_tx *-1);
+    setAttr "x:mech_eye_R_ctrl.tx" ($MS_L_eye_tx *-1);
+    setAttr "x:mech_eye_L_ctrl.ty" ($MS_R_eye_ty);
+    setAttr "x:mech_eye_R_ctrl.ty" ($MS_L_eye_ty);
+    
+    setAttr "x:mech_eye_L_ctrl.sx" ($MS_R_eye_sx);
+    setAttr "x:mech_eye_L_ctrl.sy" ($MS_R_eye_sy);
+    setAttr "x:mech_eye_R_ctrl.sx" ($MS_L_eye_sx);
+    setAttr "x:mech_eye_R_ctrl.sy" ($MS_L_eye_sy);
+    
+    // eye lids
+    $MS_L_eye_upperLid_ty = `getAttr "x:mech_upperLid_L_ctrl.ty"`;
+    $MS_L_eye_upperLid_rz = `getAttr "x:mech_upperLid_L_ctrl.rz"`;
+    $MS_L_eye_upperLid_sy = `getAttr "x:mech_upperLid_L_ctrl.sy"`;
+
+    $MS_R_eye_upperLid_ty = `getAttr "x:mech_upperLid_R_ctrl.ty"`;
+    $MS_R_eye_upperLid_rz = `getAttr "x:mech_upperLid_R_ctrl.rz"`;
+    $MS_R_eye_upperLid_sy = `getAttr "x:mech_upperLid_R_ctrl.sy"`;
+
+    setAttr "x:mech_upperLid_L_ctrl.ty" ($MS_R_eye_upperLid_ty);
+    setAttr "x:mech_upperLid_L_ctrl.rz" ($MS_R_eye_upperLid_rz);
+    setAttr "x:mech_upperLid_L_ctrl.sy" ($MS_R_eye_upperLid_sy);
+
+    setAttr "x:mech_upperLid_R_ctrl.ty" ($MS_L_eye_upperLid_ty);
+    setAttr "x:mech_upperLid_R_ctrl.rz" ($MS_L_eye_upperLid_rz);
+    setAttr "x:mech_upperLid_R_ctrl.sy" ($MS_L_eye_upperLid_sy);
+    
+    $MS_L_eye_lwrLid_ty = `getAttr "x:mech_lwrLid_L_ctrl.ty"`;
+    $MS_L_eye_lwrLid_rz = `getAttr "x:mech_lwrLid_L_ctrl.rz"`;
+    $MS_L_eye_lwrLid_sy = `getAttr "x:mech_lwrLid_L_ctrl.sy"`;
+
+    $MS_R_eye_lwrLid_ty = `getAttr "x:mech_lwrLid_R_ctrl.ty"`;
+    $MS_R_eye_lwrLid_rz = `getAttr "x:mech_lwrLid_R_ctrl.rz"`;
+    $MS_R_eye_lwrLid_sy = `getAttr "x:mech_lwrLid_R_ctrl.sy"`;
+
+    setAttr "x:mech_lwrLid_L_ctrl.ty" ($MS_R_eye_lwrLid_ty);
+    setAttr "x:mech_lwrLid_L_ctrl.rz" ($MS_R_eye_lwrLid_rz);
+    setAttr "x:mech_lwrLid_L_ctrl.sy" ($MS_R_eye_lwrLid_sy);
+    
+    setAttr "x:mech_lwrLid_R_ctrl.ty" ($MS_L_eye_lwrLid_ty);
+    setAttr "x:mech_lwrLid_R_ctrl.rz" ($MS_L_eye_lwrLid_rz);
+    setAttr "x:mech_lwrLid_R_ctrl.sy" ($MS_L_eye_lwrLid_sy);
+    
+    // Eyes Corners (Get values)
+    
+    $MS_L_eyeCorner_innerTop_sx = `getAttr "x:eyeCorner_L_innerTop_ctrl.sx"`;
+    $MS_L_eyeCorner_innerTop_sy = `getAttr "x:eyeCorner_L_innerTop_ctrl.sy"`;
+    
+    $MS_L_eyeCorner_innerBtm_sx = `getAttr "x:eyeCorner_L_innerBtm_ctrl.sx"`;
+    $MS_L_eyeCorner_innerBtm_sy = `getAttr "x:eyeCorner_L_innerBtm_ctrl.sy"`;
+    
+    $MS_L_eyeCorner_OuterTop_sx = `getAttr "x:eyeCorner_L_OuterTop_ctrl.sx"`;
+    $MS_L_eyeCorner_OuterTop_sy = `getAttr "x:eyeCorner_L_OuterTop_ctrl.sy"`;
+    
+    $MS_L_eyeCorner_OuterBtm_sx = `getAttr "x:eyeCorner_L_OuterBtm_ctrl.sx"`;
+    $MS_L_eyeCorner_OuterBtm_sy = `getAttr "x:eyeCorner_L_OuterBtm_ctrl.sy"`;
+   
+    //   
+   
+    $MS_R_eyeCorner_innerTop_sx = `getAttr "x:eyeCorner_R_innerTop_ctrl.sx"`;
+    $MS_R_eyeCorner_innerTop_sy = `getAttr "x:eyeCorner_R_innerTop_ctrl.sy"`;
+    
+    $MS_R_eyeCorner_innerBtm_sx = `getAttr "x:eyeCorner_R_innerBtm_ctrl.sx"`;
+    $MS_R_eyeCorner_innerBtm_sy = `getAttr "x:eyeCorner_R_innerBtm_ctrl.sy"`;
+    
+    $MS_R_eyeCorner_OuterTop_sx = `getAttr "x:eyeCorner_R_OuterTop_ctrl.sx"`;
+    $MS_R_eyeCorner_OuterTop_sy = `getAttr "x:eyeCorner_R_OuterTop_ctrl.sy"`;
+    
+    $MS_R_eyeCorner_OuterBtm_sx = `getAttr "x:eyeCorner_R_OuterBtm_ctrl.sx"`;
+    $MS_R_eyeCorner_OuterBtm_sy = `getAttr "x:eyeCorner_R_OuterBtm_ctrl.sy"`;  
+    
+    // Eyes Corners (Replace Values)
+    // This is backwards due to old bug with corners naming.
+    setAttr "x:eyeCorner_R_OuterTop_ctrl.sx" ($MS_L_eyeCorner_innerTop_sx);
+    setAttr "x:eyeCorner_R_OuterTop_ctrl.sy" ($MS_L_eyeCorner_innerTop_sy);
+    
+    setAttr "x:eyeCorner_R_OuterBtm_ctrl.sx" ($MS_L_eyeCorner_innerBtm_sx);
+    setAttr "x:eyeCorner_R_OuterBtm_ctrl.sy" ($MS_L_eyeCorner_innerBtm_sy);
+    
+    setAttr "x:eyeCorner_R_innerTop_ctrl.sx" ($MS_L_eyeCorner_OuterTop_sx);
+    setAttr "x:eyeCorner_R_innerTop_ctrl.sy" ($MS_L_eyeCorner_OuterTop_sy);
+    
+    setAttr "x:eyeCorner_R_innerBtm_ctrl.sx" ($MS_L_eyeCorner_OuterBtm_sx);
+    setAttr "x:eyeCorner_R_innerBtm_ctrl.sy" ($MS_L_eyeCorner_OuterBtm_sy);
+    
+    //
+    
+    setAttr "x:eyeCorner_L_OuterTop_ctrl.sx" ($MS_R_eyeCorner_innerTop_sx);
+    setAttr "x:eyeCorner_L_OuterTop_ctrl.sy" ($MS_R_eyeCorner_innerTop_sy);
+    
+    setAttr "x:eyeCorner_L_OuterBtm_ctrl.sx" ($MS_R_eyeCorner_innerBtm_sx);
+    setAttr "x:eyeCorner_L_OuterBtm_ctrl.sy" ($MS_R_eyeCorner_innerBtm_sy);
+    
+    setAttr "x:eyeCorner_L_innerTop_ctrl.sx" ($MS_R_eyeCorner_OuterTop_sx);
+    setAttr "x:eyeCorner_L_innerTop_ctrl.sy" ($MS_R_eyeCorner_OuterTop_sy);
+    
+    setAttr "x:eyeCorner_L_innerBtm_ctrl.sx" ($MS_R_eyeCorner_OuterBtm_sx);
+    setAttr "x:eyeCorner_L_innerBtm_ctrl.sy" ($MS_R_eyeCorner_OuterBtm_sy);
+};

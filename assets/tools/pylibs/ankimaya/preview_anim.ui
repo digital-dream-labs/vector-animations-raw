@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>115</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="animClipsLabel">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>35</y>
+     <width>300</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Animation Clips from Game Exporter</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="animClips">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>32</y>
+     <width>380</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="animClipLabel">
+   <property name="geometry">
+    <rect>
+     <x>132</x>
+     <y>5</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Animation Clip</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="animClip">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>2</y>
+     <width>380</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="numLoopsLabel">
+   <property name="geometry">
+    <rect>
+     <x>117</x>
+     <y>65</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Number of Loops</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numLoops">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>62</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="removeAnimLabel">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>94</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove this clip:</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="removeAnimComboBox">
+   <property name="geometry">
+    <rect>
+     <x>202</x>
+     <y>91</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="confirmLabel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>94</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Are you sure?</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="confirmComboBox">
+   <property name="geometry">
+    <rect>
+     <x>327</x>
+     <y>90</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>115</y>
+     <width>620</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

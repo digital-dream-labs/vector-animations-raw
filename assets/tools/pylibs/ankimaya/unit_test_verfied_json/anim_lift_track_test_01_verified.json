@@ -1,0 +1,53 @@
+{
+  "anim_lift_track_test_01": [
+    {
+      "durationTime_ms": 330,
+      "triggerTime_ms": 0,
+      "Name": "LiftHeightKeyFrame",
+      "heightVariability_mm": 0,
+      "height_mm": 92
+    },
+    {
+      "durationTime_ms": 231,
+      "triggerTime_ms": 759,
+      "Name": "LiftHeightKeyFrame",
+      "heightVariability_mm": 0,
+      "height_mm": 32
+    },
+    {
+      "durationTime_ms": 132,
+      "triggerTime_ms": 990,
+      "Name": "LiftHeightKeyFrame",
+      "heightVariability_mm": 0,
+      "height_mm": 92
+    },
+    {
+      "durationTime_ms": 99,
+      "triggerTime_ms": 1188,
+      "Name": "LiftHeightKeyFrame",
+      "heightVariability_mm": 0,
+      "height_mm": 78
+    },
+    {
+      "durationTime_ms": 66,
+      "triggerTime_ms": 1287,
+      "Name": "LiftHeightKeyFrame",
+      "heightVariability_mm": 0,
+      "height_mm": 74
+    },
+    {
+      "durationTime_ms": 165,
+      "triggerTime_ms": 1353,
+      "Name": "LiftHeightKeyFrame",
+      "heightVariability_mm": 0,
+      "height_mm": 68
+    },
+    {
+      "durationTime_ms": 132,
+      "triggerTime_ms": 1518,
+      "Name": "LiftHeightKeyFrame",
+      "heightVariability_mm": 0,
+      "height_mm": 92
+    }
+  ]
+}

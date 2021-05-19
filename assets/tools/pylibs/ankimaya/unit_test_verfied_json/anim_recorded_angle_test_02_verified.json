@@ -1,0 +1,34 @@
+{
+  "anim_recorded_angle_test_02": [
+    {
+      "durationTime_ms": 1452,
+      "speed": 9,
+      "triggerTime_ms": 0,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": "STRAIGHT"
+    },
+    {
+      "durationTime_ms": 924,
+      "speed": -22,
+      "triggerTime_ms": 1452,
+      "Name": "BodyMotionKeyFrame",
+      "radius_mm": "STRAIGHT"
+    },
+    {
+      "offset_deg": 0,
+      "Name": "TurnToRecordedHeadingKeyFrame",
+      "numHalfRevs": 0,
+      "durationTime_ms": 500,
+      "speed_degPerSec": -22,
+      "useShortestDir": true,
+      "tolerance_deg": 2,
+      "decel_degPerSec2": 1000,
+      "triggerTime_ms": 2376,
+      "accel_degPerSec2": 1000
+    },
+    {
+      "triggerTime_ms": 66,
+      "Name": "RecordHeadingKeyFrame"
+    }
+  ]
+}

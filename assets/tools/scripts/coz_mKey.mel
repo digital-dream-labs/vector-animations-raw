@@ -1,0 +1,29 @@
+// ------  mKey - bot end of maneuver set key --------//
+// * Create Variable for namespaces
+
+global proc coz_mKey (){
+    
+    //Set keyframes on controllers 
+    setAttr "x:moac_ctrl.M_State" 1;
+    setKeyframe {"x:moac_ctrl", "x:mech_all_ctrl"};
+    
+    //Snap moac to new position
+    $MS_botPosition = `xform -q -a -ws -t "x:virtual_all_sub_ctrl"`;
+    $MS_botRotation = `xform -q -a -ws -ro "x:virtual_all_sub_ctrl"`;
+    $MS_currentTime = `currentTime -q`;
+    
+    currentTime ($MS_currentTime + 1);
+    
+    move -a -ws -xz $MS_botPosition[0] $MS_botPosition[2] 0 "x:moac_ctrl";
+    rotate -a -ws $MS_botRotation[0] $MS_botRotation[1] $MS_botRotation[2] "x:moac_ctrl";
+    
+    setAttr "x:mech_all_ctrl.Radius" 0;
+    setAttr "x:mech_all_ctrl.Forward" 0;
+    setAttr "x:mech_all_ctrl.Turn" 0;
+    setAttr "x:moac_ctrl.M_State" 0;
+    
+    setKeyframe {"x:moac_ctrl", "x:mech_all_ctrl"};
+    select -r "x:mech_all_ctrl";
+    keyTangent -ott step "x:moac_ctrl.M_State";
+    print {"// Result: Mkey (xCozmo)"};
+};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>50</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="exporterVersionLabel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>5</y>
+     <width>300</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exporter/Rig Version</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="exporterVersion">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>2</y>
+     <width>250</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

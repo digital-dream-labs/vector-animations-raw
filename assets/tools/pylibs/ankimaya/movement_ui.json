@@ -1,0 +1,641 @@
+{
+    "wheel_rot_bttns":[
+    {
+      "default_icon": "fwd_plus.png",
+      "highlight_icon": "fwd_plus_hi.png",
+      "on_icon": "fwd_mult.png",
+      "on_highlight_icon": "fwd_mult_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[217, 25],
+      "wheel_rotation_amount":["default_plus", "default_plus"],
+      "is_additive": true
+    },
+    {
+      "default_icon": "fwd_point_c.png",
+      "highlight_icon": "fwd_point_c_hi.png",
+      "icon_size":[27, 25],
+      "bttn_coordinates":[214, 67],
+      "wheel_rotation_amount":[360, 360],
+      "cm": 4.5,
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_point_b.png",
+      "highlight_icon": "fwd_point_b_hi.png",
+      "icon_size":[27, 25],
+      "bttn_coordinates":[214, 105],
+      "wheel_rotation_amount":[180, 180],
+      "cm": 2.23,
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_point_a.png",
+      "highlight_icon": "fwd_point_a_hi.png",
+      "icon_size":[27, 25],
+      "bttn_coordinates":[214, 145],
+      "wheel_rotation_amount":[90, 90],
+      "cm": 1,
+      "is_additive": false
+    },
+
+    {
+      "default_icon": "fwd_arc1_point_c.png",
+      "highlight_icon": "fwd_arc1_point_c_hi.png",
+      "icon_size":[30, 27],
+      "bttn_coordinates":[265, 76],
+      "wheel_rotation_amount":[360.0, 288.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc1_point_b.png",
+      "highlight_icon": "fwd_arc1_point_b_hi.png",
+      "icon_size":[29, 28],
+      "bttn_coordinates":[252, 111],
+      "wheel_rotation_amount":[180.0, 144.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc1_point_a.png",
+      "highlight_icon": "fwd_arc1_point_a_hi.png",
+      "icon_size":[29, 26],
+      "bttn_coordinates":[244, 150],
+      "wheel_rotation_amount":[90.0, 72.0],
+      "is_additive": false
+    },
+
+
+    {
+      "default_icon": "fwd_arc2_point_c.png",
+      "highlight_icon": "fwd_arc2_point_c_hi.png",
+      "icon_size":[26, 32],
+      "bttn_coordinates":[320, 103],
+      "wheel_rotation_amount":[360.0, 180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc2_point_b.png",
+      "highlight_icon": "fwd_arc2_point_b_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[292, 132],
+      "wheel_rotation_amount":[180.0, 90.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc2_point_a.png",
+      "highlight_icon": "fwd_arc2_point_a_hi.png",
+      "icon_size":[28, 30],
+      "bttn_coordinates":[273, 165],
+      "wheel_rotation_amount":[90.0, 45.0],
+      "is_additive": false
+    },
+
+
+    {
+      "default_icon": "fwd_arc3_point_c.png",
+      "highlight_icon": "fwd_arc3_point_c_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[357, 142],
+      "wheel_rotation_amount":[360.0, 72.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc3_point_b.png",
+      "highlight_icon": "fwd_arc3_point_b_hi.png",
+      "icon_size":[27, 34],
+      "bttn_coordinates":[318, 160],
+      "wheel_rotation_amount":[180.0, 36.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc3_point_a.png",
+      "highlight_icon": "fwd_arc3_point_a_hi.png",
+      "icon_size":[29, 30],
+      "bttn_coordinates":[295, 190],
+      "wheel_rotation_amount":[90.0, 18.0],
+      "is_additive": false
+    },
+
+
+
+    {
+      "default_icon": "fwd_arc2_plus.png",
+      "highlight_icon": "fwd_arc2_plus_hi.png",
+      "on_icon": "fwd_arc2_mult.png",
+      "on_highlight_icon": "fwd_arc2_mult_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[357, 84],
+      "function_to_call":"add_to_arc_turn",
+      "direction": "right",
+      "value": "default_plus",
+      "comment": "add arc right front"
+    },
+
+    {
+      "default_icon": "fwd_arc4_point_c.png",
+      "highlight_icon": "fwd_arc4_point_c_hi.png",
+      "icon_size":[30, 27],
+      "bttn_coordinates":[160, 76],
+      "wheel_rotation_amount":[288.0, 360.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc4_point_b.png",
+      "highlight_icon": "fwd_arc4_point_b_hi.png",
+      "icon_size":[29, 28],
+      "bttn_coordinates":[175, 112],
+      "wheel_rotation_amount":[144.0, 180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc4_point_a.png",
+      "highlight_icon": "fwd_arc4_point_a_hi.png",
+      "icon_size":[29, 26],
+      "bttn_coordinates":[182, 149],
+      "wheel_rotation_amount":[72.0, 90.0],
+      "is_additive": false
+    },
+
+
+
+    {
+      "default_icon": "fwd_arc5_point_c.png",
+      "highlight_icon": "fwd_arc5_point_c_hi.png",
+      "icon_size":[26, 32],
+      "bttn_coordinates":[108, 102],
+
+      "wheel_rotation_amount":[180.0, 360.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc5_point_b.png",
+      "highlight_icon": "fwd_arc5_point_b_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[136, 132],
+
+      "wheel_rotation_amount":[90.0, 180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc5_point_a.png",
+      "highlight_icon": "fwd_arc5_point_a_hi.png",
+      "icon_size":[28, 30],
+      "bttn_coordinates":[153, 164],
+
+      "wheel_rotation_amount":[45.0, 90.0],
+      "is_additive": false
+    },
+
+
+
+
+    {
+      "default_icon": "fwd_arc6_point_c.png",
+      "highlight_icon": "fwd_arc6_point_c_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[71, 141],
+
+      "wheel_rotation_amount":[72.0, 360.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc6_point_b.png",
+      "highlight_icon": "fwd_arc6_point_b_hi.png",
+      "icon_size":[27, 34],
+      "bttn_coordinates":[109, 160],
+
+      "wheel_rotation_amount":[36.0, 180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "fwd_arc6_point_a.png",
+      "highlight_icon": "fwd_arc6_point_a_hi.png",
+      "icon_size":[29, 30],
+      "bttn_coordinates":[132, 190],
+
+      "wheel_rotation_amount":[18.0, 90.0],
+      "is_additive": false
+    },
+
+
+
+    {
+      "default_icon": "back_arc6_point_c.png",
+      "highlight_icon": "back_arc6_point_c_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[70, 297],
+
+      "wheel_rotation_amount":[-72.0, -360.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc6_point_b.png",
+      "highlight_icon": "back_arc6_point_b_hi.png",
+      "icon_size":[28, 34],
+      "bttn_coordinates":[108, 275],
+
+      "wheel_rotation_amount":[-36.0, -180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc6_point_a.png",
+      "highlight_icon": "back_arc6_point_a_hi.png",
+      "icon_size":[29, 30],
+      "bttn_coordinates":[131, 249],
+
+      "wheel_rotation_amount":[-18.0, -90.0],
+      "is_additive": false
+    },
+
+
+
+
+    {
+      "default_icon": "back_arc5_point_c.png",
+      "highlight_icon": "back_arc5_point_c_hi.png",
+      "icon_size":[26, 31],
+      "bttn_coordinates":[108, 335],
+      "wheel_rotation_amount":[-180.0, -360.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc5_point_b.png",
+      "highlight_icon": "back_arc5_point_b_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[136, 307],
+      "wheel_rotation_amount":[-90.0, -180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc5_point_a.png",
+      "highlight_icon": "back_arc5_point_a_hi.png",
+      "icon_size":[29, 30],
+      "bttn_coordinates":[153, 274],
+
+      "wheel_rotation_amount":[-45.0, -90.0],
+      "is_additive": false
+    },
+
+
+
+    {
+      "default_icon": "back_arc4_point_c.png",
+      "highlight_icon": "back_arc4_point_c_hi.png",
+      "icon_size":[30, 27],
+      "bttn_coordinates":[160, 366],
+
+      "wheel_rotation_amount":[-288.0, -360.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc4_point_b.png",
+      "highlight_icon": "back_arc4_point_b_hi.png",
+      "icon_size":[29, 28],
+      "bttn_coordinates":[174, 328],
+
+      "wheel_rotation_amount":[-144.0, -180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc4_point_a.png",
+      "highlight_icon": "back_arc4_point_a_hi.png",
+      "icon_size":[29, 26],
+      "bttn_coordinates":[181, 293],
+
+      "wheel_rotation_amount":[-72.0, -90.0],
+      "is_additive": false
+    },
+
+
+
+
+
+    {
+      "default_icon": "back_point_c.png",
+      "highlight_icon": "back_point_c_hi.png",
+      "icon_size":[27, 25],
+      "bttn_coordinates":[214, 378],
+      "wheel_rotation_amount":[-360.0, -360.0],
+      "cm": 1,
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_point_b.png",
+      "highlight_icon": "back_point_b_hi.png",
+      "icon_size":[27, 25],
+      "bttn_coordinates":[215, 338],
+      "wheel_rotation_amount":[-180.0, -180.0],
+      "cm": 2.3,
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_point_a.png",
+      "highlight_icon": "back_point_a_hi.png",
+      "icon_size":[27, 25],
+
+      "bttn_coordinates":[214, 300],
+      "wheel_rotation_amount":[-90.0, -90.0],
+      "cm": 4.5,
+      "is_additive": false
+    },
+
+
+    {
+      "default_icon": "back_arc1_point_c.png",
+      "highlight_icon": "back_arc1_point_c_hi.png",
+      "icon_size":[29, 27],
+      "bttn_coordinates":[265, 366],
+      "wheel_rotation_amount":[-360.0, -288.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc1_point_b.png",
+      "highlight_icon": "back_arc1_point_b_hi.png",
+      "icon_size":[30, 28],
+      "bttn_coordinates":[252, 329],
+      "wheel_rotation_amount":[-180.0, -144.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc1_point_a.png",
+      "highlight_icon": "back_arc1_point_a_hi.png",
+      "icon_size":[29, 26],
+      "bttn_coordinates":[244, 293],
+      "wheel_rotation_amount":[-90.0, -72.0],
+      "is_additive": false
+    },
+
+    {
+      "default_icon": "back_arc2_point_c.png",
+      "highlight_icon": "back_arc2_point_c_hi.png",
+      "icon_size":[27, 31],
+      "bttn_coordinates":[320, 335],
+      "wheel_rotation_amount":[-360.0, -72.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc2_point_b.png",
+      "highlight_icon": "back_arc2_point_b_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[292, 308],
+      "wheel_rotation_amount":[-180.0, -36.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc2_point_a.png",
+      "highlight_icon": "back_arc2_point_a_hi.png",
+      "icon_size":[28, 30],
+      "bttn_coordinates":[273, 275],
+      "wheel_rotation_amount":[-90.0, -18.0],
+      "is_additive": false
+    },
+
+
+
+    {
+      "default_icon": "back_arc3_point_c.png",
+      "highlight_icon": "back_arc3_point_c_hi.png",
+      "icon_size":[27, 30],
+      "bttn_coordinates":[357, 298],
+      "wheel_rotation_amount":[-360.0, -180.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc3_point_b.png",
+      "highlight_icon": "back_arc3_point_b_hi.png",
+      "icon_size":[27, 34],
+      "bttn_coordinates":[318, 276],
+      "wheel_rotation_amount":[-180.0, -90.0],
+      "is_additive": false
+    },
+    {
+      "default_icon": "back_arc3_point_a.png",
+      "highlight_icon": "back_arc3_point_a_hi.png",
+      "icon_size":[29, 30],
+      "bttn_coordinates":[295, 249],
+      "wheel_rotation_amount":[-90.0, -45.0],
+      "is_additive": false
+    },
+
+
+
+    {
+      "default_icon": "back_arc2_minus.png",
+      "highlight_icon": "back_arc2_minus_hi.png",
+      "on_icon": "back_arc2_divide.png",
+      "on_highlight_icon": "back_arc2_divide_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[357, 364],
+      "function_to_call":"add_to_arc_turn",
+      "direction": "right",
+      "value": "default_minus",
+      "comment": "add arc right back"
+    },
+
+    {
+      "default_icon": "back_arc5_minus.png",
+      "highlight_icon": "back_arc5_minus_hi.png",
+      "on_icon": "back_arc5_divide.png",
+      "on_highlight_icon": "back_arc5_divide_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[76, 364],
+      "function_to_call":"add_to_arc_turn",
+      "direction": "left",
+      "value": "default_minus",
+      "comment": "add arc left back"
+    },
+    {
+      "default_icon": "minus_icon.png",
+      "icon_size":[38, 35],
+      "bttn_coordinates":[88, 520],
+      "wheel_rotation_amount":[0, 0],
+      "is_additive": true
+    },
+
+    {
+      "default_icon": "back_minus.png",
+      "highlight_icon": "back_minus_hi.png",
+      "on_icon": "back_divide.png",
+      "on_highlight_icon": "back_divide_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[217, 423],
+      "wheel_rotation_amount":["default_minus", "default_minus"],
+      "is_additive": true,
+      "comment": "add straight back"
+    },
+
+    {
+      "default_icon": "fwd_arc5_plus.png",
+      "highlight_icon": "fwd_arc5_plus_hi.png",
+      "on_icon": "fwd_arc5_mult.png",
+      "on_highlight_icon": "fwd_arc5_mult_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[76, 84],
+      "function_to_call":"add_to_arc_turn",
+      "direction": "left",
+      "value": "default_plus",
+      "comment": "add arc left front"
+    },
+
+
+
+    {
+      "default_icon": "turn_lf_plus.png",
+      "highlight_icon": "turn_lf_plus_hi.png",
+      "on_icon": "turn_lf_mult.png",
+      "on_highlight_icon": "turn_lf_mult_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[52, 266],
+      "wheel_rotation_amount":["default_minus", "default_plus"],
+      "is_additive": true,
+      "comment": "add left point turn"
+    },
+    {
+      "default_icon": "turn_rt_plus.png",
+      "highlight_icon": "turn_rt_plus_hi.png",
+      "on_icon": "turn_rt_mult.png",
+      "on_highlight_icon": "turn_rt_mult_hi.png",
+      "icon_size":[21, 21],
+      "bttn_coordinates":[381, 266],
+      "wheel_rotation_amount":["default_plus", "default_minus"],
+      "is_additive": true,
+      "comment": "add right point turn"
+    },
+
+
+
+    {
+      "default_icon": "coz_lf_plus.png",
+      "highlight_icon": "coz_lf_plus_hi.png",
+      "on_icon": "coz_lf_mult.png",
+      "on_highlight_icon": "coz_lf_mult_hi.png",
+      "icon_size":[18, 18],
+      "bttn_coordinates":[172, 198],
+      "wheel_rotation_amount":["default_plus", 0],
+      "is_additive": true,
+      "force_ratio":false,
+      "comment": "add left wheel"
+    },
+    {
+      "default_icon": "coz_rt_plus.png",
+      "highlight_icon": "coz_rt_plus_hi.png",
+      "on_icon": "coz_rt_mult.png",
+      "on_highlight_icon": "coz_rt_mult_hi.png",
+      "icon_size":[18, 18],
+      "bttn_coordinates":[265, 198],
+      "wheel_rotation_amount":[0, "default_plus"],
+      "is_additive": true,
+      "force_ratio":false,
+      "comment": "add right wheel"
+    },
+    {
+      "default_icon": "coz_lf_minus.png",
+      "highlight_icon": "coz_lf_minus_hi.png",
+      "on_icon": "coz_lf_divide.png",
+      "on_highlight_icon": "coz_lf_divide_hi.png",
+      "icon_size":[18, 18],
+      "bttn_coordinates":[172, 253],
+      "wheel_rotation_amount":["default_minus", 0],
+      "is_additive": true,
+      "force_ratio":false,
+      "comment": "subtract left wheel"
+    },
+    {
+      "default_icon": "coz_rt_minus.png",
+      "highlight_icon": "coz_rt_minus_hi.png",
+      "on_icon": "coz_rt_divide.png",
+      "on_highlight_icon": "coz_rt_divide_hi.png",
+      "icon_size":[18, 18],
+      "bttn_coordinates":[265, 253],
+      "wheel_rotation_amount":[0, "default_minus"],
+      "is_additive": true,
+      "force_ratio":false,
+      "comment": "subtract right wheel"
+    },
+    {
+      "default_icon": "turn_rt_point_a.png",
+      "highlight_icon": "turn_rt_point_a_hi.png",
+      "icon_size":[28, 28],
+      "bttn_coordinates":[332, 213],
+
+      "wheel_rotation_amount":[88.5, -88.5],
+      "degrees": 30,
+      "is_additive": false
+    },
+
+    {
+      "default_icon": "turn_rt_point_b.png",
+      "highlight_icon": "turn_rt_point_b_hi.png",
+      "icon_size":[30, 29],
+      "bttn_coordinates":[383, 177],
+
+      "wheel_rotation_amount":[133.0, -133.0],
+      "degrees": 45,
+      "is_additive": false
+    },
+    {
+      "default_icon": "turn_rt_point_c.png",
+      "highlight_icon": "turn_rt_point_c_hi.png",
+      "icon_size":[29, 32],
+      "bttn_coordinates":[415, 230],
+
+      "wheel_rotation_amount":[266, -266],
+      "degrees": 90,
+      "is_additive": false
+    },
+    {
+      "default_icon": "turn_lf_point_a.png",
+      "highlight_icon": "turn_lf_point_a_hi.png",
+      "icon_size":[28, 28],
+      "bttn_coordinates":[95, 213],
+
+      "wheel_rotation_amount":[-88.5, 88.5],
+      "degrees": 30,
+      "is_additive": false
+    },
+    {"default_icon": "turn_lf_point_b.png",
+      "highlight_icon": "turn_lf_point_b_hi.png",
+      "icon_size":[30, 29],
+      "bttn_coordinates":[40, 177],
+
+      "wheel_rotation_amount":[-133.0, 133.0],
+      "degrees": 45,
+      "is_additive": false
+    },
+    {
+      "default_icon": "turn_lf_point_c.png",
+      "highlight_icon": "turn_lf_point_c_hi.png",
+      "icon_size":[29, 32],
+      "bttn_coordinates":[11, 230],
+
+      "wheel_rotation_amount":[-266, 266],
+      "degrees": 90,
+      "is_additive": false
+    }
+    ],
+
+  "additional_bttns":[
+    {
+      "default_icon": "missing_frames.png",
+      "function_to_call":"place_missing_frames",
+      "border_color_hi":"rgb(206, 206, 206)",
+      "comment" : "if dont specify icon size movement_ui assigns default",
+      "tool_tip" : "Place missing frames for wheel rotation"
+    },
+    {
+      "default_icon": "clamp.png",
+      "function_to_call":"clamp_wheel_values",
+      "border_color_hi":"rgb(206, 206, 206)",
+      "from_wheel_movement_class":true,
+      "tool_tip" : "Clamp wheel values so that they don't exceed the speed limits"
+    }
+  ],
+   "user_shortcuts":[
+     {
+      "default_icon": "plus_icon.png",
+       "icon_size":[33, 33],
+       "adds_buttons":true,
+      "bttn_coordinates":[128, 294],
+       "tool_tip" : "Add custom movement shortcut"
+    }
+   ]
+}

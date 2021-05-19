@@ -1,0 +1,3368 @@
+[
+    {
+        "aliasName": "External_Source",
+        "category": "",
+        "comment": “”,
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "2539447680",
+        "wwiseName": "Play__Dev_Robot__External_Source"
+    },
+    {
+        "aliasName": "Freq_Sweep",
+        "category": "",
+        "comment": "",
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "2028515806",
+        "wwiseName": "Play__Dev_Robot__Freq_Sweep"
+    },
+    {
+        "aliasName": "Pink_1Sec",
+        "category": "",
+        "comment": “”,
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "3980968688",
+        "wwiseName": "Play__Dev_Robot__Pink_1Sec"
+    },
+    {
+        "aliasName": "Pink_5Sec",
+        "category": "",
+        "comment": "",
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "988519260",
+        "wwiseName": "Play__Dev_Robot__Pink_5Sec"
+    },
+    {
+        "aliasName": "Playpen_Freq_Sweep",
+        "category": "",
+        "comment": "",
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "2363892348",
+        "wwiseName": "Play__Dev_Robot__Playpen_Freq_Sweep"
+    },
+    {
+        "aliasName": "Tone_1760Hz_5Sec",
+        "category": "",
+        "comment": "",
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "3488492107",
+        "wwiseName": "Play__Dev_Robot__Tone_1760Hz_5Sec"
+    },
+    {
+        "aliasName": "Tone_1K_1Sec",
+        "category": "",
+        "comment": "",
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "4068444155",
+        "wwiseName": "Play__Dev_Robot__Tone_1K_1Sec"
+    },
+    {
+        "aliasName": "Tone_1K_5Sec",
+        "category": "",
+        "comment": "",
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "1034417959",
+        "wwiseName": "Play__Dev_Robot__Tone_1K_5Sec"
+    },
+    {
+        "aliasName": "Tone_440Hz_5Sec",
+        "category": "",
+        "comment": "",
+        "groupName": "Dev_Robot",
+        "type": "Event",
+        "wwiseIdValue": "1471825745",
+        "wwiseName": "Play__Dev_Robot__Tone_440Hz_5Sec"
+    },
+    {
+        "aliasName": "Bored_Brickout",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "4013569785",
+        "wwiseName": "Play__Robot_Sfx__Bored_Brickout"
+    },
+    {
+        "aliasName": "Bored_Pendulum",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "62303530",
+        "wwiseName": "Play__Robot_Sfx__Bored_Pendulum"
+    },
+    {
+        "aliasName": "Bored_Slot",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3905586496",
+        "wwiseName": "Play__Robot_Sfx__Bored_Slot"
+    },
+    {
+        "aliasName": "Bpk_Blue_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "4211412779",
+        "wwiseName": "Play__Robot_Sfx__Bpk_Blue_Loop_Play"
+    },
+    {
+        "aliasName": "Bpk_Green_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1352654968",
+        "wwiseName": "Play__Robot_Sfx__Bpk_Green_Loop_Play"
+    },
+    {
+        "aliasName": "Bpk_Red_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2658520760",
+        "wwiseName": "Play__Robot_Sfx__Bpk_Red_Loop_Play"
+    },
+    {
+        "aliasName": "Bpk_White_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "118136366",
+        "wwiseName": "Play__Robot_Sfx__Bpk_White_Loop_Play"
+    },
+    {
+        "aliasName": "Cube_Energy_Transfer",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2633747393",
+        "wwiseName": "Play__Robot_Sfx__Cube_Energy_Transfer"
+    },
+    {
+        "aliasName": "Dog_Siren",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2814310779",
+        "wwiseName": "Play__Robot_Sfx__Dog_Siren"
+    },
+    {
+        "aliasName": "Effort_Fail",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3308460754",
+        "wwiseName": "Play__Robot_Sfx__Effort_Fail"
+    },
+    {
+        "aliasName": "Effort_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "668351040",
+        "wwiseName": "Play__Robot_Sfx__Effort_Long"
+    },
+    {
+        "aliasName": "Effort_Medium",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3696071919",
+        "wwiseName": "Play__Robot_Sfx__Effort_Medium"
+    },
+    {
+        "aliasName": "Fist_Bump",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1216170354",
+        "wwiseName": "Play__Robot_Sfx__Fist_Bump"
+    },
+    {
+        "aliasName": "Mvt_Tread_Backward_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2180021393",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Backward_Loop_Play"
+    },
+    {
+        "aliasName": "Mvt_Tread_Backward_Start",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2613090854",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Backward_Start"
+    },
+    {
+        "aliasName": "Mvt_Tread_Backward_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1888692326",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Backward_Stop"
+    },
+    {
+        "aliasName": "Mvt_Tread_Forward_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1822774717",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Forward_Loop_Play"
+    },
+    {
+        "aliasName": "Mvt_Tread_Forward_Start",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2652548234",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Forward_Start"
+    },
+    {
+        "aliasName": "Mvt_Tread_Forward_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3470930658",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Forward_Stop"
+    },
+    {
+        "aliasName": "Mvt_Tread_Spin_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1721811722",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Spin_Loop_Play"
+    },
+    {
+        "aliasName": "Mvt_Tread_Spin_Start",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "952401069",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Spin_Start"
+    },
+    {
+        "aliasName": "Mvt_Tread_Spin_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2338140655",
+        "wwiseName": "Play__Robot_Sfx__Mvt_Tread_Spin_Stop"
+    },
+    {
+        "aliasName": "Onboarding_Power_On",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3840096848",
+        "wwiseName": "Play__Robot_Sfx__Onboarding_Power_On"
+    },
+    {
+        "aliasName": "Purr_Test_01",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3486629323",
+        "wwiseName": "Play__Robot_Sfx__Purr_Test_01"
+    },
+    {
+        "aliasName": "Purr_Test_02",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3486629320",
+        "wwiseName": "Play__Robot_Sfx__Purr_Test_02"
+    },
+    {
+        "aliasName": "Purr_Test_03",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3486629321",
+        "wwiseName": "Play__Robot_Sfx__Purr_Test_03"
+    },
+    {
+        "aliasName": "Purr_Test_04",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3486629326",
+        "wwiseName": "Play__Robot_Sfx__Purr_Test_04"
+    },
+    {
+        "aliasName": "Purr_Test_05",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3486629327",
+        "wwiseName": "Play__Robot_Sfx__Purr_Test_05"
+    },
+    {
+        "aliasName": "Purr_Test_06",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3486629324",
+        "wwiseName": "Play__Robot_Sfx__Purr_Test_06"
+    },
+    {
+        "aliasName": "Scan_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "866674656",
+        "wwiseName": "Play__Robot_Sfx__Scan_Loop_Play"
+    },
+    {
+        "aliasName": "Scan_Single",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3220792573",
+        "wwiseName": "Play__Robot_Sfx__Scan_Single"
+    },
+    {
+        "aliasName": "Scan_Start",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3872572455",
+        "wwiseName": "Play__Robot_Sfx__Scan_Start"
+    },
+    {
+        "aliasName": "Scan_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2639724621",
+        "wwiseName": "Play__Robot_Sfx__Scan_Stop"
+    },
+    {
+        "aliasName": "Scan_Stop_Bell",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2818178987",
+        "wwiseName": "Play__Robot_Sfx__Scan_Stop_Bell"
+    },
+    {
+        "aliasName": "Scrn_Angry",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2974471057",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Angry"
+    },
+    {
+        "aliasName": "Scrn_Angry_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3501460118",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Angry_Long"
+    },
+    {
+        "aliasName": "Scrn_Angry_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2332165935",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Angry_Loop_Play"
+    },
+    {
+        "aliasName": "Scrn_Angry_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "105427450",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Angry_Short"
+    },
+    {
+        "aliasName": "Scrn_Angry_Single",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1286585712",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Angry_Single"
+    },
+    {
+        "aliasName": "Scrn_Blink",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2666670780",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Blink"
+    },
+    {
+        "aliasName": "Scrn_Curious",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1701725212",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Curious"
+    },
+    {
+        "aliasName": "Scrn_Curious_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3031263429",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Curious_Long"
+    },
+    {
+        "aliasName": "Scrn_Curious_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1038670390",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Curious_Loop_Play"
+    },
+    {
+        "aliasName": "Scrn_Curious_Pitch_Up",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3559153577",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Curious_Pitch_Up"
+    },
+    {
+        "aliasName": "Scrn_Curious_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2929211683",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Curious_Short"
+    },
+    {
+        "aliasName": "Scrn_Curious_Single",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2347235575",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Curious_Single"
+    },
+    {
+        "aliasName": "Scrn_Go_To_Sleep",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2177539960",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Go_To_Sleep"
+    },
+    {
+        "aliasName": "Scrn_Happy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "302804072",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Happy"
+    },
+    {
+        "aliasName": "Scrn_Happy_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1961931745",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Happy_Long"
+    },
+    {
+        "aliasName": "Scrn_Happy_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2681596674",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Happy_Loop_Play"
+    },
+    {
+        "aliasName": "Scrn_Happy_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3678808343",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Happy_Short"
+    },
+    {
+        "aliasName": "Scrn_Happy_Single",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1484658355",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Happy_Single"
+    },
+    {
+        "aliasName": "Scrn_Look",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3560778311",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Look"
+    },
+    {
+        "aliasName": "Scrn_Sad",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2370771958",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Sad"
+    },
+    {
+        "aliasName": "Scrn_Sad_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1620542011",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Sad_Long"
+    },
+    {
+        "aliasName": "Scrn_Sad_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2584633397",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Sad_Short"
+    },
+    {
+        "aliasName": "Scrn_Sad_Single",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "775385813",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Sad_Single"
+    },
+    {
+        "aliasName": "Scrn_Surprised",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3774252557",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Surprised"
+    },
+    {
+        "aliasName": "Scrn_Surprised_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1923508322",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Surprised_Long"
+    },
+    {
+        "aliasName": "Scrn_Surprised_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3952553918",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Surprised_Short"
+    },
+    {
+        "aliasName": "Scrn_Surprised_Single",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3984545916",
+        "wwiseName": "Play__Robot_Sfx__Scrn_Surprised_Single"
+    },
+    {
+        "aliasName": "Spark_Launch",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "771536042",
+        "wwiseName": "Play__Robot_Sfx__Spark_Launch"
+    },
+    {
+        "aliasName": "Sparked_Workout_Break",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1558032299",
+        "wwiseName": "Play__Robot_Sfx__Sparked_Workout_Break"
+    },
+    {
+        "aliasName": "Sparked_Workout_Break_Loop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2454903272",
+        "wwiseName": "Play__Robot_Sfx__Sparked_Workout_Break_Loop"
+    },
+    {
+        "aliasName": "Srv_Angry",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1322826570",
+        "wwiseName": "Play__Robot_Sfx__Srv_Angry"
+    },
+    {
+        "aliasName": "Srv_Angry_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3491658847",
+        "wwiseName": "Play__Robot_Sfx__Srv_Angry_Long"
+    },
+    {
+        "aliasName": "Srv_Angry_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "817116172",
+        "wwiseName": "Play__Robot_Sfx__Srv_Angry_Loop_Play"
+    },
+    {
+        "aliasName": "Srv_Angry_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3765708529",
+        "wwiseName": "Play__Robot_Sfx__Srv_Angry_Short"
+    },
+    {
+        "aliasName": "Srv_Curious",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1279900047",
+        "wwiseName": "Play__Robot_Sfx__Srv_Curious"
+    },
+    {
+        "aliasName": "Srv_Curious_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3969150064",
+        "wwiseName": "Play__Robot_Sfx__Srv_Curious_Long"
+    },
+    {
+        "aliasName": "Srv_Curious_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3522657877",
+        "wwiseName": "Play__Robot_Sfx__Srv_Curious_Loop_Play"
+    },
+    {
+        "aliasName": "Srv_Curious_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "974094096",
+        "wwiseName": "Play__Robot_Sfx__Srv_Curious_Short"
+    },
+    {
+        "aliasName": "Srv_Happy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2128944011",
+        "wwiseName": "Play__Robot_Sfx__Srv_Happy"
+    },
+    {
+        "aliasName": "Srv_Happy_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2435936364",
+        "wwiseName": "Play__Robot_Sfx__Srv_Happy_Long"
+    },
+    {
+        "aliasName": "Srv_Happy_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1644950641",
+        "wwiseName": "Play__Robot_Sfx__Srv_Happy_Loop_Play"
+    },
+    {
+        "aliasName": "Srv_Happy_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "105551732",
+        "wwiseName": "Play__Robot_Sfx__Srv_Happy_Short"
+    },
+    {
+        "aliasName": "Srv_Sad",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3613386685",
+        "wwiseName": "Play__Robot_Sfx__Srv_Sad"
+    },
+    {
+        "aliasName": "Srv_Sad_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "25316626",
+        "wwiseName": "Play__Robot_Sfx__Srv_Sad_Long"
+    },
+    {
+        "aliasName": "Srv_Sad_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3699079406",
+        "wwiseName": "Play__Robot_Sfx__Srv_Sad_Short"
+    },
+    {
+        "aliasName": "Srv_Surprised",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1907152766",
+        "wwiseName": "Play__Robot_Sfx__Srv_Surprised"
+    },
+    {
+        "aliasName": "Srv_Surprised_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3606017555",
+        "wwiseName": "Play__Robot_Sfx__Srv_Surprised_Long"
+    },
+    {
+        "aliasName": "Srv_Surprised_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "4054065165",
+        "wwiseName": "Play__Robot_Sfx__Srv_Surprised_Short"
+    },
+    {
+        "aliasName": "Wink",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3564343056",
+        "wwiseName": "Play__Robot_Sfx__Wink"
+    },
+    {
+        "aliasName": "Coz_Word_Cube_Neutral",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2117050142",
+        "wwiseName": "Play__Robot_Vo__Coz_Word_Cube_Neutral"
+    },
+    {
+        "aliasName": "Dizzy_Hard_1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3080967599",
+        "wwiseName": "Play__Robot_Vo__Dizzy_Hard_1"
+    },
+    {
+        "aliasName": "Dizzy_Hard_2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3080967596",
+        "wwiseName": "Play__Robot_Vo__Dizzy_Hard_2"
+    },
+    {
+        "aliasName": "Dizzy_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "777096763",
+        "wwiseName": "Play__Robot_Vo__Dizzy_Loop_Play"
+    },
+    {
+        "aliasName": "Dizzy_React_Medium_02",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "530263530",
+        "wwiseName": "Play__Robot_Vo__Dizzy_React_Medium_02"
+    },
+    {
+        "aliasName": "Dizzy_React_Soft",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2564162256",
+        "wwiseName": "Play__Robot_Vo__Dizzy_React_Soft"
+    },
+    {
+        "aliasName": "Dizzy_Shake_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2134240601",
+        "wwiseName": "Play__Robot_Vo__Dizzy_Shake_Stop"
+    },
+    {
+        "aliasName": "Dizzy_Shakeout",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "497722646",
+        "wwiseName": "Play__Robot_Vo__Dizzy_Shakeout"
+    },
+    {
+        "aliasName": "External_Cozmo_Processing",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3205213409",
+        "wwiseName": "Play__Robot_Vo__External_Cozmo_Processing"
+    },
+    {
+        "aliasName": "External_Unprocessed",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2742937278",
+        "wwiseName": "Play__Robot_Vo__External_Unprocessed"
+    },
+    {
+        "aliasName": "Fist_Bump_Giggle",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1531806306",
+        "wwiseName": "Play__Robot_Vo__Fist_Bump_Giggle"
+    },
+    {
+        "aliasName": "Gp_Cs_Cuss_Nope",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3018392957",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Cuss_Nope"
+    },
+    {
+        "aliasName": "Gp_Cs_Cuss_React",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1772137818",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Cuss_React"
+    },
+    {
+        "aliasName": "Gp_Cs_Cuss_Squint",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "141123577",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Cuss_Squint"
+    },
+    {
+        "aliasName": "Gp_Cs_Getout_Confused_P1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2151470956",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Getout_Confused_P1"
+    },
+    {
+        "aliasName": "Gp_Cs_Getout_Confused_P2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2151470959",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Getout_Confused_P2"
+    },
+    {
+        "aliasName": "Gp_Cs_Thinking_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3183384229",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Thinking_Long"
+    },
+    {
+        "aliasName": "Gp_Cs_Thinking_Long_Got_It",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "726115194",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Thinking_Long_Got_It"
+    },
+    {
+        "aliasName": "Gp_Cs_Thinking_Medium",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "448600270",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Thinking_Medium"
+    },
+    {
+        "aliasName": "Gp_Cs_Thinking_Medium_Got_It",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1735580995",
+        "wwiseName": "Play__Robot_Vo__Gp_Cs_Thinking_Medium_Got_It"
+    },
+    {
+        "aliasName": "Gp_Explorer_Backup_Beep",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1939604322",
+        "wwiseName": "Play__Robot_Vo__Gp_Explorer_Backup_Beep"
+    },
+    {
+        "aliasName": "Gp_Explorer_Drive_Curious",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1093526092",
+        "wwiseName": "Play__Robot_Vo__Gp_Explorer_Drive_Curious"
+    },
+    {
+        "aliasName": "Gp_Explorer_Drive_Start",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "746725306",
+        "wwiseName": "Play__Robot_Vo__Gp_Explorer_Drive_Start"
+    },
+    {
+        "aliasName": "Gp_Explorer_Drive_Start_Turbo",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "403916659",
+        "wwiseName": "Play__Robot_Vo__Gp_Explorer_Drive_Start_Turbo"
+    },
+    {
+        "aliasName": "Gp_Explorer_Drive_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2294544082",
+        "wwiseName": "Play__Robot_Vo__Gp_Explorer_Drive_Stop"
+    },
+    {
+        "aliasName": "Gp_Explorer_Getin",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "821905486",
+        "wwiseName": "Play__Robot_Vo__Gp_Explorer_Getin"
+    },
+    {
+        "aliasName": "Gp_Explorer_Shake_Out",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2327316800",
+        "wwiseName": "Play__Robot_Vo__Gp_Explorer_Shake_Out"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Fail_Loop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3786892977",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Fail_Loop"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Fakeout_1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2183808353",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Fakeout_1"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Fakeout_2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2183808354",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Fakeout_2"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Fakeout_3",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2183808355",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Fakeout_3"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Interrupt",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1612390421",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Interrupt"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Snore_Light_Exhale",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1770623604",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Snore_Light_Exhale"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Snore_Light_Inhale",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2553575382",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Snore_Light_Inhale"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Snore_Medium_Inhale",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2589771301",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Snore_Medium_Inhale"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Yawn",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2419377129",
+        "wwiseName": "Play__Robot_Vo__Gp_Guard_Dog_Yawn"
+    },
+    {
+        "aliasName": "Gp_Keepaway_Fakeout_Pounce_Fast",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1992185148",
+        "wwiseName": "Play__Robot_Vo__Gp_Keepaway_Fakeout_Pounce_Fast"
+    },
+    {
+        "aliasName": "Gp_Keepaway_Fakeout_Pounce_Scare",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "888370506",
+        "wwiseName": "Play__Robot_Vo__Gp_Keepaway_Fakeout_Pounce_Scare"
+    },
+    {
+        "aliasName": "Gp_Keepaway_Fakeout_Sneaky_Start",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2606311637",
+        "wwiseName": "Play__Robot_Vo__Gp_Keepaway_Fakeout_Sneaky_Start"
+    },
+    {
+        "aliasName": "Gp_Keepaway_Get_In_Ready",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2743085071",
+        "wwiseName": "Play__Robot_Vo__Gp_Keepaway_Get_In_Ready"
+    },
+    {
+        "aliasName": "Gp_Keepaway_Win_Dance",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4061224253",
+        "wwiseName": "Play__Robot_Vo__Gp_Keepaway_Win_Dance"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Struggle_Focused",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "624174194",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Struggle_Focused"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Struggle_Shocked",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3286982676",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Struggle_Shocked"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Struggle_Um",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3700907145",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Struggle_Um"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Taunt_Derr",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3651300059",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Taunt_Derr"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Turn_Big",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "900238575",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Turn_Big"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Turn_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "928871515",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Turn_Short"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Win_Giggle",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1101765759",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Win_Giggle"
+    },
+    {
+        "aliasName": "Gp_Mm_Pattern_Win_Laugh_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2208086756",
+        "wwiseName": "Play__Robot_Vo__Gp_Mm_Pattern_Win_Laugh_Short"
+    },
+    {
+        "aliasName": "Gp_Peekaboo_Fail",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3318593152",
+        "wwiseName": "Play__Robot_Vo__Gp_Peekaboo_Fail"
+    },
+    {
+        "aliasName": "Gp_Peekaboo_Peek",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1721362201",
+        "wwiseName": "Play__Robot_Vo__Gp_Peekaboo_Peek"
+    },
+    {
+        "aliasName": "Gp_Peekaboo_Success",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2691636253",
+        "wwiseName": "Play__Robot_Vo__Gp_Peekaboo_Success"
+    },
+    {
+        "aliasName": "Gp_Peekaboo_Thrice_1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3692253879",
+        "wwiseName": "Play__Robot_Vo__Gp_Peekaboo_Thrice_1"
+    },
+    {
+        "aliasName": "Gp_Peekaboo_Thrice_2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3692253876",
+        "wwiseName": "Play__Robot_Vo__Gp_Peekaboo_Thrice_2"
+    },
+    {
+        "aliasName": "Gp_Peekaboo_Thrice_3",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3692253877",
+        "wwiseName": "Play__Robot_Vo__Gp_Peekaboo_Thrice_3"
+    },
+    {
+        "aliasName": "Gp_Qt_Tap_Effort",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2222654907",
+        "wwiseName": "Play__Robot_Vo__Gp_Qt_Tap_Effort"
+    },
+    {
+        "aliasName": "Gp_Shared_Fakeout",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "543301532",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Fakeout"
+    },
+    {
+        "aliasName": "Gp_Shared_Humph",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2079303",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Humph"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Fit_Medium",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3218891970",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Fit_Medium"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Fit_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "876073127",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Fit_Short"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Growl_Medium",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2046364900",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Growl_Medium"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Growl_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3207916529",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Growl_Short"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Growl_Short_01",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1671409981",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Growl_Short_01"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Level_1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "420891483",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Level_1"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Level_2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "420891480",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Level_2"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Level_3",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "420891481",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Level_3"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Look_Up",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "361519622",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Look_Up"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Look_Up_Surprised",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2413162080",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Look_Up_Surprised"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Surprised_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "291687249",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Surprised_Short"
+    },
+    {
+        "aliasName": "Gp_Shared_Lose_Throw_Cube",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "247758371",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Lose_Throw_Cube"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Chachacha",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2184979880",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Chachacha"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Laugh",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2763212437",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Laugh"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Level_1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "430910432",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Level_1"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Level_2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "430910435",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Level_2"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Level_3",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "430910434",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Level_3"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Medium",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3810035423",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Medium"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "943980464",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Short"
+    },
+    {
+        "aliasName": "Gp_Shared_Win_Wow_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "771576844",
+        "wwiseName": "Play__Robot_Vo__Gp_Shared_Win_Wow_Short"
+    },
+    {
+        "aliasName": "Hiking_Hum_Happy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1163200773",
+        "wwiseName": "Play__Robot_Vo__Hiking_Hum_Happy"
+    },
+    {
+        "aliasName": "Hiking_Hum_Happy_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3113369638",
+        "wwiseName": "Play__Robot_Vo__Hiking_Hum_Happy_Short"
+    },
+    {
+        "aliasName": "Meet_Cozmo_Got_It",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4040383078",
+        "wwiseName": "Play__Robot_Vo__Meet_Cozmo_Got_It"
+    },
+    {
+        "aliasName": "Meet_Cozmo_Thinking",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1307500180",
+        "wwiseName": "Play__Robot_Vo__Meet_Cozmo_Thinking"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Lift_First",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1219220413",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Lift_First"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Lifted_React",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1564490581",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Lifted_React"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Lifted_React_Taka",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3320332885",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Lifted_React_Taka"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Lifted_React_Whoa",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "124760265",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Lifted_React_Whoa"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Lifted_React_Woohoo",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2259447157",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Lifted_React_Woohoo"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Set_Celebrate",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1518322125",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Set_Celebrate"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Set_First",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2694671152",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Set_First"
+    },
+    {
+        "aliasName": "Onboarding_Cube_Set_Wow",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3560671663",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Cube_Set_Wow"
+    },
+    {
+        "aliasName": "Onboarding_Curious_Huh",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "555367759",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Curious_Huh"
+    },
+    {
+        "aliasName": "Onboarding_Curious_Look_Around",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3020031119",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Curious_Look_Around"
+    },
+    {
+        "aliasName": "Onboarding_Curious_Look_Up",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2784611827",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Curious_Look_Up"
+    },
+    {
+        "aliasName": "Onboarding_Eyes_Open",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1462474442",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Eyes_Open"
+    },
+    {
+        "aliasName": "Onboarding_Happy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "142998609",
+        "wwiseName": "Play__Robot_Vo__Onboarding_Happy"
+    },
+    {
+        "aliasName": "Onboarding_See_Cube_First",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3651618653",
+        "wwiseName": "Play__Robot_Vo__Onboarding_See_Cube_First"
+    },
+    {
+        "aliasName": "Onboarding_See_Face_First",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3734844721",
+        "wwiseName": "Play__Robot_Vo__Onboarding_See_Face_First"
+    },
+    {
+        "aliasName": "Pet_Detection_Bark",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3056349377",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Bark"
+    },
+    {
+        "aliasName": "Pet_Detection_Cat_Meow",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "629947316",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Cat_Meow"
+    },
+    {
+        "aliasName": "Pet_Detection_Growl",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2361443718",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Growl"
+    },
+    {
+        "aliasName": "Pet_Detection_Howl",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1083767857",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Howl"
+    },
+    {
+        "aliasName": "Pet_Detection_Roar",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4176723711",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Roar"
+    },
+    {
+        "aliasName": "Pet_Detection_Roar_End",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4112591521",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Roar_End"
+    },
+    {
+        "aliasName": "Pet_Detection_Sneeze",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "501972637",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Sneeze"
+    },
+    {
+        "aliasName": "Pet_Detection_Sneeze_Shake",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "593425994",
+        "wwiseName": "Play__Robot_Vo__Pet_Detection_Sneeze_Shake"
+    },
+    {
+        "aliasName": "Placeholder",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "668634652",
+        "wwiseName": "Play__Robot_Vo__Placeholder"
+    },
+    {
+        "aliasName": "Pyramid_Giggle",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3515365849",
+        "wwiseName": "Play__Robot_Vo__Pyramid_Giggle"
+    },
+    {
+        "aliasName": "React_3_Cube_Topple_P1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3537517197",
+        "wwiseName": "Play__Robot_Vo__React_3_Cube_Topple_P1"
+    },
+    {
+        "aliasName": "React_3_Cube_Topple_P2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3537517198",
+        "wwiseName": "Play__Robot_Vo__React_3_Cube_Topple_P2"
+    },
+    {
+        "aliasName": "React_Cliff",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3202816225",
+        "wwiseName": "Play__Robot_Vo__React_Cliff"
+    },
+    {
+        "aliasName": "React_Face_Suspicious",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3698170420",
+        "wwiseName": "Play__Robot_Vo__React_Face_Suspicious"
+    },
+    {
+        "aliasName": "React_Pickup",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2638083869",
+        "wwiseName": "Play__Robot_Vo__React_Pickup"
+    },
+    {
+        "aliasName": "React_Pickup_Angry_P1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "703918427",
+        "wwiseName": "Play__Robot_Vo__React_Pickup_Angry_P1"
+    },
+    {
+        "aliasName": "React_Pickup_Angry_P2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "703918424",
+        "wwiseName": "Play__Robot_Vo__React_Pickup_Angry_P2"
+    },
+    {
+        "aliasName": "React_Stuck_Angry_P1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1511466269",
+        "wwiseName": "Play__Robot_Vo__React_Stuck_Angry_P1"
+    },
+    {
+        "aliasName": "React_Stuck_Angry_P2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1511466270",
+        "wwiseName": "Play__Robot_Vo__React_Stuck_Angry_P2"
+    },
+    {
+        "aliasName": "React_Stuck_Turtle_Roll_Fail_P1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3446648261",
+        "wwiseName": "Play__Robot_Vo__React_Stuck_Turtle_Roll_Fail_P1"
+    },
+    {
+        "aliasName": "React_Stuck_Turtle_Roll_Fail_P2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3446648262",
+        "wwiseName": "Play__Robot_Vo__React_Stuck_Turtle_Roll_Fail_P2"
+    },
+    {
+        "aliasName": "React_Stuck_Turtle_Roll_Fail_P3",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3446648263",
+        "wwiseName": "Play__Robot_Vo__React_Stuck_Turtle_Roll_Fail_P3"
+    },
+    {
+        "aliasName": "React_Stuck_Turtle_Roll_Ninja",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "180669663",
+        "wwiseName": "Play__Robot_Vo__React_Stuck_Turtle_Roll_Ninja"
+    },
+    {
+        "aliasName": "React_Stuck_Turtle_Roll_Zen",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1764781296",
+        "wwiseName": "Play__Robot_Vo__React_Stuck_Turtle_Roll_Zen"
+    },
+    {
+        "aliasName": "React_Wheely_Spin",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1957283066",
+        "wwiseName": "Play__Robot_Vo__React_Wheely_Spin"
+    },
+    {
+        "aliasName": "Shared_Align_Grunt",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "254819395",
+        "wwiseName": "Play__Robot_Vo__Shared_Align_Grunt"
+    },
+    {
+        "aliasName": "Shared_Angry",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1580670828",
+        "wwiseName": "Play__Robot_Vo__Shared_Angry"
+    },
+    {
+        "aliasName": "Shared_Angry_Muttering_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3743522050",
+        "wwiseName": "Play__Robot_Vo__Shared_Angry_Muttering_Loop_Play"
+    },
+    {
+        "aliasName": "Shared_Angry_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "622779059",
+        "wwiseName": "Play__Robot_Vo__Shared_Angry_Short"
+    },
+    {
+        "aliasName": "Shared_Awe",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4199618846",
+        "wwiseName": "Play__Robot_Vo__Shared_Awe"
+    },
+    {
+        "aliasName": "Shared_Bored_Look_Side",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "751598833",
+        "wwiseName": "Play__Robot_Vo__Shared_Bored_Look_Side"
+    },
+    {
+        "aliasName": "Shared_Bored_Look_Up",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2589648919",
+        "wwiseName": "Play__Robot_Vo__Shared_Bored_Look_Up"
+    },
+    {
+        "aliasName": "Shared_Bored_Sigh_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "412109486",
+        "wwiseName": "Play__Robot_Vo__Shared_Bored_Sigh_Long"
+    },
+    {
+        "aliasName": "Shared_Bored_Sigh_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2741090610",
+        "wwiseName": "Play__Robot_Vo__Shared_Bored_Sigh_Short"
+    },
+    {
+        "aliasName": "Shared_Celebrate_Spin",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2159643843",
+        "wwiseName": "Play__Robot_Vo__Shared_Celebrate_Spin"
+    },
+    {
+        "aliasName": "Shared_Curious",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3556785413",
+        "wwiseName": "Play__Robot_Vo__Shared_Curious"
+    },
+    {
+        "aliasName": "Shared_Curious_Mutter",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2721235403",
+        "wwiseName": "Play__Robot_Vo__Shared_Curious_Mutter"
+    },
+    {
+        "aliasName": "Shared_Curious_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4047754278",
+        "wwiseName": "Play__Robot_Vo__Shared_Curious_Short"
+    },
+    {
+        "aliasName": "Shared_Disappointed_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "327662522",
+        "wwiseName": "Play__Robot_Vo__Shared_Disappointed_Short"
+    },
+    {
+        "aliasName": "Shared_Effort_Lift",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3824979789",
+        "wwiseName": "Play__Robot_Vo__Shared_Effort_Lift"
+    },
+    {
+        "aliasName": "Shared_Effort_Lift_Heavy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3398455981",
+        "wwiseName": "Play__Robot_Vo__Shared_Effort_Lift_Heavy"
+    },
+    {
+        "aliasName": "Shared_Effort_Pounce",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3727241044",
+        "wwiseName": "Play__Robot_Vo__Shared_Effort_Pounce"
+    },
+    {
+        "aliasName": "Shared_Effort_Pounce_Heavy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "738969844",
+        "wwiseName": "Play__Robot_Vo__Shared_Effort_Pounce_Heavy"
+    },
+    {
+        "aliasName": "Shared_Effort_Set",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1467890010",
+        "wwiseName": "Play__Robot_Vo__Shared_Effort_Set"
+    },
+    {
+        "aliasName": "Shared_Effort_Set_Heavy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "606158106",
+        "wwiseName": "Play__Robot_Vo__Shared_Effort_Set_Heavy"
+    },
+    {
+        "aliasName": "Shared_Effort_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3200991712",
+        "wwiseName": "Play__Robot_Vo__Shared_Effort_Short"
+    },
+    {
+        "aliasName": "Shared_Excited",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2884456673",
+        "wwiseName": "Play__Robot_Vo__Shared_Excited"
+    },
+    {
+        "aliasName": "Shared_Excited_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2679819871",
+        "wwiseName": "Play__Robot_Vo__Shared_Excited_Loop_Play"
+    },
+    {
+        "aliasName": "Shared_Fall_Asleep",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3524061431",
+        "wwiseName": "Play__Robot_Vo__Shared_Fall_Asleep"
+    },
+    {
+        "aliasName": "Shared_Fall_Cliff_Scream",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3144703383",
+        "wwiseName": "Play__Robot_Vo__Shared_Fall_Cliff_Scream"
+    },
+    {
+        "aliasName": "Shared_Frantic_Muttering_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3451388870",
+        "wwiseName": "Play__Robot_Vo__Shared_Frantic_Muttering_Loop_Play"
+    },
+    {
+        "aliasName": "Shared_Frustrated_Low",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1701937252",
+        "wwiseName": "Play__Robot_Vo__Shared_Frustrated_Low"
+    },
+    {
+        "aliasName": "Shared_Fussy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3400453885",
+        "wwiseName": "Play__Robot_Vo__Shared_Fussy"
+    },
+    {
+        "aliasName": "Shared_Fussy_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "756640443",
+        "wwiseName": "Play__Robot_Vo__Shared_Fussy_Loop_Play"
+    },
+    {
+        "aliasName": "Shared_Fussy_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "297407534",
+        "wwiseName": "Play__Robot_Vo__Shared_Fussy_Short"
+    },
+    {
+        "aliasName": "Shared_Giggle_Happy_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1488458019",
+        "wwiseName": "Play__Robot_Vo__Shared_Giggle_Happy_Loop_Play"
+    },
+    {
+        "aliasName": "Shared_Giggle_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3928693597",
+        "wwiseName": "Play__Robot_Vo__Shared_Giggle_Short"
+    },
+    {
+        "aliasName": "Shared_Happy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3531557633",
+        "wwiseName": "Play__Robot_Vo__Shared_Happy"
+    },
+    {
+        "aliasName": "Shared_Happy_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "174359366",
+        "wwiseName": "Play__Robot_Vo__Shared_Happy_Long"
+    },
+    {
+        "aliasName": "Shared_Happy_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3025145855",
+        "wwiseName": "Play__Robot_Vo__Shared_Happy_Loop_Play"
+    },
+    {
+        "aliasName": "Shared_Happy_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1066816362",
+        "wwiseName": "Play__Robot_Vo__Shared_Happy_Short"
+    },
+    {
+        "aliasName": "Shared_Hiccup",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2997626993",
+        "wwiseName": "Play__Robot_Vo__Shared_Hiccup"
+    },
+    {
+        "aliasName": "Shared_Hiccup_Big",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "499154038",
+        "wwiseName": "Play__Robot_Vo__Shared_Hiccup_Big"
+    },
+    {
+        "aliasName": "Shared_Hiccup_Relief",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2188209935",
+        "wwiseName": "Play__Robot_Vo__Shared_Hiccup_Relief"
+    },
+    {
+        "aliasName": "Shared_Idea",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2993967144",
+        "wwiseName": "Play__Robot_Vo__Shared_Idea"
+    },
+    {
+        "aliasName": "Shared_Idea_Loop_Play",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1684239554",
+        "wwiseName": "Play__Robot_Vo__Shared_Idea_Loop_Play"
+    },
+    {
+        "aliasName": "Shared_Idea_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1143549143",
+        "wwiseName": "Play__Robot_Vo__Shared_Idea_Short"
+    },
+    {
+        "aliasName": "Shared_Inhale",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "237432456",
+        "wwiseName": "Play__Robot_Vo__Shared_Inhale"
+    },
+    {
+        "aliasName": "Shared_Inhale_Breath_Medium",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2492717357",
+        "wwiseName": "Play__Robot_Vo__Shared_Inhale_Breath_Medium"
+    },
+    {
+        "aliasName": "Shared_Interested",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1609212516",
+        "wwiseName": "Play__Robot_Vo__Shared_Interested"
+    },
+    {
+        "aliasName": "Shared_Interested_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3957181661",
+        "wwiseName": "Play__Robot_Vo__Shared_Interested_Long"
+    },
+    {
+        "aliasName": "Shared_Pain",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3089977461",
+        "wwiseName": "Play__Robot_Vo__Shared_Pain"
+    },
+    {
+        "aliasName": "Shared_Pounce_Fail",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4228327806",
+        "wwiseName": "Play__Robot_Vo__Shared_Pounce_Fail"
+    },
+    {
+        "aliasName": "Shared_Raspberry",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "717035989",
+        "wwiseName": "Play__Robot_Vo__Shared_Raspberry"
+    },
+    {
+        "aliasName": "Shared_React_Face",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "60844582",
+        "wwiseName": "Play__Robot_Vo__Shared_React_Face"
+    },
+    {
+        "aliasName": "Shared_Sad",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "69470719",
+        "wwiseName": "Play__Robot_Vo__Shared_Sad"
+    },
+    {
+        "aliasName": "Shared_Sad_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2147481440",
+        "wwiseName": "Play__Robot_Vo__Shared_Sad_Long"
+    },
+    {
+        "aliasName": "Shared_Snobby",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2457314414",
+        "wwiseName": "Play__Robot_Vo__Shared_Snobby"
+    },
+    {
+        "aliasName": "Shared_Snore",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "654990394",
+        "wwiseName": "Play__Robot_Vo__Shared_Snore"
+    },
+    {
+        "aliasName": "Shared_Snore_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2130053793",
+        "wwiseName": "Play__Robot_Vo__Shared_Snore_Short"
+    },
+    {
+        "aliasName": "Shared_Squint",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2057205297",
+        "wwiseName": "Play__Robot_Vo__Shared_Squint"
+    },
+    {
+        "aliasName": "Shared_Surprised",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2054953516",
+        "wwiseName": "Play__Robot_Vo__Shared_Surprised"
+    },
+    {
+        "aliasName": "Shared_Surprised_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1145334899",
+        "wwiseName": "Play__Robot_Vo__Shared_Surprised_Short"
+    },
+    {
+        "aliasName": "Shared_Suspicious",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "844374444",
+        "wwiseName": "Play__Robot_Vo__Shared_Suspicious"
+    },
+    {
+        "aliasName": "Shared_Suspicious_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "35665907",
+        "wwiseName": "Play__Robot_Vo__Shared_Suspicious_Short"
+    },
+    {
+        "aliasName": "Shared_Take_Damage_Light",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3078492749",
+        "wwiseName": "Play__Robot_Vo__Shared_Take_Damage_Light"
+    },
+    {
+        "aliasName": "Shared_Thinking_Short",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3456819050",
+        "wwiseName": "Play__Robot_Vo__Shared_Thinking_Short"
+    },
+    {
+        "aliasName": "Shared_Upgrade_Curious",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2081938528",
+        "wwiseName": "Play__Robot_Vo__Shared_Upgrade_Curious"
+    },
+    {
+        "aliasName": "Shared_Upgrade_Impressed",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1733627270",
+        "wwiseName": "Play__Robot_Vo__Shared_Upgrade_Impressed"
+    },
+    {
+        "aliasName": "Shared_Upgrade_Surprised",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "954550705",
+        "wwiseName": "Play__Robot_Vo__Shared_Upgrade_Surprised"
+    },
+    {
+        "aliasName": "Shared_Wake_Up_1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "67470331",
+        "wwiseName": "Play__Robot_Vo__Shared_Wake_Up_1"
+    },
+    {
+        "aliasName": "Shared_Wake_Up_2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "67470328",
+        "wwiseName": "Play__Robot_Vo__Shared_Wake_Up_2"
+    },
+    {
+        "aliasName": "Shared_Wake_Up_3",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "67470329",
+        "wwiseName": "Play__Robot_Vo__Shared_Wake_Up_3"
+    },
+    {
+        "aliasName": "Shared_Wake_Up_4",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "67470334",
+        "wwiseName": "Play__Robot_Vo__Shared_Wake_Up_4"
+    },
+    {
+        "aliasName": "Shared_Wake_Up_P1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "246308351",
+        "wwiseName": "Play__Robot_Vo__Shared_Wake_Up_P1"
+    },
+    {
+        "aliasName": "Shared_Wake_Up_P2",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "246308348",
+        "wwiseName": "Play__Robot_Vo__Shared_Wake_Up_P2"
+    },
+    {
+        "aliasName": "Shared_Wake_Up_Snort",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "781027234",
+        "wwiseName": "Play__Robot_Vo__Shared_Wake_Up_Snort"
+    },
+    {
+        "aliasName": "Singing_Alle_Meine_Entchen",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "804186022",
+        "wwiseName": "Play__Robot_Vo__Singing_Alle_Meine_Entchen"
+    },
+    {
+        "aliasName": "Singing_Beethovens_5Th",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3795010874",
+        "wwiseName": "Play__Robot_Vo__Singing_Beethovens_5Th"
+    },
+    {
+        "aliasName": "Singing_Camptown",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2922615820",
+        "wwiseName": "Play__Robot_Vo__Singing_Camptown"
+    },
+    {
+        "aliasName": "Singing_Happy_Birthday",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2259770973",
+        "wwiseName": "Play__Robot_Vo__Singing_Happy_Birthday"
+    },
+    {
+        "aliasName": "Singing_Itsy_Bisty_Spider",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1216523470",
+        "wwiseName": "Play__Robot_Vo__Singing_Itsy_Bisty_Spider"
+    },
+    {
+        "aliasName": "Singing_Mary_Little_Lamb",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3827215192",
+        "wwiseName": "Play__Robot_Vo__Singing_Mary_Little_Lamb"
+    },
+    {
+        "aliasName": "Singing_Ode_To_Joy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3332514350",
+        "wwiseName": "Play__Robot_Vo__Singing_Ode_To_Joy"
+    },
+    {
+        "aliasName": "Singing_Oh_My_Darlin",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2720242428",
+        "wwiseName": "Play__Robot_Vo__Singing_Oh_My_Darlin"
+    },
+    {
+        "aliasName": "Singing_Pop_Goes_The_Weasel",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1694352783",
+        "wwiseName": "Play__Robot_Vo__Singing_Pop_Goes_The_Weasel"
+    },
+    {
+        "aliasName": "Singing_Row_Your_Boat",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "822436830",
+        "wwiseName": "Play__Robot_Vo__Singing_Row_Your_Boat"
+    },
+    {
+        "aliasName": "Singing_Take_Me_Out_Ballgame",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2051975060",
+        "wwiseName": "Play__Robot_Vo__Singing_Take_Me_Out_Ballgame"
+    },
+    {
+        "aliasName": "Singing_Teapot",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "178156572",
+        "wwiseName": "Play__Robot_Vo__Singing_Teapot"
+    },
+    {
+        "aliasName": "Singing_Twinkle",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2014444941",
+        "wwiseName": "Play__Robot_Vo__Singing_Twinkle"
+    },
+    {
+        "aliasName": "Singing_William_Tell",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1292245236",
+        "wwiseName": "Play__Robot_Vo__Singing_William_Tell"
+    },
+    {
+        "aliasName": "Singing_Yankee_Doodle",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1845183010",
+        "wwiseName": "Play__Robot_Vo__Singing_Yankee_Doodle"
+    },
+    {
+        "aliasName": "Sparked_Driving",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3606845375",
+        "wwiseName": "Play__Robot_Vo__Sparked_Driving"
+    },
+    {
+        "aliasName": "Sparked_Driving_Look",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2670470879",
+        "wwiseName": "Play__Robot_Vo__Sparked_Driving_Look"
+    },
+    {
+        "aliasName": "Sparked_Driving_Start",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1233493330",
+        "wwiseName": "Play__Robot_Vo__Sparked_Driving_Start"
+    },
+    {
+        "aliasName": "Sparked_Fail",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2861844754",
+        "wwiseName": "Play__Robot_Vo__Sparked_Fail"
+    },
+    {
+        "aliasName": "Sparked_Out",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2452343422",
+        "wwiseName": "Play__Robot_Vo__Sparked_Out"
+    },
+    {
+        "aliasName": "Sparked_Pyramid_Complete",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1438874844",
+        "wwiseName": "Play__Robot_Vo__Sparked_Pyramid_Complete"
+    },
+    {
+        "aliasName": "Sparked_Ready_To_Go",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4268262662",
+        "wwiseName": "Play__Robot_Vo__Sparked_Ready_To_Go"
+    },
+    {
+        "aliasName": "Sparked_Succeed",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4231360462",
+        "wwiseName": "Play__Robot_Vo__Sparked_Succeed"
+    },
+    {
+        "aliasName": "Sparked_Succeed_Tada",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2693760973",
+        "wwiseName": "Play__Robot_Vo__Sparked_Succeed_Tada"
+    },
+    {
+        "aliasName": "Sparked_Surprise",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3822640315",
+        "wwiseName": "Play__Robot_Vo__Sparked_Surprise"
+    },
+    {
+        "aliasName": "Sparked_Workout_Break_Lift_Pain",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "492094136",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Break_Lift_Pain"
+    },
+    {
+        "aliasName": "Sparked_Workout_Break_Lift_Startled",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1138165379",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Break_Lift_Startled"
+    },
+    {
+        "aliasName": "Sparked_Workout_Break_Lift_Struggle",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "9918389",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Break_Lift_Struggle"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Fail",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1101180372",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Fail"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Fail_Struggle",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "835476802",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Fail_Struggle"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Fail_Struggle_Long",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1462283623",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Fail_Struggle_Long"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Fail_Struggle_Longest",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2885068477",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Fail_Struggle_Longest"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Fail_Tired",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3312564867",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Fail_Tired"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Success_Showoff",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2247677502",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Success_Showoff"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Success_Strong",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1844409553",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Success_Strong"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Success_Throw_Block",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3296787010",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Success_Throw_Block"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Success_Weak",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2216609612",
+        "wwiseName": "Play__Robot_Vo__Sparked_Workout_Lift_Success_Weak"
+    },
+    {
+        "aliasName": "Test_English_Nathan",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1093959669",
+        "wwiseName": "Play__Robot_Vo__Test_English_Nathan"
+    },
+    {
+        "aliasName": "Test_French_Thomas",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "675768851",
+        "wwiseName": "Play__Robot_Vo__Test_French_Thomas"
+    },
+    {
+        "aliasName": "Test_German_Markus",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "839828754",
+        "wwiseName": "Play__Robot_Vo__Test_German_Markus"
+    },
+    {
+        "aliasName": "Test_German_Yannick",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "440564342",
+        "wwiseName": "Play__Robot_Vo__Test_German_Yannick"
+    },
+    {
+        "aliasName": "Test_Japanese_Daisuke",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "649271426",
+        "wwiseName": "Play__Robot_Vo__Test_Japanese_Daisuke"
+    },
+    {
+        "aliasName": "Test_Japanese_Ichiro",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3160185928",
+        "wwiseName": "Play__Robot_Vo__Test_Japanese_Ichiro"
+    },
+    {
+        "aliasName": "Word_Cat",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "743962600",
+        "wwiseName": "Play__Robot_Vo__Word_Cat"
+    },
+    {
+        "aliasName": "Word_Cube_Happy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1400293052",
+        "wwiseName": "Play__Robot_Vo__Word_Cube_Happy"
+    },
+    {
+        "aliasName": "Word_Cube_Neutral",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "740915407",
+        "wwiseName": "Play__Robot_Vo__Word_Cube_Neutral"
+    },
+    {
+        "aliasName": "Word_Cube_Request",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3660085349",
+        "wwiseName": "Play__Robot_Vo__Word_Cube_Request"
+    },
+    {
+        "aliasName": "Word_Cube_Sad",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3995541618",
+        "wwiseName": "Play__Robot_Vo__Word_Cube_Sad"
+    },
+    {
+        "aliasName": "Word_Dog",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "843495306",
+        "wwiseName": "Play__Robot_Vo__Word_Dog"
+    },
+    {
+        "aliasName": "Word_Fist_Bump",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1089575137",
+        "wwiseName": "Play__Robot_Vo__Word_Fist_Bump"
+    },
+    {
+        "aliasName": "Word_Fist_Bump_Request",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3296388559",
+        "wwiseName": "Play__Robot_Vo__Word_Fist_Bump_Request"
+    },
+    {
+        "aliasName": "Word_Keepaway_Excited",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3097808214",
+        "wwiseName": "Play__Robot_Vo__Word_Keepaway_Excited"
+    },
+    {
+        "aliasName": "Word_Keepaway_Request",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3460255911",
+        "wwiseName": "Play__Robot_Vo__Word_Keepaway_Request"
+    },
+    {
+        "aliasName": "Word_Keepaway_Sad",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2098273712",
+        "wwiseName": "Play__Robot_Vo__Word_Keepaway_Sad"
+    },
+    {
+        "aliasName": "Word_Memory_Match_Happy",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2694835404",
+        "wwiseName": "Play__Robot_Vo__Word_Memory_Match_Happy"
+    },
+    {
+        "aliasName": "Word_Memory_Match_Request",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4090420021",
+        "wwiseName": "Play__Robot_Vo__Word_Memory_Match_Request"
+    },
+    {
+        "aliasName": "Word_Memory_Match_Sad",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1881407426",
+        "wwiseName": "Play__Robot_Vo__Word_Memory_Match_Sad"
+    },
+    {
+        "aliasName": "Word_Peekaboo_Level_1",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2687916921",
+        "wwiseName": "Play__Robot_Vo__Word_Peekaboo_Level_1"
+    },
+    {
+        "aliasName": "Word_Peekaboo_Request",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4173776344",
+        "wwiseName": "Play__Robot_Vo__Word_Peekaboo_Request"
+    },
+    {
+        "aliasName": "Word_Quick_Tap",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "444948971",
+        "wwiseName": "Play__Robot_Vo__Word_Quick_Tap"
+    },
+    {
+        "aliasName": "Word_Speedtap_Excited",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2751243663",
+        "wwiseName": "Play__Robot_Vo__Word_Speedtap_Excited"
+    },
+    {
+        "aliasName": "Word_Speedtap_Request",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "919083726",
+        "wwiseName": "Play__Robot_Vo__Word_Speedtap_Request"
+    },
+    {
+        "aliasName": "Bpk_Blue_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3465206791",
+        "wwiseName": "Stop__Robot_Sfx__Bpk_Blue_Loop_Stop"
+    },
+    {
+        "aliasName": "Bpk_Green_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1179892788",
+        "wwiseName": "Stop__Robot_Sfx__Bpk_Green_Loop_Stop"
+    },
+    {
+        "aliasName": "Bpk_Red_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1319205172",
+        "wwiseName": "Stop__Robot_Sfx__Bpk_Red_Loop_Stop"
+    },
+    {
+        "aliasName": "Bpk_White_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3518231466",
+        "wwiseName": "Stop__Robot_Sfx__Bpk_White_Loop_Stop"
+    },
+    {
+        "aliasName": "Effort_Long_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "809545185",
+        "wwiseName": "Stop__Robot_Sfx__Effort_Long_Stop"
+    },
+    {
+        "aliasName": "Mvt_Tread_Backward_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1804693497",
+        "wwiseName": "Stop__Robot_Sfx__Mvt_Tread_Backward_Loop_Stop"
+    },
+    {
+        "aliasName": "Mvt_Tread_Forward_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2726200329",
+        "wwiseName": "Stop__Robot_Sfx__Mvt_Tread_Forward_Loop_Stop"
+    },
+    {
+        "aliasName": "Mvt_Tread_Spin_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3541928210",
+        "wwiseName": "Stop__Robot_Sfx__Mvt_Tread_Spin_Loop_Stop"
+    },
+    {
+        "aliasName": "Scan_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3944269316",
+        "wwiseName": "Stop__Robot_Sfx__Scan_Loop_Stop"
+    },
+    {
+        "aliasName": "Scrn_Angry_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "135679235",
+        "wwiseName": "Stop__Robot_Sfx__Scrn_Angry_Loop_Stop"
+    },
+    {
+        "aliasName": "Scrn_Curious_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3150837778",
+        "wwiseName": "Stop__Robot_Sfx__Scrn_Curious_Loop_Stop"
+    },
+    {
+        "aliasName": "Scrn_Happy_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3894707430",
+        "wwiseName": "Stop__Robot_Sfx__Scrn_Happy_Loop_Stop"
+    },
+    {
+        "aliasName": "Sparked_Workout_Break_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "2283733205",
+        "wwiseName": "Stop__Robot_Sfx__Sparked_Workout_Break_Loop_Stop"
+    },
+    {
+        "aliasName": "Srv_Angry_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "3852925444",
+        "wwiseName": "Stop__Robot_Sfx__Srv_Angry_Loop_Stop"
+    },
+    {
+        "aliasName": "Srv_Curious_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "157449021",
+        "wwiseName": "Stop__Robot_Sfx__Srv_Curious_Loop_Stop"
+    },
+    {
+        "aliasName": "Srv_Happy_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Sfx",
+        "type": "Event",
+        "wwiseIdValue": "1264167769",
+        "wwiseName": "Stop__Robot_Sfx__Srv_Happy_Loop_Stop"
+    },
+    {
+        "aliasName": "Dizzy_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1227825367",
+        "wwiseName": "Stop__Robot_Vo__Dizzy_Loop_Stop"
+    },
+    {
+        "aliasName": "Gp_Guard_Dog_Fail_Loop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "2820253451",
+        "wwiseName": "Stop__Robot_Vo__Gp_Guard_Dog_Fail_Loop"
+    },
+    {
+        "aliasName": "Shared_Angry_Muttering_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3111285294",
+        "wwiseName": "Stop__Robot_Vo__Shared_Angry_Muttering_Loop_Stop"
+    },
+    {
+        "aliasName": "Shared_Excited_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1864261839",
+        "wwiseName": "Stop__Robot_Vo__Shared_Excited_Loop_Stop"
+    },
+    {
+        "aliasName": "Shared_Frantic_Muttering_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "141017286",
+        "wwiseName": "Stop__Robot_Vo__Shared_Frantic_Muttering_Loop_Stop"
+    },
+    {
+        "aliasName": "Shared_Fussy_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3912485995",
+        "wwiseName": "Stop__Robot_Vo__Shared_Fussy_Loop_Stop"
+    },
+    {
+        "aliasName": "Shared_Giggle_Happy_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "3962033227",
+        "wwiseName": "Stop__Robot_Vo__Shared_Giggle_Happy_Loop_Stop"
+    },
+    {
+        "aliasName": "Shared_Happy_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "4286366971",
+        "wwiseName": "Stop__Robot_Vo__Shared_Happy_Loop_Stop"
+    },
+    {
+        "aliasName": "Shared_Idea_Loop_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "273762158",
+        "wwiseName": "Stop__Robot_Vo__Shared_Idea_Loop_Stop"
+    },
+    {
+        "aliasName": "Sparked_Workout_Lift_Fail_Struggle_Longest_Stop",
+        "category": "",
+        "comment": "",
+        "groupName": "Robot_Vo",
+        "type": "Event",
+        "wwiseIdValue": "1084850966",
+        "wwiseName": "Stop__Robot_Vo__Sparked_Workout_Lift_Fail_Struggle_Longest_Stop"
+    }
+]

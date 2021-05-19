@@ -1,0 +1,1516 @@
+{
+    "nameTable": {
+        "0": "ASSERT",
+        "1": "wifi.dropped_traces",
+        "2": "rtip.dropped_traces",
+        "3": "body.dropped_traces",
+        "5": "DockingController",
+        "6": "Path",
+        "7": "HeadController",
+        "1196": "Messages.Process_commandNV.Unsupported",
+        "11": "SteeringController",
+        "13": "WheelController",
+        "14": "PAP",
+        "16": "LiftController",
+        "1207": "Messages.Process_flashObjectIDs.Unsupported",
+        "141": "WiFi.Update",
+        "25": "IMUFilter",
+        "30": "RTIP.SendMessage.TooBig",
+        "31": "VPG",
+        "33": "PathFollower",
+        "41": "WiFi",
+        "50": "RTIP.AcceptRTIPMessage",
+        "51": "BackgroundTask.IntervalTooLong",
+        "52": "BackgroundTask.RunTimeTooLong",
+        "1195": "Messages.enableMotorPower.UnhandledMotorID",
+        "54": "HeadController.MotorBurnoutProtection",
+        "55": "Localization.InterpolatePose.PosesOutOfOrder",
+        "56": "Localization.InterpolatePose.TargetTimeOOR",
+        "57": "Localization.UpdatePoseWithKeyFrame.SettingPose",
+        "58": "Localization.UpdatePoseWithKeyFrame.TimeNotFound",
+        "59": "Localization.UpdatePoseWithKeyFrame.IgnoreOldKeyframe",
+        "60": "Localization.GetHistPoseAtTime.NoHistory",
+        "61": "Localization.GetHistPoseAtTime.TimeTooOld",
+        "62": "Localization.GetHistPoseAtTime.TimeTooNew",
+        "63": "TestModeController.Reset",
+        "64": "TestModeController.PlaceOnGroundTestInit",
+        "66": "TestModeController.DockPathTestInit",
+        "67": "TestModeController.DockPathTestUpdate",
+        "68": "TestModeController.PathFollowTestInit",
+        "69": "TestModeController.PathFollowTestUpdate.Complete",
+        "70": "TestModeController.PathFollowConvenienceFuncTestInit",
+        "71": "TestModeController.PathFollowConvenienceFuncTestUpdate.DriveStraight",
+        "72": "TestModeController.PathFollowConvenienceFuncTestUpdate.DriveArc",
+        "73": "TestModeController.PathFollowConvenienceFuncTestUpdate.DrivePointTurn",
+        "74": "TestModeController.DriveTestInit",
+        "75": "TestModeController.DriveTestUpdate",
+        "76": "TestModeController.LiftTestInit",
+        "77": "TestModeController.LiftTestUpdate",
+        "78": "TestModeController.LiftToggleTestInit",
+        "79": "TestModeController.LiftToggleTestUpdate",
+        "80": "TestModeController.HeadTestInit",
+        "81": "TestModeController.HeadTestUpdate",
+        "82": "TestModeController.IMUTestInit",
+        "83": "TestModeController.IMUTestUpdate",
+        "84": "TestModeController.LightTestInit",
+        "88": "TestModeController.StopTestInit",
+        "89": "TestModeController.StopTestUpdate",
+        "90": "TestModeController.MaxPowerTestInit",
+        "91": "TestModeController.MaxPowerTestUpdate",
+        "94": "CozmoBot.TicsPerSec",
+        "95": "PathFollower.DriveStraight.NegativeFraction",
+        "97": "PathFollower.DrivePointTurn.NegativeFraction",
+        "99": "PathFollower.DriveArc.NegativeFraction",
+        "100": "Messages.Process_syncTime.Recvd",
+        "103": "Messages.Process_executePath.StartingPath",
+        "188": "UpgradeController.termination",
+        "106": "Messages.ProcessBadTag_EngineToRobot.Recvd",
+        "107": "Messages.StillLookingForID.Timeout",
+        "108": "Messages.Process_placeObjectOnGround.Recvd",
+        "109": "Messages.Process_liftHeight.Recvd",
+        "229": "CozmoBot.Radio.Disconnected",
+        "115": "Messages.Process_absLocalizationUpdate.Recvd",
+        "116": "Messages.Process_drive.Executing",
+        "117": "Messages.Process_headAngle.Recvd",
+        "118": "Messages.Process_turnInPlaceAtSpeed.Recvd",
+        "119": "Receiver.ReceiveData.Invalid",
+        "120": "Receiver.ReceiveData.SizeError",
+        "125": "SteeringController.SetPointTurnGains",
+        "213": "Face.Draw.Number.TooWide",
+        "128": "Spine.Enqueue.MessageTooLong",
+        "192": "SimHAL.CameraGetFrame.NullImagePointer",
+        "131": "PointTurnSpeed",
+        "193": "sim_hal.ReadingDiscoveryChannel.UnexpectedMsg",
+        "137": "WiFi.Messages",
+        "138": "Spine.Manage",
+        "139": "Spine.ProcessMessage",
+        "140": "Head.ProcessMessage.BadTag",
+        "194": "BackpackLightController.EnableLayer.InvalidLayer",
+        "143": "Camera.CameraSetParameters",
+        "144": "ReliableTransport.SetConnectionTimeout",
+        "197": "Face.Draw.Copy.TooWide",
+        "162": "ReadToolCodeMode",
+        "163": "nvstorage.simulator_get_camera_calib.calib_not_found",
+        "1192": "IMUCalibration.Read.NotFound",
+        "1193": "IMUCalibrationData.Read.Success",
+        "1194": "IMUCalibrationData.Read.NotFound",
+        "171": "UpgradeController",
+        "172": "UpgradeController.state",
+        "1197": "Messages.Process_enableColorImages.Unsupported",
+        "1198": "Messages.Process_setCameraParams.Unsupported",
+        "1199": "DockingController.SetCameraFieldOfView.Values",
+        "1201": "DockingController.GetVerticalFOV.ZeroFOV",
+        "1202": "DockingController.GetHorizontalFOV.ZeroFOV",
+        "1203": "hardware.revision",
+        "1204": "SteeringController.ExecutePointTurn.Params",
+        "182": "RobotPitch",
+        "183": "DIRECT DRIVE",
+        "1208": "ProxSensors.UpdateCliff.CliffData",
+        "185": "I2SPI.TooMuchDrift",
+        "187": "IMUFilter.EnableBraceWhenFalling",
+        "1212": "DockingController.Update.Success",
+        "1213": "head_timestamp_mismatch",
+        "190": "SimHAL.CameraGetFrame.NullFramePointer",
+        "191": "SimHAL.CameraGetFrame",
+        "1216": "HAL.InitIMU.NullSensorManager",
+        "1217": "HAL.InitIMU.NullAccelerometer",
+        "1218": "HAL.InitIMU.NullGyroscope",
+        "1219": "HAL.InitIMU.NullLooper",
+        "1220": "HAL.InitIMU.CreateEventQueueFailed",
+        "1221": "HAL.InitIMU.AccelEnableFailed",
+        "1222": "HAL.InitIMU.AccelSetRateFailed",
+        "1223": "HAL.InitIMU.GyroEnableFailed",
+        "1224": "HAL.InitIMU.GyroSetRateFailed",
+        "1226": "HAL.InitIMU.AccMinDelay",
+        "1227": "HAL.InitIMU.GyroMinDelay",
+        "1228": "HAL.ProcessIMUEvents.Accel",
+        "1229": "HAL.ProcessIMUEvents.Gyro",
+        "206": "CrashReporter.UnknownReporter",
+        "207": "CrashReporter.FailedToSend",
+        "208": "CrashReporter.PutRtipCrashLog.NULL",
+        "209": "CrashReporter.PutRtipCrashLog.Failed",
+        "210": "CrashReporter.PutBodyCrashLog.NULL",
+        "211": "CrashReporter.PutBodyCrashLog.Failed",
+        "212": "CrashRecorder.AcceptBodyStorage.NoMem",
+        "1230": "HAL.PushIMU.ArrayIsFull",
+        "1238": "TestModeController.LightTestUpdate",
+        "1239": "TestModeController.Start",
+        "216": "RTIP.SendMessage.Failed",
+        "1231": "SteeringController.ManagePointTurn.Controller",
+        "220": "CozmoBot.InitFail.Messages",
+        "221": "CozmoBot.InitFail.Localization",
+        "222": "CozmoBot.InitFail.PathFollower",
+        "224": "CozmoBot.InitFail.DockingController",
+        "1249": "CozmoBot.InitFail.BackpackLightController",
+        "1250": "BackpackLightController.SetParams.InvalidLayer",
+        "1251": "LiftController.Calibrated",
+        "1252": "sim_hal.GetButtonState.UnexpectedButtonType",
+        "1253": "face_animate.dropped_frame",
+        "1233": "ProxSensors.GetRawCliffValue.InvalidIndex",
+        "232": "VPG.StartProfile_fixedDuration.AccDurationsExceedTotal",
+        "233": "VPG.StartProfile_fixedDuration.EndPosReachedDuringStartingAcc",
+        "234": "VPG.StartProfile_fixedDuration.NegativeDiscriminant",
+        "235": "VPG.StartProfile_fixedDuration.NegativeVm",
+        "236": "VPG.StartProfile_fixedDuration.VelExceedsMax",
+        "237": "VPG.StartProfile_fixedDuration.AccelMaxExceeded",
+        "238": "VPG.Step",
+        "239": "SteeringController.SetGains",
+        "240": "SteeringController.Manage.Mode",
+        "241": "SteeringController.RunLineFollowControllerNL.Errors",
+        "242": "SteeringController.RunLineFollowControllerNL.Speeds",
+        "243": "SteeringController.ExecutePointTurn_Internal.PointTurnTooSlow",
+        "244": "SteeringController.ExecutePointTurn_2.PointTurnTooFast",
+        "245": "SteeringController.ExecutePointTurn.PointTurnTooFast",
+        "246": "SteeringController.ExecutePointTurn.AlreadyAtDest",
+        "247": "SteeringController.ManagePointTurn.InRange",
+        "248": "SteeringController.ManagePointTurn.Stopping",
+        "249": "SteeringController.ManagePointTurn.OOR",
+        "250": "SteeringController.ManagePointTurn.StoppingCuzStuck",
+        "251": "SteeringController.ManagePointTurn.DistToTarget",
+        "252": "SteeringController.ManagePointTurn.StoppingBecause0Vel",
+        "253": "Path.GetLength.UndefinedSegment",
+        "254": "Path.OffsetStart.UndefinedSegment",
+        "255": "Path.GetStartPoint.UndefinedSegment",
+        "256": "Path.GetEndPose.UndefinedSegment",
+        "257": "Path.Print.Line",
+        "258": "Path.Print.Arc",
+        "259": "Path.Print.Turn",
+        "260": "Path.GetDistToSegment.UndefinedSegment",
+        "261": "Path.GetDistToLineSegment",
+        "262": "Path.GetDistToArcSegment",
+        "263": "Path.GetDistToPointTurnSegment",
+        "264": "Path.PrintSegment",
+        "265": "Path.GenerateDubinsPath.InvalidSegment",
+        "266": "Path.CheckSegmentContinuity.Fail_NoExist",
+        "267": "Path.CheckSegmentContinuity.Fail",
+        "268": "Path.AppendLine.ExceededMaxSize",
+        "269": "Path.AppendLine",
+        "270": "Path.AddArc.ZeroSweep",
+        "271": "Path.AddArc",
+        "272": "Path.AppendArc.ExceededMaxSize",
+        "273": "Path.AppendArc.ZeroSweep",
+        "274": "Path.AppendPointTurn.ExceededMaxSize",
+        "275": "Path.AppendSegment.ExceededMaxSize",
+        "276": "Path.AppendSegment",
+        "1236": "Messages.Process_setControllerGains.InvalidController",
+        "280": "LiftController.SetGains",
+        "282": "HeadController.CalibratedWhileApplyingPower",
+        "283": "HeadController.Calibrated",
+        "284": "HeadController.SetGains",
+        "286": "PAP.StartBackingOut.Dist",
+        "287": "PAP.SET_LIFT_PREDOCK.InvalidAction",
+        "214": "Face.Draw.Print.TooWide",
+        "289": "PAP.DOCKING.InvalidAction",
+        "290": "PAP.SET_LIFT_POSTDOCK.InvalidAction",
+        "291": "PAP.MOVING_LIFT_POSTDOCK.InvalidAction",
+        "292": "PAP.BACKUP_ON_CHARGER.Timeout",
+        "293": "PAP.BACKUP_ON_CHARGER.Tilted",
+        "294": "PAP.BACKUP_ON_CHARGER.Success",
+        "295": "PAP.Update.InvalidAction",
+        "296": "PAP.DockToBlock.Action",
+        "297": "PAP.SetRollActionParams",
+        "299": "DockingController.Update.BackingUpAndStopping",
+        "300": "DockingController.Update.TrackerPeriod",
+        "301": "DockingController.Update.NoLongerPastPointOfNoReturn",
+        "302": "DockingController.Update.ReceivedErrorSignal",
+        "303": "DockingController.Update.MarkerExpectedInsideFOV",
+        "304": "DockingController.Update.MarkerExpectedOutsideFOV",
+        "305": "DockingController.Update.PointOfNoReturn",
+        "306": "DockingController.LOOKING_FOR_BLOCK.TooLongWithoutErrorSignal",
+        "307": "DockingController.APPROACH_FOR_DOCK.TooLongWithoutErrorSignal",
+        "308": "DockingController.Update.FinishedPathButErrorSignalTooLarge_1",
+        "309": "DockingController.Update.AbleToDoHannsManeuver_1",
+        "310": "DockingController.Update.FinishedPathButErrorSignalTooLarge_2",
+        "311": "DockingController.Update.AbleToDoHannsManeuver_2",
+        "312": "DockingController.Update.ExecutingHannsManeuver",
+        "313": "DockingController.Update.BackingUp",
+        "314": "DockingController.Update.TooManyDockingFails",
+        "316": "DockingController.Update.DockingSucces",
+        "317": "DockingController.Update.InvalidMode",
+        "318": "DockingController.SetRelDockPose.OORErrorSignal",
+        "320": "DockingController.SetRelDockPose.DockPoseReached",
+        "321": "DockingController.SetRelDockPose",
+        "322": "DockingController.SetRelDockPose.AcquireNewSignal",
+        "323": "DockingController.SetRelDockPose.MarkerInsideFOV",
+        "324": "DockingController.SetRelDockPose.DubinsPathFailed",
+        "325": "DockingController.SetRelDockPose.FailedToCreatePath",
+        "326": "WheelController.SetGains",
+        "225": "CozmoBot.InitFail.PickAndPlaceController",
+        "329": "IMUFilter.PokeDetected.Gyro",
+        "330": "IMUFilter.PokeDetected.Accel",
+        "231": "CozmoBot.InvalidMode",
+        "226": "CozmoBot.InitFail.LiftController",
+        "335": "IMUFilter.IMURecording.Complete",
+        "336": "IMUFilter.IMURecording.CompleteRaw",
+        "337": "IMUFilter.IMURecording.Start",
+        "338": "Messages.Process_drive.IgnoringBecauseAlreadyOnPath",
+        "339": "ProxSensors.UpdateCliff.StoppingDueToCliff",
+        "340": "ProxSensors.EnableCliffDetector",
+        "341": "ProxSensors.EnableStopOnCliff",
+        "342": "PathFollower.GetClosestSegment.PathDist",
+        "343": "PathFollower.GetClosestSegment",
+        "344": "PathFollower.StartPathTraversal.PathIsDiscontinuous",
+        "345": "PathFollower.StartPathTraversal",
+        "346": "PathFollower.ProcessPathSegment.Decel",
+        "347": "PathFollower.ProcessPathSegmentPointTurn",
+        "348": "PathFollower.ProcessPathSegmentPointTurn.ExecutePointTurn",
+        "349": "PathFollower.PathComplete",
+        "199": "UpgradeController.encryption.noIV",
+        "351": "PathFollower.Update.DistToPath",
+        "352": "PathFollower.Update.SegmentSpeed",
+        "353": "PathFollower.Update.StartingErrorTooLarge",
+        "354": "PathFollower.DriveStraight.VPGFail",
+        "355": "PathFollower.DriveStraight.Params",
+        "356": "PathFollower.DriveStraight.Accels",
+        "350": "PathFollower.Update.InvalidSegmentType",
+        "358": "PathFollower.DriveArc.VPGFail",
+        "359": "PathFollower.DriveArc",
+        "360": "PathFollower.DrivePointTurn.VPGFail",
+        "361": "PathFollower.DrivePointTurn",
+        "362": "DockingController.Init.NullHeadCamInfo",
+        "363": "PAP.DOCKING.DockingFailed",
+        "364": "WiFi.Messages.ProcessMessage.AddressedToEngine",
+        "365": "WiFi.Messages.ProcessMessage.TooBig",
+        "366": "CozmoBot.InitFail.IMUFilter",
+        "368": "IMUFilter.PDWhileStationary",
+        "370": "client.reliable_message_dropped",
+        "371": "I2SPI.Resync",
+        "372": "SteeringController.ExitPointTurn",
+        "374": "SteeringController.ExecutePointTurn_2.Params",
+        "375": "nvstorage.invalid_operation",
+        "376": "Face.Draw.NumberTiny.TooWide",
+        "1240": "CozmoBot.MainCycleTimeError",
+        "1206": "Messages.Process_imageRequest.Unsupported",
+        "179": "CozmoBot.BroadcastingAvailability",
+        "389": "LiftController.Update.Values",
+        "390": "LiftController.Update.Power",
+        "391": "IMUFilter.Bias",
+        "392": "IMUFilter.Update.GyroBiasInit",
+        "393": "IMUFilter.Update.GyroCalibrated",
+        "394": "Messages.Update.GyroCalibrated",
+        "396": "timeprofiler.getprofname_while_busy",
+        "397": "timeprofiler.computestats_while_busy",
+        "398": "wifi.dropped_incomming_messages",
+        "399": "HeadController.SetDesiredAngle.VPGFixedDurationFailed",
+        "400": "LiftController.SetDesiredHeight.VPGFixedDurationFailed",
+        "401": "SteeringController.ExecutePointTurn_2.NanParamFound",
+        "402": "SteeringController.ExecutePointTurn.NanParamFound",
+        "403": "I2SPI.Error",
+        "405": "wifi.update.spine_spin",
+        "406": "WiFi.RadioSendMessage",
+        "408": "TestModeController.PlaceOnGroundTestUpdate.Complete",
+        "409": "macaddr.soft_ap",
+        "410": "macaddr.soft_ap.error",
+        "411": "boot_count.phase",
+        "412": "boot_count.error",
+        "413": "client.connections_since_boot",
+        "414": "watchdog_reset_count",
+        "415": "charge_contact_shorted",
+        "416": "ProxSensors.SetCliffDetectThreshold.TooHigh",
+        "417": "ProxSensors.SetCliffDetectThreshold.NewLevel",
+        "418": "LiftController.Update.NoLoadDetected",
+        "419": "LiftController.Update.LoadDetected",
+        "420": "LiftController.Update.CheckingForLoad",
+        "421": "IMUFilter.PickupDetected",
+        "1237": "Messages.Process_dockWithObject.Recvd",
+        "219": "CozmoBot.InitFail.HAL",
+        "228": "CozmoBot.Radio.Connected",
+        "357": "PathFollower.DriveStraight.Points",
+        "1234": "PAP.StartBackingOut.InvalidAction",
+        "170": "UpdateController"
+    },
+    "formatTable": {
+        "0": [
+            "Invalid format ID",
+            0
+        ],
+        "1": [
+            "dropped %d traces",
+            1
+        ],
+        "514": [
+            "Couldn't send crash report, will retry.",
+            0
+        ],
+        "515": [
+            "RTIP Crash log pointer is null",
+            0
+        ],
+        "516": [
+            "Failed to put crash record %d",
+            1
+        ],
+        "517": [
+            "Body Crash log pointer is null",
+            0
+        ],
+        "518": [
+            "Couldn't allocate memory for RTIP crash log",
+            0
+        ],
+        "519": [
+            "Couldn't allocate memory for body crash log",
+            0
+        ],
+        "520": [
+            "%d + %d > %d",
+            3
+        ],
+        "522": [
+            "acc_start_duration + acc_end_duration exceeds total duration (%f + %f > %f)",
+            3
+        ],
+        "631": [
+            "Cozmo 2.0 NVStorage is in engine only",
+            0
+        ],
+        "524": [
+            "A = %f, B = %f, C = %f",
+            3
+        ],
+        "525": [
+            "vm > 0  (A = %f, B = %f, C = %f)",
+            3
+        ],
+        "526": [
+            "vs = %f, vm = %f, vel_max = %f",
+            3
+        ],
+        "527": [
+            "acc_start = %f, acc_end = %f, acc_max = %f",
+            3
+        ],
+        "528": [
+            "currVel %f, currPos %f, currDistToTarget %f, isDecel %d",
+            4
+        ],
+        "529": [
+            "New gains: k1 %f, k2 %f, dist_cap %f mm, ang_cap %f rad",
+            4
+        ],
+        "530": [
+            "offsetError_mm: %f, headingError_rad: %f, curvature: %f, currSpeed: %d",
+            4
+        ],
+        "531": [
+            "%d (L), %d (R)",
+            2
+        ],
+        "532": [
+            "Speeding up commanded point turn of %f rad/s to %f rad/s",
+            2
+        ],
+        "533": [
+            "Speed of %f deg/s exceeds limit of %f deg/s. Clamping.",
+            2
+        ],
+        "534": [
+            "distToTarget %f, currAngle %f, currDesired %f (currTime %d, inPosTime %d)",
+            5
+        ],
+        "535": [
+            "currAngle %f, currDesired %f, currVel %f, distTraversed %f, distExpected %f,  wheelSpeeds %f %f, desSpeeds %f %f",
+            9
+        ],
+        "536": [
+            "currAngle %f, currDesired %f",
+            2
+        ],
+        "537": [
+            "angularDistToTarget: %f radians, arcVel: %d mm/s",
+            2
+        ],
+        "538": [
+            "(%f, %f) to (%f, %f), speed/accel/decel = (%f, %f, %f)",
+            7
+        ],
+        "27": [
+            "GetProfName called in middle of profile. Ignoring.",
+            0
+        ],
+        "28": [
+            "ComputeStats called in middle of profile. Ignoring.",
+            0
+        ],
+        "541": [
+            "LINE (%f, %f) (%f, %f)",
+            4
+        ],
+        "542": [
+            "Robot Pose: x: %f, y: %f ang: %f",
+            3
+        ],
+        "543": [
+            "m: %f, b: %f",
+            2
+        ],
+        "544": [
+            "x_int: %f, y_int: %f, b_inv: %f",
+            3
+        ],
+        "545": [
+            "dy: %f, dx: %f, dist: %f",
+            3
+        ],
+        "546": [
+            "signbit(dx): %d, dy_sign: %f",
+            2
+        ],
+        "547": [
+            "lineTheta: %f",
+            1
+        ],
+        "548": [
+            "center (%f, %f), startRad: %f, sweepRad: %f, radius: %f",
+            5
+        ],
+        "551": [
+            "x: %f, y: %f, m: %f, b: %f\\n",
+            4
+        ],
+        "552": [
+            "x_center: %f, y_center: %f\\n",
+            2
+        ],
+        "92": [
+            "HEAD FILT: speed %f, speedFilt %f, currentAngle %f, currHalPos %f, prevPos %f, pwr %f",
+            6
+        ],
+        "554": [
+            "dy: %f, dx: %f, dist: %f, radDiff: %f\\n",
+            4
+        ],
+        "555": [
+            "insideCircle: %d, segmentRangeStatus: %d\\n",
+            2
+        ],
+        "556": [
+            "theta_line: %f, theta_tangent: %f\\n",
+            2
+        ],
+        "557": [
+            "center (%f, %f), targetAngle: %f, targetRotSpeed: %f",
+            4
+        ],
+        "558": [
+            "Path segment %d - ",
+            1
+        ],
+        "559": [
+            "Segment %d greater than number of segments %d",
+            2
+        ],
+        "560": [
+            "Segment %d start point (%f, %f), Segment %d end point (%f, %f)",
+            6
+        ],
+        "561": [
+            "MAX_NUM_PATH_SEGMENTS: %d",
+            1
+        ],
+        "562": [
+            "numPathSegments_ = %u",
+            1
+        ],
+        "563": [
+            "New lift gains: kp = %f, ki = %f, kd = %f, maxSum = %f",
+            4
+        ],
+        "513": [
+            "Reporter = %d",
+            1
+        ],
+        "565": [
+            "Starting %.1fmm backout (%.2fsec duration)",
+            2
+        ],
+        "567": [
+            "liftHeight: %f, speed: %f, accel: %f, duration %d, backupDist %f",
+            5
+        ],
+        "568": [
+            "%d ms",
+            1
+        ],
+        "569": [
+            "(%f > %d)",
+            2
+        ],
+        "570": [
+            "time=%d, x_distErr=%f, y_horErr=%f, z_height=%f, angleErr=%fdeg",
+            5
+        ],
+        "571": [
+            "(%f < %d) mode:%i",
+            3
+        ],
+        "572": [
+            "currTime %d, lastErrSignal %d, Giving up.",
+            2
+        ],
+        "573": [
+            "currTime %d, lastErrSignal %d, Looking for block...",
+            2
+        ],
+        "574": [
+            "MaxRetries %d",
+            1
+        ],
+        "576": [
+            "x: %f, y: %f, rad: %f",
+            3
+        ],
+        "577": [
+            "dockOffsetDistX = %f",
+            1
+        ],
+        "578": [
+            "HistPose %f %f %f (t=%d), currPose %f %f %f (t=%d)\\n",
+            8
+        ],
+        "579": [
+            "%f %f %f",
+            3
+        ],
+        "580": [
+            "New gains: kp=%f, ki=%f, maxSum=%f",
+            3
+        ],
+        "584": [
+            "time %dms",
+            1
+        ],
+        "585": [
+            "time = %dms",
+            1
+        ],
+        "74": [
+            "DUBINS: startPt %f %f %f, preEnd %f %f, endPt %f %f %f, start_radius %f, end_radius %f\\n",
+            10
+        ],
+        "75": [
+            "Dubins path %d: numSegments %d, length %f m\\n",
+            3
+        ],
+        "588": [
+            "Start segment %d, speed = %f, accel = %f, decel = %f",
+            4
+        ],
+        "98": [
+            " HEAD ANGLE REACHED (%f rad)\\n",
+            1
+        ],
+        "78": [
+            "WARNING(Path::PopFront): Can't pop %d segments from %d segment path\\n",
+            2
+        ],
+        "79": [
+            "WARNING(Path::PopBack): Can't pop %d segments from %d segment path\\n",
+            2
+        ],
+        "592": [
+            "%f mm, %f deg, segRes %d, segType %d, currSeg %d",
+            5
+        ],
+        "593": [
+            "Segment %d, speed = %f, accel = %f, decel = %f",
+            4
+        ],
+        "594": [
+            "%f mm",
+            1
+        ],
+        "595": [
+            "total dist %f, startDist %f, endDist %f",
+            3
+        ],
+        "596": [
+            "start %f, end %f, vel %f\\n",
+            3
+        ],
+        "597": [
+            "(%f, %f) to (%f, %f) to (%f, %f) to (%f, %f)\\n",
+            8
+        ],
+        "598": [
+            "curr_x,y  (%f, %f), center x,y (%f, %f), radius %f",
+            5
+        ],
+        "599": [
+            "start + sweep1 = ang1 (%f + %f = %f), end + sweep2 = ang2 ang2 (%f - %f = %f)",
+            6
+        ],
+        "600": [
+            "targetSpeed %f, startAccel %f, endAccel %f",
+            3
+        ],
+        "601": [
+            "sweep_rad: %f, acc_start_frac %f, acc_end_frac %f, duration_sec %f",
+            4
+        ],
+        "602": [
+            "start %f, int_ang1 %f, int_ang2 %f, dest %f",
+            4
+        ],
+        "603": [
+            "targetRotSpeed %f, startRotAccel %f, endRotAccel %f",
+            3
+        ],
+        "604": [
+            "acc (%f, %f, %f), gyro (%f, %f, %f), cliff %d",
+            7
+        ],
+        "93": [
+            "Already at desired angle %f degrees",
+            1
+        ],
+        "94": [
+            "(fixedDuration): SetDesiredAngle %f rads (duration %f)",
+            2
+        ],
+        "607": [
+            "count = %d",
+            1
+        ],
+        "608": [
+            "I2SPI resynchronizing",
+            0
+        ],
+        "97": [
+            "VPG (fixedDuration): startVel %f, startPos %f, acc_start_frac %f, acc_end_frac %f, endPos %f, duration %f",
+            6
+        ],
+        "610": [
+            "%d: vel %f, accel %f",
+            3
+        ],
+        "611": [
+            "operation=%d",
+            1
+        ],
+        "651": [
+            "controller: %hhu",
+            1
+        ],
+        "613": [
+            "LIFT: currA %f, curDesA %f, currVel %f, desA %f, err %f, errSum %f, inPos %d",
+            7
+        ],
+        "614": [
+            "P: %f, I: %f, D: %f, total: %f",
+            4
+        ],
+        "615": [
+            "%d messages dropped, tick %d, time %d, buffer %x %x %d",
+            6
+        ],
+        "616": [
+            "startVel %f, startPos %f, acc_start_frac %f, acc_end_frac %f, endPos %f, duration %f. Trying VPG without fixed duration.",
+            6
+        ],
+        "617": [
+            "%f, %f",
+            2
+        ],
+        "618": [
+            "%f, %f, %f, %f, %f",
+            5
+        ],
+        "590": [
+            "currPathSeg: %d, TURN currAngle: %f, targetAngle: %f",
+            3
+        ],
+        "621": [
+            "Spun %d times",
+            1
+        ],
+        "622": [
+            "code=%x, data=%x",
+            2
+        ],
+        "624": [
+            "%02x:%02x:%02x:%02x:%02x:%02x",
+            6
+        ],
+        "625": [
+            "Unable to retrieve softap MAC address",
+            0
+        ],
+        "626": [
+            "%x",
+            1
+        ],
+        "115": [
+            "speeds: %f (L), %f (R)   (Curr: %d, %d)",
+            4
+        ],
+        "116": [
+            "desired speeds: %f (L), %f (R)",
+            2
+        ],
+        "117": [
+            "error: %f (L), %f (R)   error_sum: %f (L), %f (R)",
+            4
+        ],
+        "118": [
+            "power: %f (L), %f (R)\\n",
+            2
+        ],
+        "105": [
+            "  Wheel speed adjust: (%f, %f), adjustment %f",
+            3
+        ],
+        "632": [
+            "Hardware 1.%d",
+            1
+        ],
+        "633": [
+            "%d: target %f, vel %f, accel %f, decel %f, tol %f, shortestDir %d, numHalfRevs %d",
+            8
+        ],
+        "634": [
+            "H: %f, V: %f",
+            2
+        ],
+        "123": [
+            "ALIGN",
+            0
+        ],
+        "124": [
+            "TRAVERSE_RAMP_DOWN\\n",
+            0
+        ],
+        "125": [
+            "ENTER_BRIDGE\\n",
+            0
+        ],
+        "638": [
+            "vert:%f hort:%f rel_x:%f rel_y:%f t:%d",
+            5
+        ],
+        "127": [
+            "SET_LIFT_POSTDOCK\\n",
+            0
+        ],
+        "642": [
+            "Dropping data",
+            0
+        ],
+        "131": [
+            "SETTING LIFT POSTDOCK\\n",
+            0
+        ],
+        "644": [
+            "%d us",
+            1
+        ],
+        "134": [
+            "Switching out of TRAVERSE_RAMP_DOWN to TRAVERSE_RAMP (angle = %f)\\n",
+            1
+        ],
+        "135": [
+            "IDLE (from TRAVERSE_RAMP)\\n",
+            0
+        ],
+        "648": [
+            "%hhu",
+            1
+        ],
+        "137": [
+            "LEAVING_BRIDGE: relMarkerX = %f",
+            1
+        ],
+        "138": [
+            "TRAVERSE_BRIDGE: Restarting tracking",
+            0
+        ],
+        "139": [
+            "IDLE (from TRAVERSE_BRIDGE)\\n",
+            0
+        ],
+        "652": [
+            "action %hhu, dockMethod %hhu, doLiftLoadCheck %d, speed %f, acccel %f, decel %f, manualSpeed %d",
+            7
+        ],
+        "653": [
+            "WARN: Unknown lift test mode %hhu",
+            1
+        ],
+        "654": [
+            "Unknown head test mode %hhu",
+            1
+        ],
+        "655": [
+            "LED channel %hhu, color 0x%x",
+            2
+        ],
+        "656": [
+            "Undefined test mode %hhu\\n",
+            1
+        ],
+        "145": [
+            "Already at desired height %f",
+            1
+        ],
+        "146": [
+            "LIFT DESIRED HEIGHT: %f mm (curr height %f mm), duration = %f s",
+            3
+        ],
+        "659": [
+            "Dropping frame because %d rects remaining",
+            1
+        ],
+        "148": [
+            "VPG (fixedDuration): startVel %f, startPos %f, acc_start_frac %f, acc_end_frac %f, endPos %f, duration %f\\n",
+            6
+        ],
+        "152": [
+            " LIFT HEIGHT REACHED (%f mm)",
+            1
+        ],
+        "539": [
+            "centerPt (%f, %f), radius %f, startAng %f, sweep %f, speed/accel/decel = (%f, %f, %f)",
+            8
+        ],
+        "166": [
+            "Max gyro: %f %f %f",
+            3
+        ],
+        "540": [
+            "x %f, y %f, targetAngle %f, speed/accel/decel = (%f, %f, %f)",
+            6
+        ],
+        "627": [
+            "Unable to retrieve boot phase indicator",
+            0
+        ],
+        "628": [
+            "in %d ms",
+            1
+        ],
+        "629": [
+            "accX %f, accY %f, accZ %f, cliff %d, gyroZ %d",
+            5
+        ],
+        "198": [
+            "SendMessage: Message too large for RTIP, %d > %d",
+            2
+        ],
+        "199": [
+            "SendMessage: Couldn't forward message %x[%d] to RTIP. I2SPI mode = %d",
+            3
+        ],
+        "200": [
+            "new V_max: %f (d = %f)",
+            2
+        ],
+        "201": [
+            "startVel %f, startPos %f, maxSpeed %f, accel %f",
+            4
+        ],
+        "202": [
+            "endVel %f, endPos %f, timestep %f",
+            3
+        ],
+        "203": [
+            "deltaVel %f, maxReachableVel %f, totalDist %f, decelDistToTarget %f, dir %f",
+            5
+        ],
+        "210": [
+            "startVel %f, startPos %f, endVel %f, endPos %f",
+            4
+        ],
+        "211": [
+            "ts %f, tm %f, te %f, total duration %f",
+            4
+        ],
+        "212": [
+            "deltaVelStart %f, deltaVelEnd %f, maxReachableVel %f",
+            3
+        ],
+        "213": [
+            "totalDist %f, decelDistToTarget %f",
+            2
+        ],
+        "365": [
+            "angle %f, maxSpeed %f, duration %f",
+            3
+        ],
+        "219": [
+            "PathFollower: Decel to end of segment %d (of %d) at %d mm/s^2 from speed of %d mm/s (meas %d mm/s) over %f mm\\n",
+            6
+        ],
+        "122": [
+            "DOCKING",
+            0
+        ],
+        "587": [
+            " New closest seg: %d, distToSegment %f (res=%d)",
+            3
+        ],
+        "635": [
+            "raw: %d, off: %d, thresh: %d / %d",
+            4
+        ],
+        "553": [
+            "x_int: %f, y_int: %f\\n",
+            2
+        ],
+        "639": [
+            "Timestamp expected: %d, got %d",
+            2
+        ],
+        "254": [
+            "Failed \" !(y == 0 && x == 0)\" in file \"supervisor/src/trig_fast.cpp\" line %d",
+            1
+        ],
+        "255": [
+            "Failed \"y != 0 || x != 0\" in file \"supervisor/src/trig_fast.cpp\" line %d",
+            1
+        ],
+        "256": [
+            "Received message too big! %02x[%d] > %d",
+            3
+        ],
+        "258": [
+            "Failed to buffer a keyframe! Clearing Animation buffer!\\n",
+            0
+        ],
+        "259": [
+            "Received message not expected here tag=%02x",
+            1
+        ],
+        "260": [
+            "Can't send message %x[%d] to WiFi, max size %d\\r\\n",
+            3
+        ],
+        "77": [
+            "Dubins: Shortest path %d, length %f\\n",
+            2
+        ],
+        "60": [
+            "lineTheta: %f, robotTheta: %f\\n",
+            2
+        ],
+        "643": [
+            "timestamp %d, currAngle %.1f, desAngle %.1f, currSpeed %.1f, desSpeed %.1f, arcVel %d, ff %.1f, p %.1f, i %.1f, d %.1f, errSum %.1f",
+            11
+        ],
+        "276": [
+            "Failed \"capacity_ == rhs.capacity_\" in file \"supervisor/src/path.cpp\" line %d",
+            1
+        ],
+        "277": [
+            "Failed \"capacity_ == MAX_NUM_PATH_SEGMENTS\" in file \"supervisor/src/path.cpp\" line %d",
+            1
+        ],
+        "278": [
+            "Failed \"pathType != NUM_DUBINS_PATHS\" in file \"supervisor/src/path.cpp\" line %d",
+            1
+        ],
+        "279": [
+            "Failed \"0\" in file \"supervisor/src/path.cpp\" line %d",
+            1
+        ],
+        "280": [
+            "Failed \"timeProfIdx_ < MAX_NUM_PROFILES\" in file \"supervisor/src/timeProfiler.cpp\" line %d",
+            1
+        ],
+        "282": [
+            "Failed \"!NEAR_ZERO(b)\" in file \"supervisor/src/radians.cpp\" line %d",
+            1
+        ],
+        "283": [
+            "Failed \"maxVel_ >= endVel_\" in file \"supervisor/src/velocityProfileGenerator.cpp\" line %d",
+            1
+        ],
+        "284": [
+            "Failed \"accel_ > 0\" in file \"supervisor/src/velocityProfileGenerator.cpp\" line %d",
+            1
+        ],
+        "285": [
+            "Failed \"timeStep_ > 0\" in file \"supervisor/src/velocityProfileGenerator.cpp\" line %d",
+            1
+        ],
+        "286": [
+            "Failed \"path_.GetNumSegments() > 0\" in file \"supervisor/src/pathFollower.cpp\" line %d",
+            1
+        ],
+        "287": [
+            "Failed \"Planning::PST_LINE == path_[currPathSegment_].GetType() || Planning::PST_ARC == path_[currPathSegment_].GetType()\" in file \"supervisor/src/pathFollower.cpp\" line %d",
+            1
+        ],
+        "289": [
+            "Couldn't relay message (%x[%d]) from RTIP over wifi",
+            2
+        ],
+        "646": [
+            "%d [%f]: %f, %f, %f",
+            5
+        ],
+        "295": [
+            "Background task interval too long: %dus!",
+            1
+        ],
+        "296": [
+            "Background task %d run time too long: %dus!",
+            2
+        ],
+        "95": [
+            "(fixedDuration): Already at desired position",
+            0
+        ],
+        "299": [
+            "Recalibrating (power = %f)",
+            1
+        ],
+        "300": [
+            "pose2 is older than pose1",
+            0
+        ],
+        "301": [
+            "targetTime is outside expected range",
+            0
+        ],
+        "302": [
+            "x= %f, y= %f, angle= %f",
+            3
+        ],
+        "303": [
+            "Couldn't find timestamp %d in history (oldest(%d) %d, newest(%d) %d)",
+            5
+        ],
+        "304": [
+            "Ignoring keyframe %d at time %d\\n",
+            2
+        ],
+        "305": [
+            "",
+            0
+        ],
+        "306": [
+            "History starts at time %d, pose requested at time %d. Returning oldest pose.\\n",
+            2
+        ],
+        "307": [
+            "History ends at time %d, pose requested at time %d. Returning newest pose.\\n",
+            2
+        ],
+        "308": [
+            "LIFT FILT: speed %f, speedFilt %f, currentAngle %f, currHalPos %f, prevPos %f, pwr %f\\n",
+            6
+        ],
+        "309": [
+            "xOffset %d mm, yOffset %d mm, angleOffset %d degrees",
+            3
+        ],
+        "649": [
+            "SETTING LIFT PREDOCK (action %hhu)",
+            1
+        ],
+        "312": [
+            "Started",
+            0
+        ],
+        "564": [
+            "New head gains: kp = %f, ki = %f, kd = %f, maxSum = %f",
+            4
+        ],
+        "314": [
+            "%x, %d, %d",
+            3
+        ],
+        "315": [
+            "Applying %.3f power (currSpeed %.2f %.2f, filtSpeed %.2f %.2f)",
+            5
+        ],
+        "316": [
+            "Going %.3f mm/s (currSpeed %.2f %.2f, filtSpeed %.2f %.2f)",
+            5
+        ],
+        "317": [
+            "flags = %d, powerPercent = %d",
+            2
+        ],
+        "323": [
+            "Avg lift speed %f rad/s, height change %f mm",
+            2
+        ],
+        "324": [
+            "SET LIFT TO %f mm",
+            1
+        ],
+        "325": [
+            "Lift speed %f rad/s, height %f mm",
+            2
+        ],
+        "311": [
+            "Test state: %d",
+            1
+        ],
+        "332": [
+            "Turning to 180",
+            0
+        ],
+        "333": [
+            "Turning to 0",
+            0
+        ],
+        "334": [
+            "Gyro (%f,%f,%f) rad/s, (%f,%f,%f) mm/s^2",
+            6
+        ],
+        "335": [
+            "Rot(IMU): %f deg",
+            1
+        ],
+        "336": [
+            "flags = %x, ledID = %d, color = %x",
+            3
+        ],
+        "340": [
+            "GO: %f mm/s",
+            1
+        ],
+        "341": [
+            "STOPPED: (%f, %f) mm in %d tics",
+            3
+        ],
+        "342": [
+            "SWITCHING POWER: %f",
+            1
+        ],
+        "313": [
+            "FAILED",
+            0
+        ],
+        "347": [
+            "%d",
+            1
+        ],
+        "349": [
+            "start: %f, end: %f",
+            2
+        ],
+        "657": [
+            "TooLateCount: %d, avgTooLateTime: %d us, tooLongCount: %d, avgTooLongTime: %d us",
+            4
+        ],
+        "355": [
+            "Received message with bad tag %x",
+            1
+        ],
+        "356": [
+            "Timed out waiting for message ID %d.",
+            1
+        ],
+        "357": [
+            "height %f, maxSpeed %f, duration %f",
+            3
+        ],
+        "359": [
+            "NULL HeadCamInfo retrieved from HAL.",
+            0
+        ],
+        "275": [
+            "Failed \"false\" in file \"supervisor/src/path.cpp\" line %d",
+            1
+        ],
+        "363": [
+            "Result %d, currTime=%d, updated frame time=%d: (%.3f,%.3f) at %.1f degrees (frame = %d)\\n",
+            7
+        ],
+        "364": [
+            "left=%f mm/s, right=%f mm/s",
+            2
+        ],
+        "658": [
+            "Button ID=%d does not have a sensible return value",
+            1
+        ],
+        "366": [
+            "speed %f rad/s, accel %f rad/s2",
+            2
+        ],
+        "367": [
+            "Receiver got %02x[%d] invalid",
+            2
+        ],
+        "368": [
+            "Parsed message size error %d != %d",
+            2
+        ],
+        "373": [
+            "New gains: kp %f, ki %f, kd %f, maxSum %f",
+            4
+        ],
+        "376": [
+            "WiFi received message from RTIP, %x[%d] that seems bound below (< 0x%x)",
+            3
+        ],
+        "377": [
+            "des %f deg/s, meas: %f deg/s, arcVel %d mm/s, errorSum %f",
+            4
+        ],
+        "378": [
+            "Failed \"maxReachableVel_ == endVel_\" in file \"supervisor/src/velocityProfileGenerator.cpp\" line %d",
+            1
+        ],
+        "380": [
+            "Got message 0x%x that seems bound above.",
+            1
+        ],
+        "381": [
+            "CLAD message 0x%x size %d doesn't match size in buffer %d",
+            3
+        ],
+        "382": [
+            "Message %x[%d] is too long to enqueue to body. MAX_SIZE = %d",
+            3
+        ],
+        "383": [
+            "Received message %x[%d] that seems bound below",
+            2
+        ],
+        "384": [
+            "Body received message %x that seems bound above",
+            1
+        ],
+        "385": [
+            "Message to body, unhandled tag 0x%x",
+            1
+        ],
+        "386": [
+            "Message %x[%d] too long to enqueue to head. MAX_SIZE = %d",
+            3
+        ],
+        "390": [
+            "Received message %x has %d bytes but should have %d",
+            3
+        ],
+        "394": [
+            "ToRobot message %x[%d] like like it has tag for engine (> 0x%x)",
+            3
+        ],
+        "395": [
+            "Clipping exposure of %dms to %dms",
+            2
+        ],
+        "399": [
+            "Timeout is now %dms",
+            1
+        ],
+        "400": [
+            "Setting docking method: %d",
+            1
+        ],
+        "403": [
+            "Lift HIGH %f mm (maxSpeed %f rad/s)",
+            2
+        ],
+        "404": [
+            "Lift LOW %f mm (maxSpeed %f rad/s)",
+            2
+        ],
+        "405": [
+            "Lift UP %f power (maxSpeed %f rad/s)",
+            2
+        ],
+        "407": [
+            "Head HIGH %f rad (maxSpeed %f rad/s)",
+            2
+        ],
+        "408": [
+            "Head LOW %f rad (maxSpeed %f rad/s)",
+            2
+        ],
+        "409": [
+            "Head UP %f power (maxSpeed %f rad/s)",
+            2
+        ],
+        "410": [
+            "Head DOWN %f power (maxSpeed %f rad/s)",
+            2
+        ],
+        "415": [
+            "SendMessage with %x[%d] > %d",
+            3
+        ],
+        "431": [
+            "Marker is expected to be out of FOV. Ignoring error signal\\n",
+            0
+        ],
+        "72": [
+            "Dubins %d: \\n p_c1 (%f, %f)\\n p_c2 (%f, %f)\\n",
+            5
+        ],
+        "434": [
+            "Lift DOWN %f power (maxSpeed %f rad/s)",
+            2
+        ],
+        "619": [
+            "Refusing to send message %x[%d] to self!",
+            2
+        ],
+        "73": [
+            " V1 (%f %f)\\n  n (%f %f)\\n  p_t1 (%f, %f)\\n  p_t2 (%f, %f)\\n",
+            8
+        ],
+        "442": [
+            "dropping RTIP trace",
+            0
+        ],
+        "586": [
+            "%f  (res=%d)",
+            2
+        ],
+        "449": [
+            "enabled: %d, liftPower: %f, headPower: %f",
+            3
+        ],
+        "331": [
+            "Head speed %f rad/s (filt %f rad/s), angle %f rad",
+            3
+        ],
+        "457": [
+            "Apply Wifi",
+            0
+        ],
+        "461": [
+            "Flash verify",
+            0
+        ],
+        "462": [
+            "Wait for RTIP Ack",
+            0
+        ],
+        "463": [
+            "Reboot",
+            0
+        ],
+        "464": [
+            "Wait for reboot",
+            0
+        ],
+        "465": [
+            "Failed \"false\" in file \"espressif/app/application/upgradeController.cpp\" line %d",
+            1
+        ],
+        "466": [
+            "Reset()",
+            0
+        ],
+        "467": [
+            "Received termination",
+            0
+        ],
+        "468": [
+            "flash erase",
+            0
+        ],
+        "469": [
+            "sync recovery",
+            0
+        ],
+        "470": [
+            "Flash Verify",
+            0
+        ],
+        "472": [
+            "Computing straight line path (%f, %f) to (%f, %f)\\n",
+            4
+        ],
+        "591": [
+            "Segment %d has invalid type %d",
+            2
+        ],
+        "479": [
+            "",
+            0
+        ],
+        "483": [
+            "%f deg (motion %d, gyro %f)",
+            3
+        ],
+        "484": [
+            "%d: %f   %f  (%f %f)",
+            5
+        ],
+        "486": [
+            "TMD=%d\\tintegral=%d",
+            2
+        ],
+        "489": [
+            "No valid certificate!",
+            0
+        ],
+        "490": [
+            "Sig Check",
+            0
+        ],
+        "491": [
+            "Unhandled special block 0x%x",
+            1
+        ],
+        "647": [
+            "Index %d is not valid",
+            1
+        ],
+        "494": [
+            "NULL frame pointer provided to CameraGetFrame(), check \"\n                                    \"to make sure the image allocation succeeded.",
+            0
+        ],
+        "495": [
+            "Image requested too soon -- new frame may not be ready yet.",
+            0
+        ],
+        "496": [
+            "NULL image pointer returned from simulated camera's getFrame() method.",
+            0
+        ],
+        "497": [
+            "Expected discovery tag but got %d",
+            1
+        ],
+        "498": [
+            "Layer %d is invalid",
+            1
+        ],
+        "499": [
+            "Flash wait",
+            0
+        ],
+        "589": [
+            "currCmdSpeed %d mm/s, currSpeed %d mm/s)",
+            2
+        ],
+        "501": [
+            "No IMU calibration data available",
+            0
+        ],
+        "502": [
+            "Got calibration data: gyro={%d, %d, %d}, acc={%d, %d, %d}",
+            6
+        ],
+        "503": [
+            "No IMU calibration data written",
+            0
+        ],
+        "136": [
+            "TRAVERSE_BRIDGE",
+            0
+        ],
+        "507": [
+            "no IV!",
+            0
+        ],
+        "508": [
+            "Flash Decrypt",
+            0
+        ],
+        "509": [
+            "Flash Write",
+            0
+        ]
+    }
+}

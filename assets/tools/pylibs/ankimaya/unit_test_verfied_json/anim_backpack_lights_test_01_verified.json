@@ -1,0 +1,249 @@
+{
+  "anim_backpack_lights_test_01": [
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 297,
+      "Back": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 0,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 165,
+      "Back": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 297,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 363,
+      "Back": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 462,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 264,
+      "Back": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 825,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 264,
+      "Back": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "Middle": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Front": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 1089,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 165,
+      "Back": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "Middle": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "Front": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "triggerTime_ms": 1353,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "Right": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Name": "BackpackLightsKeyFrame",
+      "durationTime_ms": 132,
+      "Back": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "Middle": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "Front": [
+        1.0,
+        0.6707317068627695,
+        0.6707317068627695,
+        0.0
+      ],
+      "triggerTime_ms": 1518,
+      "Left": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

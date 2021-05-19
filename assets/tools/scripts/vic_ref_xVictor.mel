@@ -1,0 +1,27 @@
+// --- Reference a new robot rig --- //
+
+global proc vic_ref_xVictor () {
+
+// Check if xVictor already exists
+
+    if( `objExists x:actor_grp` ) {
+        warning("xVictor already exists");
+    } else {
+        // Reference Victor's rig and the abx picker node
+        $MS_vicRig = `workspace -q -rd` + "assets/rigs/Victor_rig_01.ma";
+        file -r -type "mayaAscii"  -ignoreVersion -gl -mergeNamespacesOnClash false -namespace "x" -options "v=0;" $MS_vicRig;
+
+        // Create display layer for Victor's geometry
+        select -r x:geo_grp;
+        createDisplayLayer -name "x_geo_lyr" -nr;
+        setAttr "x_geo_lyr.displayType" 2;
+        setAttr "x_geo_lyr.color" 3;
+        select -cl;
+
+        // Set timeline to 0
+        currentUnit -time ntsc;
+        currentTime 0;
+        playbackOptions -min 0;
+        print ("xVictor loaded successfully.");
+    }
+}

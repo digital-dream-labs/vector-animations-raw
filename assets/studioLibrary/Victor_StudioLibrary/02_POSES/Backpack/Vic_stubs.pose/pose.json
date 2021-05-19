@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "ctime": "1519941253", 
+    "version": "1.0.0", 
+    "user": "isabelabradley", 
+    "mayaSceneFile": "/Users/isabelabradley/workspace/victor-animation/scenes/anim/Timer/anim_timerset_getin_03.ma", 
+    "mayaVersion": "2018", 
+    "description": ""
+  }
+,
+  "objects": {
+    "x:backpack_ctrl": {
+      "attrs": {
+        "frontGreen": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backGreen": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "frontBlue": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleRed": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleGreen": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "frontRed": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "backBlue": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "middleBlue": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backRed": {
+          "type": "double", 
+          "value": 0.0
+        }
+      }
+    }
+  }
+}

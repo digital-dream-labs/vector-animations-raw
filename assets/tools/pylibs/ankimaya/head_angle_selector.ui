@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>70</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="exportHeadAnglesLabel">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>5</y>
+     <width>300</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Export animation variations at different head angles?</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="exportHeadAngles">
+   <property name="geometry">
+    <rect>
+     <x>303</x>
+     <y>2</y>
+     <width>380</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="whichKeyframesLabel">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>40</y>
+     <width>370</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Which head angle keyframes should be offset by the exact amount?</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="whichKeyframes">
+   <property name="geometry">
+    <rect>
+     <x>383</x>
+     <y>37</y>
+     <width>300</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

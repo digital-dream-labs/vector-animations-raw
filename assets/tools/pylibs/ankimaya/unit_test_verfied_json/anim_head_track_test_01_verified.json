@@ -1,0 +1,25 @@
+{
+  "anim_head_track_test_01": [
+    {
+      "angleVariability_deg": 0,
+      "angle_deg": 45,
+      "triggerTime_ms": 0,
+      "Name": "HeadAngleKeyFrame",
+      "durationTime_ms": 363
+    },
+    {
+      "angleVariability_deg": 0,
+      "angle_deg": -22,
+      "triggerTime_ms": 363,
+      "Name": "HeadAngleKeyFrame",
+      "durationTime_ms": 297
+    },
+    {
+      "angleVariability_deg": 0,
+      "angle_deg": 4,
+      "triggerTime_ms": 660,
+      "Name": "HeadAngleKeyFrame",
+      "durationTime_ms": 330
+    }
+  ]
+}

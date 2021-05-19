@@ -1,0 +1,860 @@
+{
+  "selection_bttns": [
+    
+    
+    {
+      "default_icon": "star_root.png",
+      "icon_size": [
+        221,
+        42
+      ],
+      "bttn_coordinates": [
+        48,
+        460
+      ],
+      "selection_list": [
+        "star:star_root_ctrl"
+      ]
+    },
+    {
+      "default_icon": "head_top.png",
+      "icon_size": [
+        184,
+        189
+      ],
+      "bttn_coordinates": [
+        69,
+        81
+      ],
+      "selection_list": [
+        "star:star_body_ctrl"
+      ]
+    },
+    {
+      "default_icon": "allBttns.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        205,
+        426
+      ],
+      "selection_list": [
+        "star:star_leg_l_001_ctrl",
+        "star:star_leg_l_002_ctrl",
+        "star:star_leg_l_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "RedButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        165,
+        416
+      ],
+      "selection_list": [
+        "star:star_leg_l_001_ctrl"
+      ]
+    },
+
+    {
+      "default_icon": "GreenButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        185,
+        436
+      ],
+      "selection_list": [
+        "star:star_leg_l_002_ctrl"
+      ]
+    },
+    {
+      "default_icon": "BlueButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        205,
+        456
+      ],
+      "selection_list": [
+        "star:star_leg_l_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "allBttns.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        89,
+        426
+      ],
+      "selection_list": [
+        "star:star_leg_r_001_ctrl",
+        "star:star_leg_r_002_ctrl",
+        "star:star_leg_r_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "RedButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        129,
+        416
+      ],
+      "selection_list": [
+        "star:star_leg_r_001_ctrl"
+      ]
+    },
+    {
+      "default_icon": "GreenButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        109,
+        436
+      ],
+      "selection_list": [
+        "star:star_leg_r_002_ctrl"
+      ]
+    },
+    {
+      "default_icon": "BlueButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        89,
+        456
+      ],
+      "selection_list": [
+        "star:star_leg_r_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "allBttns.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        80,
+        345
+      ],
+      "selection_list": [
+        "star:star_arm_r_001_ctrl",
+        "star:star_arm_r_002_ctrl",
+        "star:star_arm_r_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "RedButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        100,
+        370
+      ],
+      "selection_list": [
+        "star:star_arm_r_001_ctrl"
+      ]
+    },
+    {
+      "default_icon": "GreenButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        80,
+        365
+      ],
+      "selection_list": [
+        "star:star_arm_r_002_ctrl"
+      ]
+    },
+    {
+      "default_icon": "BlueButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        60,
+        360
+      ],
+      "selection_list": [
+        "star:star_arm_r_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "allBttns.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        215,
+        350
+      ],
+      "selection_list": [
+        "star:star_arm_l_001_ctrl",
+        "star:star_arm_l_002_ctrl",
+        "star:star_arm_l_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "RedButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        195,
+        375
+      ],
+      "selection_list": [
+        "star:star_arm_l_001_ctrl"
+      ]
+    },
+    {
+      "default_icon": "GreenButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        215,
+        370
+      ],
+      "selection_list": [
+        "star:star_arm_l_002_ctrl"
+      ]
+    },
+    {
+      "default_icon": "BlueButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        235,
+        365
+      ],
+      "selection_list": [
+        "star:star_arm_l_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "allBttns.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        168,
+        318
+      ],
+      "selection_list": [
+        "star:star_head_001_ctrl",
+        "star:star_head_002_ctrl",
+        "star:star_head_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "RedButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        148,
+        338
+      ],
+      "selection_list": [
+        "star:star_head_001_ctrl"
+      ]
+    },
+    {
+      "default_icon": "GreenButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        148,
+        318
+      ],
+      "selection_list": [
+        "star:star_head_002_ctrl"
+      ]
+    },
+    {
+      "default_icon": "BlueButton.png",
+      "icon_size": [
+        18,
+        18
+      ],
+      "bttn_coordinates": [
+        148,
+        298
+      ],
+      "selection_list": [
+        "star:star_head_003_ctrl"
+      ]
+    },
+    {
+      "default_icon": "all.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        10,
+        12
+      ],
+      "selection_list": [
+        "star:star_head_001_ctrl",
+        "star:star_head_002_ctrl",
+        "star:star_head_003_ctrl",
+        "star:star_arm_l_001_ctrl",
+        "star:star_arm_l_002_ctrl",
+        "star:star_arm_l_003_ctrl",
+        "star:star_arm_r_001_ctrl",
+        "star:star_arm_r_002_ctrl",
+        "star:star_arm_r_003_ctrl",
+        "star:star_leg_r_001_ctrl",
+        "star:star_leg_r_002_ctrl",
+        "star:star_leg_r_003_ctrl",
+        "star:star_leg_l_001_ctrl",
+        "star:star_leg_l_002_ctrl",
+        "star:star_leg_l_003_ctrl",
+        "star:eyeCorner_L_OuterBtm_ctrl",
+        "star:eyeCorner_L_OuterTop_ctrl",
+        "star:eyeCorner_L_innerBtm_ctrl",
+        "star:eyeCorner_L_innerTop_ctrl",
+        "star:eyeCorner_R_OuterBtm_ctrl",
+        "star:eyeCorner_R_OuterTop_ctrl",
+        "star:eyeCorner_R_innerBtm_ctrl",
+        "star:eyeCorner_R_innerTop_ctrl",
+        "star:mech_L_pupil_ctrl",
+        "star:mech_R_pupil_ctrl",
+        "star:mech_arm_ctrl",
+        "star:mech_eye_L_ctrl",
+        "star:mech_eye_R_ctrl",
+        "star:mech_eyes_all_ctrl",
+        
+        "star:mech_lwrLid_L_ctrl",
+        "star:mech_lwrLid_R_ctrl",
+        "star:mech_upperLid_L_ctrl",
+        "star:mech_upperLid_R_ctrl",
+        "star:treads_L_lwr_ctrl",
+        "star:treads_L_upr_ctrl",
+        "star:treads_R_lwr_ctrl",
+        "star:treads_R_upr_ctrl",
+        "star:star_body_ctrl",
+        "star:star_root_ctrl"
+        
+        
+        
+      ]
+    },
+    {
+      "default_icon": "star_body.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        141,
+        370
+      ],
+      "selection_list": [
+        
+        "star:star_body_ctrl"
+      ]
+    },
+    {
+      "default_icon": "all_body.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        70,
+        290
+      ],
+      "selection_list": [
+        "star:star_head_001_ctrl",
+        "star:star_head_002_ctrl",
+        "star:star_head_003_ctrl",
+        "star:star_arm_l_001_ctrl",
+        "star:star_arm_l_002_ctrl",
+        "star:star_arm_l_003_ctrl",
+        "star:star_arm_r_001_ctrl",
+        "star:star_arm_r_002_ctrl",
+        "star:star_arm_r_003_ctrl",
+        "star:star_leg_r_001_ctrl",
+        "star:star_leg_r_002_ctrl",
+        "star:star_leg_r_003_ctrl",
+        "star:star_leg_l_001_ctrl",
+        "star:star_leg_l_002_ctrl",
+        "star:star_leg_l_00_ctrl",
+        "star:star_body_ctrl",
+        "star:star_root_ctrl"
+        
+        
+        
+        
+        
+        
+      ]
+    },
+    {
+      "default_icon": "eyes_swap.png",
+      "icon_size": [
+        33,
+        33
+      ],
+      "bttn_coordinates": [
+        145,
+        35
+      ],
+      "function_to_call": "ankimaya.mirror_ctrs.mirror_eyes(r2l=True,l2r=True)"
+    },
+    {
+      "default_icon": "mirror_l.png",
+      "icon_size": [
+        33,
+        33
+      ],
+      "bttn_coordinates": [
+        110,
+        35
+      ],
+      "function_to_call": "ankimaya.mirror_ctrs.mirror_eyes(r2l=False,l2r=True)"
+    },
+    {
+      "default_icon": "mirror_r.png",
+      "icon_size": [
+        33,
+        33
+      ],
+      "bttn_coordinates": [
+        180,
+        35
+      ],
+      "function_to_call": "ankimaya.mirror_ctrs.mirror_eyes(r2l=True,l2r=False)"
+    },
+    
+    {
+      "default_icon": "eyes_all.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        107
+      ],
+      "selection_list": [
+        "star:eyeCorner_L_OuterBtm_ctrl",
+        "star:eyeCorner_L_OuterTop_ctrl",
+        "star:eyeCorner_L_innerBtm_ctrl",
+        "star:eyeCorner_L_innerTop_ctrl",
+        "star:eyeCorner_R_OuterBtm_ctrl",
+        "star:eyeCorner_R_OuterTop_ctrl",
+        "star:eyeCorner_R_innerBtm_ctrl",
+        "star:eyeCorner_R_innerTop_ctrl",
+        "star:mech_L_pupil_ctrl",
+        "star:mech_R_pupil_ctrl",
+        "star:mech_eye_L_ctrl",
+        "star:mech_eye_R_ctrl",
+        "star:mech_eyes_all_ctrl",
+        "star:mech_lwrLid_L_ctrl",
+        "star:mech_lwrLid_R_ctrl",
+        "star:mech_upperLid_L_ctrl",
+        "star:mech_upperLid_R_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eyes_corners.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        142
+      ],
+      "selection_list": [
+        "star:eyeCorner_L_OuterBtm_ctrl",
+        "star:eyeCorner_L_OuterTop_ctrl",
+        "star:eyeCorner_L_innerBtm_ctrl",
+        "star:eyeCorner_L_innerTop_ctrl",
+        "star:eyeCorner_R_OuterBtm_ctrl",
+        "star:eyeCorner_R_OuterTop_ctrl",
+        "star:eyeCorner_R_innerBtm_ctrl",
+        "star:eyeCorner_R_innerTop_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eyes_master.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        177
+      ],
+      "selection_list": [
+        "star:mech_eyes_all_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eyes_move.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        260,
+        105
+      ],
+      "function_to_call": "ankimaya.eyes_distance.eyes_apart()",
+      "function_on_shift": "ankimaya.eyes_distance.eyes_closer()"
+    },
+    {
+      "default_icon": "pupils_move.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        260,
+        140
+      ],
+      "function_to_call": "ankimaya.eyes_distance.pupils_apart()",
+      "function_on_shift": "ankimaya.eyes_distance.pupils_closer()"
+    },
+    {
+      "default_icon": "pupils_all.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        211
+      ],
+      "selection_list": [
+        "star:mech_L_pupil_ctrl",
+        "star:mech_R_pupil_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eye_all.png",
+      "icon_size": [
+        23,
+        23
+      ],
+      "bttn_coordinates": [
+        168,
+        208
+      ],
+      "selection_list": [
+        "star:eyeCorner_L_OuterBtm_ctrl",
+        "star:eyeCorner_L_OuterTop_ctrl",
+        "star:eyeCorner_L_innerBtm_ctrl",
+        "star:eyeCorner_L_innerTop_ctrl",
+        "star:mech_L_pupil_ctrl",
+        "star:mech_eye_L_ctrl",
+        "star:mech_lwrLid_L_ctrl",
+        "star:mech_upperLid_L_ctrl"
+      ],
+      "comment": "right eye all"
+    },
+    {
+      "default_icon": "eye_all.png",
+      "icon_size": [
+        23,
+        23
+      ],
+      "bttn_coordinates": [
+        127,
+        208
+      ],
+      "selection_list": [
+        "star:eyeCorner_R_OuterBtm_ctrl",
+        "star:eyeCorner_R_OuterTop_ctrl",
+        "star:eyeCorner_R_innerBtm_ctrl",
+        "star:eyeCorner_R_innerTop_ctrl",
+        "star:mech_R_pupil_ctrl",
+        "star:mech_eye_R_ctrl",
+        "star:mech_lwrLid_R_ctrl",
+        "star:mech_upperLid_R_ctrl"
+      ],
+      "comment": "left eye all"
+    },
+    {
+      "default_icon": "eye.png",
+      "icon_size": [
+        26,
+        26
+      ],
+      "bttn_coordinates": [
+        168,
+        150
+      ],
+      "selection_list": [
+        "star:mech_eye_L_ctrl"
+      ],
+      "comment": "right eye"
+    },
+    {
+      "default_icon": "eye.png",
+      "icon_size": [
+        26,
+        26
+      ],
+      "bttn_coordinates": [
+        125,
+        150
+      ],
+      "selection_list": [
+        "star:mech_eye_R_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        120,
+        138
+      ],
+      "selection_list": [
+        "star:eyeCorner_R_OuterTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        145,
+        138
+      ],
+      "selection_list": [
+        "star:eyeCorner_R_innerTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        132,
+        128
+      ],
+      "selection_list": [
+        "star:mech_upperLid_R_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        162,
+        138
+      ],
+      "selection_list": [
+        "star:eyeCorner_L_OuterTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        186,
+        138
+      ],
+      "selection_list": [
+        "star:eyeCorner_L_innerTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        174,
+        128
+      ],
+      "selection_list": [
+        "star:mech_upperLid_L_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        120,
+        178
+      ],
+      "selection_list": [
+        "star:eyeCorner_R_OuterBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        145,
+        178
+      ],
+      "selection_list": [
+        "star:eyeCorner_R_innerBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        132,
+        188
+      ],
+      "selection_list": [
+        "star:mech_lwrLid_R_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        162,
+        178
+      ],
+      "selection_list": [
+        "star:eyeCorner_L_OuterBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        186,
+        178
+      ],
+      "selection_list": [
+        "star:eyeCorner_L_innerBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        174,
+        188
+      ],
+      "selection_list": [
+        "star:mech_lwrLid_L_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "pupil.png",
+      "icon_size": [
+        17,
+        17
+      ],
+      "bttn_coordinates": [
+        195,
+        155
+      ],
+      "selection_list": [
+        "star:mech_L_pupil_ctrl"
+      ],
+      "comment": "right eye"
+    },
+    {
+      "default_icon": "pupil.png",
+      "icon_size": [
+        17,
+        17
+      ],
+      "bttn_coordinates": [
+        107,
+        155
+      ],
+      "selection_list": [
+        "star:mech_R_pupil_ctrl"
+      ],
+      "comment": "left eye"
+    }
+  ]
+}

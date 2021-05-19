@@ -1,0 +1,632 @@
+{
+  "selection_bttns": [
+    {
+      "default_icon": "lift.png",
+      "icon_size": [
+        206,
+        123
+      ],
+      "bttn_coordinates": [
+        77,
+        335
+      ],
+      "selection_list": [
+        "x:mech_arm_ctrl"
+      ]
+    },
+    {
+      "default_icon": "head_top.png",
+      "icon_size": [
+        184,
+        189
+      ],
+      "bttn_coordinates": [
+        69,
+        81
+      ],
+      "selection_list": [
+        "x:mech_head_ctrl"
+      ]
+    },
+    {
+      "default_icon": "wheels.png",
+      "icon_size": [
+        183,
+        74
+      ],
+      "bttn_coordinates": [
+        43,
+        393
+      ],
+      "selection_list": [
+        "x:wheel_L_ctrl",
+        "x:wheel_R_ctrl"
+      ]
+    },
+    {
+      "default_icon": "wheel_l.png",
+      "icon_size": [
+        40,
+        39
+      ],
+      "bttn_coordinates": [
+        70,
+        428
+      ],
+      "selection_list": [
+        "x:wheel_L_ctrl"
+      ]
+    },
+    {
+      "default_icon": "wheel_r.png",
+      "icon_size": [
+        40,
+        39
+      ],
+      "bttn_coordinates": [
+        152,
+        428
+      ],
+      "selection_list": [
+        "x:wheel_R_ctrl"
+      ]
+    },
+    {
+      "default_icon": "head.png",
+      "icon_size": [
+        98,
+        72
+      ],
+      "bttn_coordinates": [
+        105,
+        300
+      ],
+      "selection_list": [
+        "x:mech_head_ctrl"
+      ]
+    },
+    {
+      "default_icon": "backpack.png",
+      "icon_size": [
+        89,
+        107
+      ],
+      "bttn_coordinates": [
+        38,
+        307
+      ],
+      "selection_list": [
+        "x:backpack_ctrl"
+      ]
+    },
+    {
+      "default_icon": "all.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        10,
+        12
+      ],
+      "selection_list": [
+        "x:backpack_ctrl",
+        "x:event_ctrl",
+        "x:eyeCorner_L_OuterBtm_ctrl",
+        "x:eyeCorner_L_OuterTop_ctrl",
+        "x:eyeCorner_L_innerBtm_ctrl",
+        "x:eyeCorner_L_innerTop_ctrl",
+        "x:eyeCorner_R_OuterBtm_ctrl",
+        "x:eyeCorner_R_OuterTop_ctrl",
+        "x:eyeCorner_R_innerBtm_ctrl",
+        "x:eyeCorner_R_innerTop_ctrl",
+        "x:mech_L_pupil_ctrl",
+        "x:mech_R_pupil_ctrl",
+        "x:mech_arm_ctrl",
+        "x:mech_eye_L_ctrl",
+        "x:mech_eye_R_ctrl",
+        "x:mech_eyes_all_ctrl",
+        "x:mech_head_ctrl",
+        "x:mech_lwrLid_L_ctrl",
+        "x:mech_lwrLid_R_ctrl",
+        "x:mech_upperLid_L_ctrl",
+        "x:mech_upperLid_R_ctrl",
+        "x:treads_L_lwr_ctrl",
+        "x:treads_L_upr_ctrl",
+        "x:treads_R_lwr_ctrl",
+        "x:treads_R_upr_ctrl",
+        "x:virtual_all_ctrl",
+        "x:virtual_all_sub_ctrl",
+        "x:virtual_arm_ctrl",
+        "x:virtual_backWheel_L_ctrl",
+        "x:virtual_backWheel_R_ctrl",
+        "x:virtual_prop_ctrl",
+        "x:wheel_L_ctrl",
+        "x:wheel_R_ctrl"
+      ]
+    },
+    {
+      "default_icon": "all_body.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        230,
+        290
+      ],
+      "selection_list": [
+        "x:mech_all_ctrl",
+        "x:mech_arm_ctrl",
+        "x:mech_head_ctrl",
+        "x:moac_ctrl",
+        "x:treads_L_lwr_ctrl",
+        "x:treads_L_upr_ctrl",
+        "x:treads_R_lwr_ctrl",
+        "x:treads_R_upr_ctrl",
+        "x:virtual_all_ctrl",
+        "x:virtual_all_sub_ctrl",
+        "x:virtual_arm_ctrl",
+        "x:virtual_backWheel_L_ctrl",
+        "x:virtual_backWheel_R_ctrl",
+        "x:virtual_prop_ctrl",
+        "x:wheel_L_ctrl",
+        "x:wheel_R_ctrl"
+      ]
+    },
+    {
+      "default_icon": "save_recorded_angle.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        265,
+        290
+      ],
+      "selection_list": [
+        "x:recorded_angle_ctr"
+      ]
+    },
+    {
+      "default_icon": "eyes_swap.png",
+      "icon_size": [
+        33,
+        33
+      ],
+      "bttn_coordinates": [
+        145,
+        35
+      ],
+      "function_to_call": "ankimaya.mirror_ctrs.mirror_eyes(r2l=True,l2r=True)"
+    },
+    {
+      "default_icon": "mirror_l.png",
+      "icon_size": [
+        33,
+        33
+      ],
+      "bttn_coordinates": [
+        110,
+        35
+      ],
+      "function_to_call": "ankimaya.mirror_ctrs.mirror_eyes(r2l=False,l2r=True)"
+    },
+    {
+      "default_icon": "mirror_r.png",
+      "icon_size": [
+        33,
+        33
+      ],
+      "bttn_coordinates": [
+        180,
+        35
+      ],
+      "function_to_call": "ankimaya.mirror_ctrs.mirror_eyes(r2l=True,l2r=False)"
+    },
+    {
+      "default_icon": "events.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        270,
+        12
+      ],
+      "selection_list": [
+        "x:event_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eyes_all.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        107
+      ],
+      "selection_list": [
+        "x:eyeCorner_L_OuterBtm_ctrl",
+        "x:eyeCorner_L_OuterTop_ctrl",
+        "x:eyeCorner_L_innerBtm_ctrl",
+        "x:eyeCorner_L_innerTop_ctrl",
+        "x:eyeCorner_R_OuterBtm_ctrl",
+        "x:eyeCorner_R_OuterTop_ctrl",
+        "x:eyeCorner_R_innerBtm_ctrl",
+        "x:eyeCorner_R_innerTop_ctrl",
+        "x:mech_L_pupil_ctrl",
+        "x:mech_R_pupil_ctrl",
+        "x:mech_eye_L_ctrl",
+        "x:mech_eye_R_ctrl",
+        "x:mech_eyes_all_ctrl",
+        "x:mech_lwrLid_L_ctrl",
+        "x:mech_lwrLid_R_ctrl",
+        "x:mech_upperLid_L_ctrl",
+        "x:mech_upperLid_R_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eyes_corners.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        142
+      ],
+      "selection_list": [
+        "x:eyeCorner_L_OuterBtm_ctrl",
+        "x:eyeCorner_L_OuterTop_ctrl",
+        "x:eyeCorner_L_innerBtm_ctrl",
+        "x:eyeCorner_L_innerTop_ctrl",
+        "x:eyeCorner_R_OuterBtm_ctrl",
+        "x:eyeCorner_R_OuterTop_ctrl",
+        "x:eyeCorner_R_innerBtm_ctrl",
+        "x:eyeCorner_R_innerTop_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eyes_master.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        177
+      ],
+      "selection_list": [
+        "x:mech_eyes_all_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eyes_move.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        260,
+        105
+      ],
+      "function_to_call": "ankimaya.eyes_distance.eyes_apart()",
+      "function_on_shift": "ankimaya.eyes_distance.eyes_closer()"
+    },
+    {
+      "default_icon": "pupils_move.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        260,
+        140
+      ],
+      "function_to_call": "ankimaya.eyes_distance.pupils_apart()",
+      "function_on_shift": "ankimaya.eyes_distance.pupils_closer()"
+    },
+    {
+      "default_icon": "pupils_all.png",
+      "icon_size": [
+        32,
+        32
+      ],
+      "bttn_coordinates": [
+        28,
+        211
+      ],
+      "selection_list": [
+        "x:mech_L_pupil_ctrl",
+        "x:mech_R_pupil_ctrl"
+      ]
+    },
+    {
+      "default_icon": "eye_all.png",
+      "icon_size": [
+        23,
+        23
+      ],
+      "bttn_coordinates": [
+        168,
+        208
+      ],
+      "selection_list": [
+        "x:eyeCorner_L_OuterBtm_ctrl",
+        "x:eyeCorner_L_OuterTop_ctrl",
+        "x:eyeCorner_L_innerBtm_ctrl",
+        "x:eyeCorner_L_innerTop_ctrl",
+        "x:mech_L_pupil_ctrl",
+        "x:mech_eye_L_ctrl",
+        "x:mech_lwrLid_L_ctrl",
+        "x:mech_upperLid_L_ctrl"
+      ],
+      "comment": "right eye all"
+    },
+    {
+      "default_icon": "eye_all.png",
+      "icon_size": [
+        23,
+        23
+      ],
+      "bttn_coordinates": [
+        127,
+        208
+      ],
+      "selection_list": [
+        "x:eyeCorner_R_OuterBtm_ctrl",
+        "x:eyeCorner_R_OuterTop_ctrl",
+        "x:eyeCorner_R_innerBtm_ctrl",
+        "x:eyeCorner_R_innerTop_ctrl",
+        "x:mech_R_pupil_ctrl",
+        "x:mech_eye_R_ctrl",
+        "x:mech_lwrLid_R_ctrl",
+        "x:mech_upperLid_R_ctrl"
+      ],
+      "comment": "left eye all"
+    },
+    {
+      "default_icon": "eye.png",
+      "icon_size": [
+        26,
+        26
+      ],
+      "bttn_coordinates": [
+        168,
+        150
+      ],
+      "selection_list": [
+        "x:mech_eye_L_ctrl"
+      ],
+      "comment": "right eye"
+    },
+    {
+      "default_icon": "eye.png",
+      "icon_size": [
+        26,
+        26
+      ],
+      "bttn_coordinates": [
+        125,
+        150
+      ],
+      "selection_list": [
+        "x:mech_eye_R_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        120,
+        138
+      ],
+      "selection_list": [
+        "x:eyeCorner_R_OuterTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        145,
+        138
+      ],
+      "selection_list": [
+        "x:eyeCorner_R_innerTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        132,
+        128
+      ],
+      "selection_list": [
+        "x:mech_upperLid_R_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        162,
+        138
+      ],
+      "selection_list": [
+        "x:eyeCorner_L_OuterTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        186,
+        138
+      ],
+      "selection_list": [
+        "x:eyeCorner_L_innerTop_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        174,
+        128
+      ],
+      "selection_list": [
+        "x:mech_upperLid_L_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        120,
+        178
+      ],
+      "selection_list": [
+        "x:eyeCorner_R_OuterBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        145,
+        178
+      ],
+      "selection_list": [
+        "x:eyeCorner_R_innerBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        132,
+        188
+      ],
+      "selection_list": [
+        "x:mech_lwrLid_R_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        162,
+        178
+      ],
+      "selection_list": [
+        "x:eyeCorner_L_OuterBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        186,
+        178
+      ],
+      "selection_list": [
+        "x:eyeCorner_L_innerBtm_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "lid.png",
+      "icon_size": [
+        11,
+        11
+      ],
+      "bttn_coordinates": [
+        174,
+        188
+      ],
+      "selection_list": [
+        "x:mech_lwrLid_L_ctrl"
+      ],
+      "comment": "left eye"
+    },
+    {
+      "default_icon": "pupil.png",
+      "icon_size": [
+        17,
+        17
+      ],
+      "bttn_coordinates": [
+        195,
+        155
+      ],
+      "selection_list": [
+        "x:mech_L_pupil_ctrl"
+      ],
+      "comment": "right eye"
+    },
+    {
+      "default_icon": "pupil.png",
+      "icon_size": [
+        17,
+        17
+      ],
+      "bttn_coordinates": [
+        107,
+        155
+      ],
+      "selection_list": [
+        "x:mech_R_pupil_ctrl"
+      ],
+      "comment": "left eye"
+    }
+  ]
+}

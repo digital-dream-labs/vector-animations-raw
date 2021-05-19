@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>58</height>
+   </rect>
+  </property>
+  <widget class="QLabel" name="stateGroupLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>1</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Switch Id Enum:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="stateGroupId">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>0</y>
+     <width>191</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="stateName">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>271</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="removeAudioWidgetLabel">
+   <property name="geometry">
+    <rect>
+     <x>45</x>
+     <y>33</y>
+     <width>130</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove this switch:</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="removeAudioWidgetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>30</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="confirmLabel">
+   <property name="geometry">
+    <rect>
+     <x>198</x>
+     <y>33</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Are you sure?</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="confirmComboBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>30</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>1000</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

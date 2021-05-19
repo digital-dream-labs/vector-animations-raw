@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1051</width>
+    <height>30</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="eventCountLabel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string># of Events:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eventCount">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>7</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="totalProbLabel">
+   <property name="geometry">
+    <rect>
+     <x>333</x>
+     <y>10</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Total Probability:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="totalProb">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>7</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="totalProbDetails">
+   <property name="geometry">
+    <rect>
+     <x>475</x>
+     <y>10</y>
+     <width>150</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(valid range is 1 to 100)</string>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="actionCountLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string># of Actions:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="actionCount">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>7</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

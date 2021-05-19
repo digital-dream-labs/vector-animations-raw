@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>100</height>
+   </rect>
+  </property>
+
+  <widget class="QLabel" name="groupLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>7</y>
+     <width>100</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Group</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="groupComboBox">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>4</y>
+     <width>120</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="lastKey">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>4</y>
+     <width>25</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="nextKey">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>4</y>
+     <width>25</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLabel" name="stimLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>35</y>
+     <width>300</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Robot_Vic_Stimulation:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="stimSetting">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>32</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

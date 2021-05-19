@@ -1,0 +1,19 @@
+{
+  "anim_event_track_test_01": [
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 0,
+      "Name": "FaceAnimationKeyFrame"
+    },
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 660,
+      "Name": "FaceAnimationKeyFrame"
+    },
+    {
+      "animName": "face_bored_event_04",
+      "triggerTime_ms": 1320,
+      "Name": "FaceAnimationKeyFrame"
+    }
+  ]
+}

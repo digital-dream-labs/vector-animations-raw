@@ -1,0 +1,13 @@
+global proc coz_faceCam () {
+
+// ---- New face camera window (xCozmo) ---- //
+
+if (!`window -ex newCam_Window`) {
+window -w 800 -h 450 -t "xCozmo Face Camera" newCam_Window;
+paneLayout newCam_paneLayout;
+if (!`modelPanel -ex newCam_modelPanel`) {
+modelPanel newCam_modelPanel;}
+else {modelPanel -e -p "newCam_paneLayout" newCam_modelPanel;}
+showWindow newCam_Window;
+modelEditor -e -manipulators 0 -hud 0 -nurbsCurves 0 -grid 0 -polymeshes 1 -cam "x:face_cam" -displayAppearance "smoothShaded" -dtx 1 newCam_modelPanel; }
+}
