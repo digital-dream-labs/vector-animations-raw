@@ -16,6 +16,7 @@ Clone this git: `git clone https://github.com/digital-dream-labs/vector-animatio
 Make a workspace folder and make victor-animation:
 
 `mkdir ~/workspace`
+
 `mv vector-animations-raw/assets ~/workspace/victor-animation`
 
 Install pip for python2:
@@ -26,9 +27,11 @@ Install pip for python2:
 
 Install the Python packages:
 
-`python2.7 ~/Library/Python/2.7/bin/pip install CharDet httplib2 idna python-ldap oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3`
+`python2.7 ~/Library/Python/2.7/bin/pip install CharDet httplib2 idna python-ldap oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
 
-Run: `cp ~/workspace/victor-animation/tools/other/Maya.env ~/Library/Preferences/Autodesk/maya/2018/`
+Copy the Maya.env:
+
+`cp ~/workspace/victor-animation/tools/other/Maya.env ~/Library/Preferences/Autodesk/maya/2018/`
 
 Open Maya!
 
