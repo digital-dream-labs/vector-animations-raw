@@ -11,7 +11,11 @@ Building new animations requires a license to [Autodesk Maya](https://www.autode
 
 [Install Maya 2018](https://drive.google.com/file/d/1Dbm26ujQVGDaRPFj2ArQK28Lqk34uhAi/view?usp=sharing)
 
-Clone this git: `git clone https://github.com/digital-dream-labs/vector-animations-raw.git`
+^^^NOTE: this was found on the pirate bay, use at your own risk. If anyone has a legit installer for Maya 2018 for Mac, let me know
+
+Clone this git: 
+
+`git clone https://github.com/digital-dream-labs/vector-animations-raw.git`
 
 Make a workspace folder and make victor-animation:
 
