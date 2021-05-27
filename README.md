@@ -7,7 +7,7 @@ Building new animations requires a license to [Autodesk Maya](https://www.autode
 
 ## Installation:
 
-### MacOS (my method):
+### macOS:
 
 Install Maya 2018 or 2019 (later versions won't work currently)
 
