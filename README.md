@@ -9,9 +9,13 @@ Building new animations requires a license to [Autodesk Maya](https://www.autode
 
 ### MacOS (my method):
 
-[Install Maya 2018](https://drive.google.com/file/d/1Dbm26ujQVGDaRPFj2ArQK28Lqk34uhAi/view?usp=sharing)
+Install Maya 2018 or 2019 (later versions won't work currently)
 
-^^^NOTE: this was found on the pirate bay, use at your own risk. If anyone has a legit installer for Maya 2018 for Mac, let me know
+Install git and git-lfs with [brew](https://brew.sh/):
+
+`brew install git`
+
+`brew install git-lfs`
 
 Clone this git: 
 
@@ -33,12 +37,18 @@ Install the Python packages:
 
 `python2.7 ~/Library/Python/2.7/bin/pip install CharDet httplib2 idna python-ldap oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
 
+If you have installed Maya 2019, make symlinks:
+
+`sudo ln -s /Applications/Autodesk/maya2019 /Applications/Autodesk/maya2018`
+
+`ln -s ~/Library/Preferences/Autodesk/maya/2019 ~/Library/Preferences/Autodesk/maya/2018`
+
 Copy the Maya.env:
 
 `cp ~/workspace/victor-animation/tools/other/Maya.env ~/Library/Preferences/Autodesk/maya/2018/`
 
 Open Maya!
 
-### Windows: N/A (yet)
+### Windows: N/A (soon)
 
-### Linux: N/A (yet)
+### Linux: N/A (soon)
