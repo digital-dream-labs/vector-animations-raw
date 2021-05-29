@@ -3,13 +3,11 @@ Maya rigs, scenes, and other resources for the Vector Robot!
 
 Sincere thanks to [Randall Maas](https://github.com/randym32) for his generous contributions to the OSKR project and to the Vector community!  
 
-Building new animations requires a license to [Autodesk Maya](https://www.autodesk.com/products/maya/overview?term=1-YEAR). Once you have installed Maya, you will need to install the AnkiMenu plugin (see the [AnkiMenu readme](https://github.com/digital-dream-labs/vector-animations-raw/blob/main/assets/tools/plugins/readme.txt)). Once that is done, please see the [documentation](https://github.com/digital-dream-labs/vector-animations-raw/tree/main/documentation) folder for build guidelines.  
-
 ## AnkiMenu Installation:
 
 ### macOS:
 
-Install Maya 2018 or 2019 (later versions won't work currently)
+Install Maya 2018 or 2019 (later versions may not work currently)
 
 Install git and git-lfs with [brew](https://brew.sh/):
 
@@ -17,15 +15,11 @@ Install git and git-lfs with [brew](https://brew.sh/):
 
 `brew install git-lfs`
 
-Clone this git: 
+Clone this git in your home directory: 
+
+`cd ~`
 
 `git clone https://github.com/digital-dream-labs/vector-animations-raw.git`
-
-Make a workspace folder and make victor-animation:
-
-`mkdir ~/workspace`
-
-`mv vector-animations-raw/assets ~/workspace/victor-animation`
 
 Install pip for python2:
 
@@ -35,20 +29,46 @@ Install pip for python2:
 
 Install the Python packages:
 
-`python2.7 ~/Library/Python/2.7/bin/pip install CharDet httplib2 idna python-ldap oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
-
-If you have installed Maya 2019, make symlinks:
-
-`sudo ln -s /Applications/Autodesk/maya2019 /Applications/Autodesk/maya2018`
-
-`ln -s ~/Library/Preferences/Autodesk/maya/2019 ~/Library/Preferences/Autodesk/maya/2018`
+`python2.7 -m pip install CharDet httplib2 idna python-ldap oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
 
 Copy the Maya.env:
 
-`cp ~/workspace/victor-animation/tools/other/Maya.env ~/Library/Preferences/Autodesk/maya/2018/`
+`cp ~/vector-animations-raw/tools/other/Maya.env ~/Library/Preferences/Autodesk/maya/2018/`
 
 Open Maya!
 
-### Windows: N/A (soon)
+### Windows:
+
+Install Maya 2018 or 2019 (later versions may not work currently)
+
+Fully open it and close it once
+
+Install [Git Bash for Windows](https://git-scm.com/downloads)
+
+Open Git Bash from the start menu search
+
+Run:
+
+`cd Documents`
+
+`git clone https://github.com/digital-dream-labs/vector-animations-raw`
+
+`cp vector-animations-raw/assets/tools/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
+
+[Install Python 2.7.18](https://www.python.org/downloads/release/python-2718/)
+
+[Install this VC redistributable](https://web.archive.org/web/20200709160228/https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi)
+
+Go to the start menu, type `cmd`, then open it
+
+Run these commands:
+
+`curl -o python_ldap.whl https://download.lfd.uci.edu/pythonlibs/q4trcu4l/cp27/python_ldap-2.5.2-cp27-cp27m-win_amd64.whl`
+
+`C:\Python27\python.exe -m pip install python_ldap.whl`
+
+`C:\Python27\python.exe -m pip install CharDet httplib2 idna oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
+
+Open Maya!
 
 ### Linux: N/A (soon)
