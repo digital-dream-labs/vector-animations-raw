@@ -3,9 +3,9 @@ Maya rigs, scenes, and other resources for the Vector Robot!
 
 Sincere thanks to [Randall Maas](https://github.com/randym32) for his generous contributions to the OSKR project and to the Vector community!  
 
-## AnkiMenu Installation:
+# AnkiMenu Installation:
 
-### macOS:
+## macOS:
 
 Install Maya 2018 or 2019 (later versions may not work currently)
 
@@ -37,7 +37,7 @@ Copy the Maya.env:
 
 Open Maya! There should be an extra shelf called "VictorAnim". Make sure you set the layout (top right) to "Animation".
 
-### Windows:
+## Windows:
 
 Install Maya 2018 or 2019 (later versions may not work currently)
 
@@ -71,4 +71,4 @@ Run these commands:
 
 Open Maya! There should be an extra shelf called "VictorAnim". Make sure you set the layout (top right) to "Animation".
 
-### Linux: N/A (soon)
+## Linux: N/A (soon)
