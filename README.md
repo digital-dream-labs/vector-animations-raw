@@ -45,16 +45,6 @@ Fully open it and close it once
 
 Install [Git Bash for Windows](https://git-scm.com/downloads)
 
-Open Git Bash from the start menu search
-
-Run:
-
-`cd Documents`
-
-`git clone https://github.com/kercre123/vector-animations-raw`
-
-`cp vector-animations-raw/assets/tools/other/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
-
 [Install Python 2.7.18](https://www.python.org/downloads/release/python-2718/)
 
 [Install this VC redistributable](https://web.archive.org/web/20200709160228/https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi)
@@ -68,6 +58,16 @@ Run these commands:
 `C:\Python27\python.exe -m pip install python_ldap.whl`
 
 `C:\Python27\python.exe -m pip install CharDet httplib2 idna oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
+
+Open Git Bash from the start menu search
+
+Run:
+
+`cd Documents`
+
+`git clone https://github.com/kercre123/vector-animations-raw`
+
+`cp vector-animations-raw/assets/tools/other/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
 
 Open Maya! There should be an extra shelf called "VictorAnim". Make sure you set the layout (top right) to "Animation".
 
