@@ -53,9 +53,9 @@ Go to the start menu, type `cmd`, then open it
 
 Run these commands:
 
-`curl -o python_ldap.whl https://download.lfd.uci.edu/pythonlibs/q4trcu4l/cp27/python_ldap-2.5.2-cp27-cp27m-win_amd64.whl`
+`curl -o python_ldap-2.5.2-cp27-cp27m-win_amd64.whl https://download.lfd.uci.edu/pythonlibs/q4trcu4l/cp27/python_ldap-2.5.2-cp27-cp27m-win_amd64.whl`
 
-`C:\Python27\python.exe -m pip install python_ldap.whl`
+`C:\Python27\python.exe -m pip install python_ldap-2.5.2-cp27-cp27m-win_amd64.whl`
 
 `C:\Python27\python.exe -m pip install CharDet httplib2 idna oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
 
