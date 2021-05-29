@@ -35,7 +35,7 @@ Copy the Maya.env:
 
 `cp ~/vector-animations-raw/tools/other/Maya.env ~/Library/Preferences/Autodesk/maya/2018/`
 
-Open Maya!
+Open Maya! There should be an extra shelf called "VictorAnim". Make sure you set the layout (top right) to "Animation".
 
 ### Windows:
 
@@ -53,7 +53,7 @@ Run:
 
 `git clone https://github.com/kercre123/vector-animations-raw`
 
-`cp vector-animations-raw/assets/tools/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
+`cp vector-animations-raw/assets/tools/other/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
 
 [Install Python 2.7.18](https://www.python.org/downloads/release/python-2718/)
 
@@ -69,6 +69,6 @@ Run these commands:
 
 `C:\Python27\python.exe -m pip install CharDet httplib2 idna oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
 
-Open Maya!
+Open Maya! There should be an extra shelf called "VictorAnim". Make sure you set the layout (top right) to "Animation".
 
 ### Linux: N/A (soon)
