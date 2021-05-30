@@ -9,9 +9,9 @@ Sincere thanks to [Randall Maas](https://github.com/randym32) for his generous c
 
 Install Maya 2018 or 2019 (later versions may not work currently)
 
-Install git and git-lfs with [brew](https://brew.sh/):
+Open and close it
 
-`brew install git`
+Install git and git-lfs with [brew](https://brew.sh/):
 
 `brew install git-lfs`
 
@@ -35,7 +35,7 @@ Copy the Maya.env:
 
 `cp ~/vector-animations-raw/tools/other/Maya.env ~/Library/Preferences/Autodesk/maya/2018/`
 
-Open Maya! There should be an extra shelf called "VictorAnim". Make sure you set the layout (top right) to "Animation".
+Open Maya!
 
 ## Windows:
 
@@ -69,6 +69,40 @@ Run:
 
 `cp vector-animations-raw/assets/tools/other/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
 
-Open Maya! There should be an extra shelf called "VictorAnim". Make sure you set the layout (top right) to "Animation".
+Open Maya!
 
-## Linux: N/A (soon)
+## Linux:
+
+Install Maya 2018 or 2019 (On Linux, this is the most challenging part)
+
+Open and close it
+
+Install the `git-lfs` package with your distro's package manager
+
+Clone this git in your home directory: 
+
+`cd ~`
+
+`git clone https://github.com/digital-dream-labs/vector-animations-raw.git`
+
+Install pip for python2:
+
+`curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py`
+
+`sudo python2 get-pip.py`
+
+Install the Python packages:
+
+`python2.7 -m pip install CharDet httplib2 idna python-ldap oauth2 Pillow requests pySerial sortedcontainers tlslite urllib3 nose tornado`
+
+Copy the Maya.env:
+
+`cp ~/vector-animations-raw/tools/other/linuxMaya.env ~/maya/2018/`
+
+Open Maya!
+
+# Post-installation
+
+Set the "Workspace" in the top right of the Maya window to "Animation".
+
+Select the VictorAnim shelf and select the leftmost icon. This will import Vector.
