@@ -99,6 +99,8 @@ Copy the Maya.env:
 
 `cp ~/vector-animations-raw/tools/other/linuxMaya.env ~/maya/2018/`
 
+Open up ~/vector-animations-raw/assets/tools/pylibs/ankimaya/game_exporter.py in a text editor and replace `GAME_EXPORTER_PLUGIN = "gameFbxExporter"` with `GAME_EXPORTER_PLUGIN = "fbxmaya.so"`
+
 Open Maya!
 
 # Post-installation
