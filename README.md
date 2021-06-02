@@ -65,7 +65,7 @@ Run:
 
 `cd Documents`
 
-`git clone https://github.com/kercre123/vector-animations-raw`
+`git clone https://github.com/digital-dream-labs/vector-animations-raw`
 
 `cp vector-animations-raw/assets/tools/other/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
 
