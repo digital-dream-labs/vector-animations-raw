@@ -7,7 +7,7 @@ Sincere thanks to [Randall Maas](https://github.com/randym32) for his generous c
 
 ## macOS:
 
-Install Maya 2018 or 2019 (later versions may not work currently)
+Install Maya 2018 or 2019
 
 Open and close it
 
@@ -37,9 +37,9 @@ Copy the Maya.env:
 
 Open Maya!
 
-## Windows:
+## Windows 10:
 
-Install Maya 2018 or 2019 (later versions may not work currently)
+Install Maya 2018 or 2019
 
 Fully open it and close it once
 
@@ -69,11 +69,13 @@ Run:
 
 `cp vector-animations-raw/assets/tools/other/windowsMaya.env maya/2018/Maya.env` (If you installed 2019, replace 2018 with 2019)
 
+`cp /c/Python27/Lib/site-packages/* vector-animations-raw/assets/tools/pylibs/downloaded/`
+
 Open Maya!
 
 ## Linux:
 
-Install Maya 2018 or 2019 (On Linux, this is the most challenging part)
+Install Maya 2018 or 2019
 
 Open and close it
 
@@ -102,9 +104,3 @@ Copy the Maya.env:
 Open up ~/vector-animations-raw/assets/tools/pylibs/ankimaya/game_exporter.py in a text editor and replace `GAME_EXPORTER_PLUGIN = "gameFbxExporter"` with `GAME_EXPORTER_PLUGIN = "fbxmaya.so"`
 
 Open Maya!
-
-# Post-installation
-
-Set the "Workspace" in the top right of the Maya window to "Animation".
-
-Select the VictorAnim shelf and select the leftmost icon. This will import Vector.
