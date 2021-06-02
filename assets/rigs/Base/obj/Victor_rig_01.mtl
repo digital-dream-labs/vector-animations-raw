@@ -1,0 +1,94 @@
+newmtl anisotropic1SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.22 0.22 0.22
+Ni 1.00
+Ks 0.01 0.01 0.01
+newmtl backpackBttmSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl backpackMidSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl blinn1SG
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl blinn2SG
+illum 4
+Kd 0.61 0.61 0.61
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl eye_r_glowSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka -0.40 -0.40 -0.40
+Tf 0.00 0.00 0.00
+Ni 1.00
+newmtl lambert2SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert5SG2
+illum 4
+Kd 0.01 0.01 0.01
+Ka 0.43 0.43 0.43
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pasted__eye_l_mat2SG
+illum 4
+Kd 0.01 0.08 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pasted__lambert8SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.00 0.00 0.00
+Ni 1.00
+newmtl pianoBlack_matSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+newmtl shadingMap1SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka -0.40 -0.40 -0.40
+Tf 0.00 0.00 0.00
+Ni 1.00
+newmtl shadingMap1SG3
+illum 4
+Kd 0.01 0.08 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
