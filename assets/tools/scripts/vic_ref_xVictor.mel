@@ -8,7 +8,7 @@ global proc vic_ref_xVictor () {
         warning("xVictor already exists");
     } else {
         // Reference Victor's rig and the abx picker node
-        $MS_vicRig = `workspace -q -rd` + "assets/rigs/Victor_rig_01.ma";
+        $MS_vicRig = `workspace -q -rd` + "rigs/Victor_rig_01.ma";
         file -r -type "mayaAscii"  -ignoreVersion -gl -mergeNamespacesOnClash false -namespace "x" -options "v=0;" $MS_vicRig;
 
         // Create display layer for Victor's geometry
