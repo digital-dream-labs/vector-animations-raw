@@ -4,3 +4,4 @@ have provided work to improve this repository and its documentation:
 * Randall Maas
 * Robbie Bussard
 * Vaclav Macha
+* Kerigan Creighton
